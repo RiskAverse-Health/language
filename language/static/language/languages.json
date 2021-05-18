@@ -1,0 +1,2376 @@
+{
+    "common": {
+        "yes": {
+            "en": "Yes",
+            "es": "Si"
+        },
+        "no": {
+            "en": "No",
+            "es": "No"
+        },
+        "ok": {
+            "en": "Okay",
+            "es": "Okey"
+        },
+        "alert": {
+            "en": "Alert!",
+            "es": "¡Alerta!"
+        },
+        "edit": {
+            "en": "Edit",
+            "es": "Editar"
+        },
+        "add": {
+            "en": "Add",
+            "es": "Agregar"
+        },
+        "complete": {
+            "en": "Complete",
+            "es": "Completo"
+        },
+        "reports": {
+            "en": "Reports",
+            "es": "Reportes"
+        },
+        "report": {
+            "en": "Report",
+            "es": "Reporte"
+        },
+        "take_quiz": {
+            "en": "Take a Quiz",
+            "es": "Tomar una Prueba"
+        },
+        "send_code": {
+            "en": "Send code",
+            "es": "Enviar código"
+        },
+        "enter_code": {
+            "en": "Enter code",
+            "es": "Introduzca el código"
+        },
+        "biz": {
+            "en": "Overall Wellness",
+            "es": "Bienestar General"
+        },
+        "bc": {
+            "en": "Breast Cancer",
+            "es": "Cáncer de seno"
+        },
+        "hd": {
+            "en": "Heart Disease",
+            "es": "Cardiopatía"
+        },
+        "cad": {
+            "en": "Coronary Artery Disease",
+            "es": "Arteriopatía coronaria"
+        },
+        "cc": {
+            "en": "Colorectal Cancer",
+            "es": "Cáncer colonrectal"
+        },
+        "erd": {
+            "en": "End-Stage Renal Disease",
+            "es": "Enfermedad renal en etapa terminal"
+        },
+        "db": {
+            "en": "Diabetes Type 2",
+            "es": "Diabetes tipo 2"
+        },
+        "lc": {
+            "en": "Lung Cancer",
+            "es": "Cáncer de pulmón"
+        },
+        "dp": {
+            "en": "Depression",
+            "es": "Depresión"
+        },
+        "ax": {
+            "en": "Anxiety",
+            "es": "Ansiedad"
+        },
+        "sa": {
+            "en": "Substance Use",
+            "es": "Uso de sustancias"
+        },
+        "general": {
+            "en": "General",
+            "es": "General"
+        },
+        "nut": {
+            "en": "Nutrition",
+            "es": "Nutrición"
+        },
+		"general_health": {
+            "en": "General Health",
+            "es": "Salud general"
+        },
+        "mental_conditions": {
+            "en": "Mental Conditions",
+            "es": "Condiciones mentales"
+        },
+        "cancer": {
+            "en": "Cancer",
+            "es": "Cáncere"
+        },
+        "cancers": {
+            "en": "Cancers",
+            "es": "Cánceres"
+        },
+        "chronic_conditions": {
+            "en": "Chronic Conditions",
+            "es": "Condiciones crónicas"
+        },
+        "medical_history": {
+            "en": "Medical History",
+            "es": "Historial médico"
+        },
+        "other": {
+            "en": "Other",
+            "es": "Otro"
+        },
+        "lifestyle": {
+            "en": "Lifestyle",
+            "es": "Estilo de vida"
+        },
+        "sleep": {
+            "en": "Sleep",
+            "es": "Dormir"
+        },
+        "exercise": {
+            "en": "Exercise",
+            "es": "Ejercicio"
+        },
+        "alcohol": {
+            "en": "Alcohol",
+            "es": "Alcohol"
+        },
+        "mentality": {
+            "en": "Mentality",
+            "es": "Mentalidad"
+        },
+        "stress": {
+            "en": "Stress",
+            "es": "Estrés"
+        },
+        "meditation": {
+            "en": "Meditation",
+            "es": "Meditación"
+        },
+        "next_question": {
+            "en": "Next Question",
+            "es": "Próxima pregunta"
+        },
+        "learn_more": {
+            "en": "Learn More",
+            "es": "Aprende más"
+        },
+        "nutrition": {
+            "en": "Nutrition",
+            "es": "Nutrición"
+        },
+        "nutrition_guide": {
+            "en": "Nutrition Guide",
+            "es": "Guía nutricional"
+        },
+        "settings": {
+            "en": "Settings",
+            "es": "Ajustes"
+        },
+        "login": {
+            "en": "Login",
+            "es": "Iniciar sesión"
+        },
+        "logout": {
+            "en": "Logout",
+            "es": "Cerrar sesión"
+        },
+        "delete_data": {
+            "en": "Delete Data",
+            "es": "Borrar datos"
+        },
+        "delete_acc": {
+            "en": "Delete Account",
+            "es": "Borrar cuenta"
+        },
+        "patient_lookup": {
+            "en": "Patient Lookup",
+            "es": "Búsqueda de pacientes"
+        },
+        "agg_cohort": {
+            "en": "Aggregate Patient Cohort",
+            "es": "Cohorte total de pacientes"
+        },
+        "email": {
+            "en": "Email",
+            "es": "Correo Electrónico"
+        },
+        "password": {
+            "en": "Password",
+            "es": "Contraseña"
+        },
+        "forgot_pass": {
+            "en": "Forgot your password?",
+            "es": "¿Olvidaste tu contraseña?"
+        },
+        "no_acc": {
+            "en": "Don't have an account yet?",
+            "es": "¿Aún no tienes una cuenta?"
+        },
+        "reset": {
+            "en": "Reset",
+            "es": "Reiniciar"
+        },
+        "my_nutrition": {
+            "en": "My Nutrition",
+            "es": "Mi Nutrición"
+        },
+        "name": {
+        	"en": "Name",
+        	"es": "Nombre"
+        },
+        "risk_level": {
+            "en": "Risk Level",
+            "es": "Nivel de riesgo"
+        },
+        "specialty": {
+        	"en": "Specialty",
+        	"es": "Especialidad"
+        },
+        "enter_email": {
+            "en": "Enter Email",
+            "es": "Ingrese Correo Electrónico"
+        },
+        "enter_pass": {
+            "en": "Enter Password",
+            "es": "Introducir la contraseña"
+        },
+        "enter_name": {
+            "en": "Enter Your Name",
+            "es": "Introduzca su nombre"
+        },
+        "repeat_pass": {
+            "en": "Repeat Password",
+            "es": "Repite la contraseña"
+        },
+        "confirm_pass": {
+            "en": "Confirm Password",
+            "es": "Confirmar contraseña"
+        },
+        "current": {
+            "en": "Current",
+            "es": "Actual"
+        },
+        "new": {
+            "en": "New",
+            "es": "Nuevo"
+        },
+        "repeat_new": {
+            "en": "Repeat new",
+            "es": "Repetir nuevo"
+        },
+        "assoc_email": {
+            "en": "Please enter the email associated with your account",
+            "es": "Ingrese el correo electrónico asociado a su cuenta"
+        },
+        "congrats": {
+        	"en": "Congratulations!",
+        	"es": "¡Felicidades!"
+        },
+        "continue": {
+            "en": "Continue",
+            "es": "Seguir"
+        },
+        "external_link": {
+        	"en": "You are now leaving the RiskAverse website, do you wish to proceed?",
+        	"es": "Ahora está saliendo del sitio web de RiskAverse, ¿desea continuar?"
+        },
+        "save": {
+            "en": "Save",
+            "es": "Ahorrar"
+        },
+        "submit": {
+            "en": "Submit",
+            "es": "Enviar"
+        },
+        "confirm": {
+        	"en": "Confirm",
+        	"es": "Confirmar"
+        },
+        "cancel": {
+            "en": "Cancel",
+            "es": "Cancelar"
+        },
+        "success": {
+            "en": "Success",
+            "es": "Éxito"
+        },
+        "resume": {
+            "en": "Resume",
+            "es": "Currículum"
+        },
+        "get_started": {
+            "en": "Get Started",
+            "es": "Empezar"
+        },
+        "back_results": {
+            "en": "Back to Results",
+            "es": "Volver a Resultados"
+        },
+        "ret_login": {
+            "en": "Click here to return to the login page",
+            "es": "Haga clic aquí para volver a la página de inicio de sesión"
+        },
+        "first_name": {
+            "en": "First Name",
+            "es": "Primer nombre"
+        },
+        "last_name": {
+            "en": "Last Name",
+            "es": "Apellido"
+        },
+        "enter_fname": {
+            "en": "Enter First Name",
+            "es": "Ingrese el nombre"
+        },
+        "enter_lname": {
+            "en": "Enter Last Name",
+            "es": "Introduzca el apellido"
+        },
+        "enter_phone": {
+            "en": "Enter phone number",
+            "es": "Ingresa número telefónico"
+        },
+        "enter_text": {
+            "en": "Enter here",
+            "es": "Entre aquí"
+        },
+        "enter_weight": {
+            "en": "Enter Weight",
+            "es": "Ingrese peso"
+        },
+        "enter_height": {
+            "en": "Enter Height",
+            "es": "Ingrese la altura"
+        },
+        "sign_up": {
+            "en": "Sign Up",
+            "es": "Regístrate"
+        },
+        "health_id": {
+            "en": "Clinic/Health Plan ID",
+            "es": "ID de la clínica / plan de salud"
+        },
+        "enter_health_id": {
+            "en": "Enter Clinic/Health Plan ID",
+            "es": "Ingrese la identificación de la clínica / plan de salud"
+        },
+        "my_engagements": {
+            "en": "My Engagements",
+            "es": "Mis compromisos"
+        },
+        "my_recipes": {
+            "en": "My Recipes",
+            "es": "Mis recetas"
+        },
+        "select_placeholder": {
+            "en": "Select...",
+            "es": "Seleccione..."
+        },
+        "address": {
+            "en": "Address",
+            "es": "Habla a"
+        },
+        "distance": {
+            "en": "Distance",
+            "es": "Distancia"
+        },
+        "family_medical_history": {
+            "en": "Family and Medical History",
+            "es": "Historia médica y familiar"
+        },
+        "family_history": {
+          "en": "Family History",
+          "es": "Historia familiar"
+        },
+        "tobacco": {
+          "en": "Tobacco",
+          "es": "Tabaco"
+        },
+        "apply": {
+            "en": "Apply",
+            "es": "Aplicar"
+        },
+        "reset_default": {
+            "en": "Reset to Defaults",
+            "es": "Restablecer los valores predeterminados"
+        },
+        "servings_day": {
+          "en": "Servings / Day",
+          "es": "Porciones / Día"
+        },
+        "servings_week": {
+          "en": "Servings/Week",
+          "es":"Porciones / Semana"
+        },
+        "at_least": {
+          "en": "At least",
+          "es": "Por lo menos"
+        },
+        "no_more": {
+          "en": "No more than",
+          "es": "No más que"
+        },
+        "daily": {
+          "en": "Daily",
+          "es": "Diaria"
+        },
+        "weekly": {
+          "en": "Weekly",
+          "es": "Semanal"
+        },
+        "select": {
+          "en": "Select",
+          "es": "Seleccione"
+        },
+        "as_many": {
+          "en": "As many as you'd like",
+          "es": "Tantas como quieras"
+        }
+    },
+    "med_history": {
+        "screen_history": {
+            "en": "Screening History",
+            "es": "Historial de cribado"
+        },
+        "prev_diag": {
+            "en": "Previous Diagnosis",
+            "es": "Diagnóstico previo"
+        },
+        "fam_history": {
+            "en": "Family History",
+            "es": "Historia familiar"
+        },
+        "medications": {
+            "en": "Medications",
+            "es": "Medicamentos"
+        }
+    },
+    "nutrition": {
+        "empty_group": {
+          "en": "None selected, click above for recommended",
+          "es": "Ninguno seleccionado, haga clic arriba para recomendado"
+        },
+        "confirmation": {
+            "en": "Are you sure that you'd like to make the following changes to your \"My Food\" list?",
+            "es": "¿Está seguro de que desea realizar los siguientes cambios en su lista MyFood?"
+        },
+        "group_subtitle": {
+            "en": "Below are your recommended",
+            "es": "A continuación se encuentran sus recomendados"
+        },
+        "recommended": {
+            "en": "Recommended Foods",
+            "es": "Alimentos recomendados"
+        },
+        "avoid": {
+            "en": "Limit/Avoid",
+            "es": "Limitar / Evitar"
+        },
+        "alternatives": {
+            "en": "Alternatives",
+            "es": "Alternativas"
+        },
+        "selected": {
+            "en": "Selected Foods",
+            "es": "Alimentos seleccionados"
+        },
+        "removed": {
+            "en": "Removed Foods",
+            "es": "Alimentos eliminados"
+        },
+        "recommendations": {
+            "en": "Nutrition Recommendations",
+            "es": "Recomendaciones nutricionales"
+        },
+        "daily_serve": {
+            "en": "Daily Servings",
+            "es": "Porciones diarias"
+        },
+        "weekly_serve": {
+            "en": "Weekly Servings",
+            "es": "Porciones semanales"
+        },
+        "supplements": {
+            "en": "Supplements",
+            "es": "Suplementos"
+        },
+        "my_foods": {
+            "en": "My Foods",
+            "es": "Mis Alimentos"
+        },
+        "select_food_group": {
+            "en": "Select a food group to view/edit your selected foods.",
+            "es": "Seleccione un grupo de alimentos para ver / editar sus alimentos seleccionados."
+        },
+        "food_list_for": {
+            "en": "Food list for {}",
+            "es": "Lista de comida para {}"
+        },
+        "choose_plan": {
+            "en": "Choose Nutrition Plan",
+            "es": "Elija el plan de nutrición"
+        },
+        "plan_msg": {
+            "en": "Pick the right nutrition plan for you",
+            "es": "Elija el plan de nutrición adecuado para usted"
+        },
+        "custom_plan": {
+            "en": "Custom Plan",
+            "es": "Plan Personalizado"
+        },
+        "custom_plan_msg": {
+            "en": "I want foods that fit more to my health goals and dietary preferences/restrictions",
+            "es": "Quiero alimentos que se ajusten más a mis objetivos de salud y preferencias/restricciones dietéticas"
+        },
+        "custom_plan_btn": {
+            "en": "Get a custom plan",
+            "es": "Obtenga un plan personalizado"
+        },
+        "auto_plan": {
+            "en": "Automated Plan",
+            "es": "Plan Automatizado"
+        },
+        "auto_plan_msg": {
+            "en": "I don't have strong preferences and just want what is best for me",
+            "es": "No tengo preferencias fuertes y solo quiero lo mejor para mí."
+        },
+        "auto_plan_btn": {
+            "en": "Get an immediate plan",
+            "es": "Obtenga un plan inmediato"
+        },
+        "pick_modal": {
+            "get_food_list": {
+                "en": "Looks like you have not received your personalized food list yet!",
+                "es": "¡Parece que aún no ha recibido su lista de alimentos personalizada!"
+            },
+            "food_list_msg1": {
+                "en": "We have compiled a list of the top foods recommended by organizations like the American Heart Association and the American Cancer Society to help prevent disease and improve how you feel each day.",
+                "es": "Hemos compilado una lista de los principales alimentos recomendados por organizaciones como la Asociación Estadounidense del Corazón y la Sociedad Estadounidense del Cáncer para ayudar a prevenir enfermedades y mejorar cómo se siente cada día."
+            },
+            "food_list_msg2": {
+                "en": "Click below to learn the ideal diet according to the latest research!",
+                "es": "¡Haga clic a continuación para conocer la dieta ideal de acuerdo con las últimas investigaciones!"
+            },
+            "button_get_food": {
+                "en": "Get my ideal food list",
+                "es": "Obtén mi lista de comida ideal"
+            },
+            "button_nut_guide": {
+                "en": "Show me the nutrition guide",
+                "es": "Enséñame la guía de nutrición"
+            }
+        }
+    },
+    "lifestyle": {
+        "tob_nic_ussage": {
+            "en": "Tobacco/Nicotine Usage",
+            "es": "Uso de tabaco/nicotina"
+        }
+    },
+    "screening": {
+      "mammog": {
+        "en": "Mammogram",
+        "es": "Mamografía"
+      },
+      "bldwrk": {
+        "en": "Blood Work",
+        "es": "Análisis sanguíneo"
+      },
+      "bldprs": {
+        "en": "Blood Pressure",
+        "es": "Presión sanguínea"
+      },
+      "colono": {
+        "en": "Colonoscopy",
+        "es": "Colonoscopia"
+      },
+      "stool": {
+        "en": "DNA Stool Test",
+        "es": "Prueba de ADN en heces"
+      },
+      "age": {
+        "en": "Age",
+        "es": "Edad"
+      },
+      "lc": {
+        "en": "Smoking History",
+        "es": "Historial de tabaquismo"
+      },
+      "colono_stool": {
+        "en": "Colonoscopy/Stool",
+        "es": "Colonoscopia / heces"
+      },
+      "inelgible": {
+        "en": "Ineligible",
+        "es": "Inelegible"
+      },
+      "eligible": {
+        "en": "Eligible",
+        "es": "Elegible"
+      },
+      "current": {
+        "en": "Current",
+        "es": "Actual"
+      },
+      "overdue": {
+        "en": "Overdue",
+        "es": "Atrasada"
+      },
+      "unnecessary": {
+        "en": "Unnecessary",
+        "es": "Innecesaria"
+      },
+      "notanswered": {
+        "en": "N/A",
+        "es": "N/A"
+      },
+      "undiagnosed": {
+        "en": "Undiagnosed",
+        "es": "Sin Diagnosticar"
+      },
+      "ckd": {
+        "en": "CKD",
+        "es": "CKD"
+      }
+    },
+    "email": {
+    	"team": {
+    		"en": "The RiskAverse Team",
+    		"es": "El equipo de RiskAverse"
+    	},
+        "code_verify": {
+            "subject": {
+                "en": "Email Change",
+                "es": "Cambio de Correo Electrónico"
+            },
+            "heading": {
+                "en": "Account Email Change Notification",
+                "es": "Notificación de cambio de correo electrónico de la cuenta"
+            },
+            "message": {
+                "en": "Below is your verification code for changing the email on your RiskAverse account. If you were not expecting this message, ignore it",
+                "es": "A continuación se muestra su código de verificación para cambiar el correo electrónico en su cuenta de RiskAverse. Si no esperaba este mensaje, ignórelo"
+            }
+        },
+    	"account_confirm": {
+    		"subject": {
+    			"en": "Confirm Your Account",
+    			"es": "Confirme su cuenta"
+    		},
+    		"top_text": {
+    			"en": "You have taken the first steps towards a healthier future. Just one last thing...",
+    			"es": "Ha dado los primeros pasos hacia un futuro más saludable. Solo una última cosa ..."
+    		},
+    		"bottom_text": {
+    			"en": "Please confirm your email address by clicking the link below.",
+    			"es": "Confirme su dirección de correo electrónico haciendo clic en el enlace a continuación."
+    		}
+    	},
+        "reset_password": {
+            "subject": {
+                "en": "Account Recovery",
+                "es": "Recuperación de Cuenta"
+            },
+            "message": {
+                "en": "We receieved an account recovery request for this email address. In order to reset your password,",
+                "es": "Recibimos una solicitud de recuperación de cuenta para esta dirección de correo electrónico. Para restablecer su contraseña,"
+            },
+            "link": {
+                "en": "please click here",
+                "es": "por favor haga clic aquí"
+            },
+            "warning": {
+                "en": "Please ignore this email if you did not initiate this request",
+                "es": "Ignore este correo electrónico si no inició esta solicitud"
+            }
+        }
+    },
+    "languages": {
+        "english": {
+            "en": "English",
+            "es": "Inglés"
+        },
+        "spanish": {
+            "en": "Spanish",
+            "es": "Español"
+        }
+    },
+    "settings": {
+        "page_title": {
+            "en": "User Settings",
+            "es": "Ajustes de Usuario"
+        },
+        "region_lang": {
+            "en": "Region/Language",
+            "es": "Lenguaje/Región"
+        },
+        "personal_info": {
+            "en": "Personal Information",
+            "es": "Informacion Personal"
+        },
+        "security": {
+            "en": "Security",
+            "es": "Seguridad"
+        },
+        "text_placeholder": {
+            "en": "Enter {}",
+            "es": "Ingresar {}"
+        },
+        "verify_msg": {
+            "en": "Click \"Send Code\" and complete the verification below",
+            "es": "Haga clic en \"Enviar código\" y complete la verificación a continuación"
+        },
+        "verify_msg2": {
+            "en": "Please enter the 6-digit code we sent to {}",
+            "es": "Ingrese el código de 6 dígitos que le enviamos a {}"
+        },
+        "invalid_contact": {
+            "en": "The {} you entered is already in use",
+            "es": "El {} que ingresó ya está en uso"
+        },
+        "invalid_verify_code": {
+            "en": "The code you entered is incorrect",
+            "es": "El código que ingresaste es incorrecto"
+        },
+        "verify_text_msg": {
+            "en": "Your verification code for changing the phone number on your RiskAverse account is {}",
+            "es": "Su código de verificación para cambiar el número de teléfono en su cuenta de RiskAverse es {}"
+        },
+        "setting_names": {
+            "lang": {
+                "en": "Language",
+                "es": "Idioma"
+            },
+            "timezone": {
+                "en": "Timezone",
+                "es": "Zona horaria"
+            },
+            "name": {
+                "en": "Name",
+                "es": "Nombre"
+            },
+            "email": {
+                "en": "Email Address",
+                "es": "Dirección de correo electrónico"
+            },
+            "phone": {
+                "en": "Phone Number",
+                "es": "Número de teléfono"
+            },
+            "change_pw": {
+                "en": "Change password",
+                "es": "Cambiar la contraseña"
+            }
+        }
+    },
+    "user": {
+        "reset_pass": {
+            "en": "Reset Your Password",
+            "es": "Restablecer su contraseña"
+        },
+        "enter_new_pass": {
+            "en": "Enter Your New Password",
+            "es": "Introduzca su nueva contraseña"
+        },
+        "confirm_new_pass": {
+            "en": "Confirm New Password",
+            "es": "Confirmar nueva contraseña"
+        },
+        "refer": {
+            "title": {
+                "en": "Know of anyone who would find this helpful?",
+                "es": "¿Conoce a alguien a quien le resulte útil?"
+            },
+            "refer": {
+                "en": "Refer someone to help them take the next steps towards addressing their personal health",
+                "es": "Refiera a alguien para que lo ayude a dar los siguientes pasos para abordar su salud personal"
+            }
+        },
+        "no_user": {
+            "en": "We couldn't find any users that match the provided email/password combination",
+            "es": "No pudimos encontrar ningún usuario que coincida con la combinación de correo electrónico/contraseña proporcionada"
+        },
+        "check_email": {
+            "en": "Please click the link we sent to your email in order to verify your account. If you don't see it then be sure to check your spam folder",
+            "es": "Haga clic en el enlace que le enviamos a su correo electrónico para verificar su cuenta. Si no lo ve, asegúrese de revisar su carpeta de correo no deseado"
+        },
+        "enter_acc_email": {
+            "en": "Please enter the email associated with your account",
+            "es": "Ingrese el correo electrónico asociado a su cuenta"
+        },
+        "sent_pass_reset": {
+            "en": "An email with a one time password reset link has been sent to that address if an account associated with it exists",
+            "es": "Se ha enviado un correo electrónico con un enlace para restablecer la contraseña por única vez a esa dirección si existe una cuenta asociada."
+        },
+        "return_login": {
+            "en": "Click here to return to the login page",
+            "es": "Haga clic aquí para volver a la página de inicio de sesión"
+        },
+        "acc_exists": {
+            "1": {
+                "en": "A user with that email already exists, would you like to",
+                "es": "Ya existe un usuario con ese correo electrónico, ¿le gustaría"
+            },
+            "2": {
+                "en": "login?",
+                "es": "iniciar sesión?"
+            }
+        },
+        "signup_thanks": {
+            "en": "Thank you for signing up for RiskAverse!",
+            "es": "¡Gracias por registrarse en Risk Averse!"
+        },
+        "verify_email": {
+            "en": "Please click the button in the email we just sent you to verify your account. If you don't see it then be sure to check your spam/promotions folder.",
+            "es": "Haga clic en el botón del correo electrónico que le enviamos para verificar su cuenta. Si no lo ve, asegúrese de revisar su carpeta de spam / promociones."
+        },
+        "acc_verified": {
+            "en": "Your account has been verified!",
+            "es": "¡Tu cuenta ha sido verificada!"
+        },
+        "click_login": {
+            "1": {
+                "en": "Please click",
+                "es": "Por favor haz click"
+            },
+            "2": {
+                "en": "here",
+                "es": "aquí"
+            },
+            "3": {
+                "en": "to login to your account",
+                "es": "para iniciar sesión en su cuenta"
+            }
+        },
+        "confirm_del_acc": {
+            "en": "Are you sure you wish to delete your account?",
+            "es": "¿Está seguro de que desea eliminar su cuenta?"
+        },
+        "confirm_del_data": {
+            "en": "Are you sure you wish to delete your assessment data?",
+            "es": "¿Está seguro de que desea eliminar los datos de su evaluación?"
+        }
+    },
+    "pdf": {
+    	"report_title": {
+    		"en": "Report Page",
+    		"es": "Reportar pagina"
+    	},
+    	"report_heading": {
+    		"en": "Congratulations, below are your aggregated/combined habits from the assessments",
+    		"es": "Felicitaciones, a continuación se muestran sus hábitos agregados / combinados de las evaluaciones"
+    	},
+    	"self_reported": {
+    		"en": "Self-Reported",
+    		"es": "Autoinformado"
+    	},
+    	"demographics": {
+    		"en": "Demographics",
+    		"es": "Demografía"
+    	},
+      "general_information": {
+        "en": "General Information",
+        "es": "Información general"
+      },
+      "contact_information": {
+        "en": "Contact Information",
+        "es": "Información del Contacto"
+      },
+      "gender_specific": {
+        "en": "Gender Specific",
+        "es": "Específico de Género"
+      },
+      "lifestyle": {
+        "en": "Lifestyle",
+        "es": "Estilo de vida"
+      },
+      "mentality": {
+        "en": "Mentality",
+        "es": "Mentalidad"
+      },
+      "conditions_screening_status": {
+        "en": "Condition and Screening Status",
+        "es": "Condición y estado de detección"
+      },
+      "water": {
+        "en": "Water",
+        "es": "Agua"
+      },
+      "dairy": {
+        "en": "Dairy",
+        "es": "Lácteos"
+      },
+      "fruit": {
+        "en": "Fruit",
+        "es": "Fruta"
+      },
+      "vegetables": {
+        "en": "Vegetables",
+        "es": "Verduras"
+      },
+      "grains": {
+        "en": "Grains",
+        "es": "Granos"
+      },
+      "tea": {
+        "en": "Tea",
+        "es": "Té"
+      },
+      "coffee": {
+        "en": "Coffee",
+        "es": "Café"
+      },
+      "whole_grains": {
+        "en": "Whole Grains",
+        "es": "Cereales integrales"
+      },
+      "sugar_bev": {
+        "en": "Sugary Beverages",
+        "es": "Bebidas azucaradas"
+      },
+      "eggs": {
+        "en": "Eggs",
+        "es": "Huevos"
+      },
+      "meat": {
+        "en": "Meat",
+        "es": "Carne"
+      },
+      "nuts": {
+        "en": "Nuts",
+        "es": "Nueces"
+      },
+      "soy": {
+        "en": "Soy",
+        "es": "Soja"
+      },
+      "fish": {
+        "en": "Seafood",
+        "es": "Mariscos"
+      },
+      "milk": {
+        "en": "Milk",
+        "es": "Leche"
+      },
+      "red_meat": {
+        "en": "Red Meat",
+        "es": "Carne roja"
+      },
+      "processed_meat": {
+        "en": "Processed Meat",
+        "es": "Carne procesada"
+      },
+      "high_fat": {
+        "en": "High Fat Foods",
+        "es": "Alimentos ricos en grasas"
+      },
+      "nut_plan": {
+        "en": "Nutrition: Dietary Plan",
+        "es": "Nutrición: plan dietético"
+      },
+      "nut_habit": {
+        "en": "Nutrition: Dietary Habits",
+        "es": "Nutrición: hábitos dietéticos"
+      }
+    },
+    "location": {
+    	"enter_addr": {
+    		"en": "Please type in your desired address",
+    		"es": "Por favor ingrese su dirección deseada"
+    	},
+    	"name": {
+    		"en": "Provider Group Name",
+    		"es": "Nombre del grupo de proveedores"
+    	},
+    	"specialty": {
+    		"en": "Condition/Specialty",
+    		"es": "Condición/Especialidad"
+    	},
+    	"max_distance": {
+    		"en": "Max distance",
+    		"es": "Distancia maxima"
+    	},
+    	"miles": {
+    		"en": "miles",
+    		"es": "millas"
+    	},
+    	"no_matches": {
+    		"en": "No matches, please widen your search area",
+    		"es": "No hay coincidencias, amplíe su área de búsqueda"
+    	}
+    },
+    "assessments": {
+        "first_time": {
+            "en": "Which quiz aligns best with your health goals?",
+            "es": "¿Qué cuestionario se adapta mejor a sus objetivos de salud?"
+        },
+        "take_quiz": {
+            "en": "Take the Quiz",
+            "es": "Haz la prueba"
+        },
+        "bh_start": {
+            "en": "Answer each question honestly and to the best of your knowledge. Your responses will enable Bright Health Plan to provide better health services and coordinate the care you receive. We will keep the information you provide private. Your answers will NOT affect your benefits or enrollment in the plan.",
+            "es": "Responda cada pregunta con honestidad y lo mejor de su conocimiento. Sus respuestas permitirán a Bright Health Plan brindar mejores servicios de salud y coordinar la atención que recibe. Mantendremos privada la información que nos proporciones. Sus respuestas NO afectarán sus beneficios ni su inscripción en el plan."
+        },
+        "well_start": {
+            "en": "Please answer each question honestly and to the best of your knowledge. Once completed, please bring a copy with you to your next medical appointment. All information will be stored in a secure manner.",
+            "es": "Responda cada pregunta con honestidad y lo mejor de su conocimiento. Una vez completado, traiga una copia a su próxima cita médica. Toda la información se almacenará de forma segura."
+        },
+        "disclaimer": {
+            "en": "All information is confidential and only for purposes of sharing with your physician. We  will not disclose any of your personal information to any third parties. Information that is transmitted back and forth is encrypted and is not  accessible by anyone other than the intended user.",
+            "es": "Toda la información es confidencial y solo para compartirla con su médico. No divulgaremos su información personal a terceros. La información que se transmite de un lado a otro está encriptada y nadie más que el usuario previsto puede acceder a ella."
+        },
+        "start_top": {
+            "en": "Answer each question honestly and to the best of your knowledge. All information will be stored confidentially and no personally identifiable information will be asked during the quiz.",
+            "es": "Responda cada pregunta con honestidad y lo mejor de su conocimiento. Toda la información se almacenará de forma confidencial y no se solicitará información de identificación personal durante el cuestionario."
+        },
+        "start_bottom": {
+            "en": "Each quiz takes about 5 minutes",
+            "es": "Cada cuestionario dura aproximadamente 5 minutos"
+        },
+        "finish_later": {
+            "en": "Finish Later",
+            "es": "Terminar más tarde"
+        },
+        "finish_later_msg": {
+            "en": "Are you sure you would like to save your progress and finish the assessment later?",
+            "es": "¿Está seguro de que desea guardar su progreso y finalizar la evaluación más tarde?"
+        },
+        "risk_levels": {
+            "incomplete": {
+                "en": "Incomplete",
+                "es": "Incompleta"
+            },
+            "low": {
+                "en": "Low",
+                "es": "Bajo"
+            },
+            "med": {
+                "en": "Medium",
+                "es": "Medio"
+            },
+            "high": {
+                "en": "High",
+                "es": "Alto"
+            },
+            "min": {
+                "en": "Minimal",
+                "es": "Mínimo"
+            },
+            "mild": {
+                "en": "Mild",
+                "es": "Templado"
+            },
+            "mod": {
+                "en": "Moderate",
+                "es": "Moderado"
+            },
+            "mose": {
+                "en": "Moderately Severe",
+                "es": "Moderadamente Severo"
+            },
+            "sev": {
+                "en": "Severe",
+                "es": "Severo"
+            },
+            "exc": {
+                "en": "Excellent",
+                "es": "Excelente"
+            },
+            "nimp": {
+                "en": "Needs Improvement",
+                "es": "Necesita Mejorar"
+            }
+        }
+    },
+    "errors": {
+        "general": {
+            "en": "Sorry, something went wrong. Please try again later.",
+            "es": "Perdón, algo salió mal. Por favor, inténtelo de nuevo más tarde."
+        },
+        "valid_email": {
+            "en": "Please enter a valid email address",
+            "es": "Por favor, introduce una dirección de correo electrónico válida"
+        },
+        "first_name": {
+            "en": "First name cannot be empty",
+            "es": "El nombre no puede estar vacío"
+        },
+        "last_name": {
+            "en": "Last name cannot be empty",
+            "es": "El apellido no puede estar vacío"
+        },
+        "pass_strength": {
+            "en": "Password must be at least 8 characters long and contain at least one number or special character",
+            "es": "La contraseña debe tener al menos 8 caracteres y contener al menos un número o carácter especial"
+        },
+        "pass_match": {
+            "en": "Passwords do not match",
+            "es": "Las contraseñas no coinciden"
+        },
+        "pass_same": {
+            "en": "New password must be different from your previous one",
+            "es": "La nueva contraseña debe ser diferente a la anterior"
+        },
+        "pass_wrong": {
+            "en": "The current password you entered is incorrect",
+            "es": "La contraseña que acaba de ingresar es incorrecta"
+        },
+        "health_id": {
+            "en": "Invalid Clinic/Health Plan ID",
+            "es": "ID de clínica / plan de salud no válido"
+        },
+        "invalid_phys_code": {
+            "en": "Your single use physician signup code has expired, please request another",
+            "es": "Su código de registro de médico de un solo uso ha caducado, solicite otro"
+        },
+        "name": {
+            "en": "Name cannot be empty",
+            "es": "El nombre no puede estar vacío"
+        },
+        "not_found_user": {
+            "1": {
+                "en": "Sorry, the requested URL was not found. Click",
+                "es": "Lo sentimos, no se encontró la URL solicitada. Hacer clic"
+            },
+            "2": {
+                "en": "here",
+                "es": "aquí"
+            },
+            "3": {
+                "en": "to return to your dashboard",
+                "es": "para volver a su tablero"
+            }
+        },
+        "not_found": {
+            "1": {
+                "en": "Sorry, the requested URL was not found. Click",
+                "es": "Lo sentimos, no se encontró la URL solicitada. Hacer clic"
+            },
+            "2": {
+                "en": "here",
+                "es": "aquí"
+            },
+            "3": {
+                "en": "to login",
+                "es": "iniciar sesión"
+            }
+        },
+        "server": {
+            "en": "Sorry, something went wrong. The error has been logged and we will fix it as soon as possible",
+            "es": "Perdón, algo salió mal. El error ha sido registrado y lo arreglaremos lo antes posible."
+        },
+        "one_option": {
+            "en": "Please select at least one option",
+            "es": "Seleccione al menos una opción"
+        },
+        "phone": {
+            "en": "Please enter a valid phone number",
+            "es": "Por favor ingrese un número de teléfono válido"
+        },
+        "date": {
+            "en": "Please enter a valid date",
+            "es": "Por favor introduzca una fecha valida"
+        },
+        "slack_id": {
+            "en": "Please enter a valid Slack ID",
+            "es": "Ingresa un ID de Slack válido"
+        },
+        "zip": {
+            "en": "Please enter a valid ZIP code",
+            "es": "Por favor ingrese un código postal válido"
+        },
+        "all_fields": {
+            "en": "Please fill out all fields",
+            "es": "Por favor rellene todos los campos"
+        }
+    },
+    "physician": {
+        "analytics": {
+            "title": {
+                "en": "Patient Analytics Dashboard",
+                "es": "Panel de análisis de pacientes"
+            },
+            "doc_name": {
+                "en": "Primary Care Professional Name",
+                "es": "Nombre del profesional de atención primaria"
+            },
+            "patient_name": {
+                "en": "Patient Name",
+                "es": "Nombre del paciente"
+            },
+            "no_patients": {
+                "en": "No patients match the selected criteria",
+                "es": "Ningún paciente cumple los criterios seleccionados"
+            }
+        }
+    },
+    "dashboard": {
+        "schedule": {
+            "en": "Schedule a provider's visit",
+            "es": "Programe una visita al médico"
+        },
+        "save_factors": {
+            "en": "Save as PDF",
+            "es": "Guardar como PDF"
+        },
+        "edit_responses": {
+            "en": "Edit Responses",
+            "es": "Editar respuestas"
+        },
+        "edit_response": {
+            "en": "Edit Response",
+            "es": "Editar respuesta"
+        },
+        "unreg_learn": {
+            "en": "Click below to learn about {}, or sign up to take more assessments.",
+            "es": "Haga clic a continuación para obtener más información sobre {} o regístrese para realizar más evaluaciones."
+        },
+        "results": {
+            "en": "Below are your results for {}",
+            "es": "A continuación se muestran los resultados de {}"
+        },
+        "quiz_learn_more": {
+            "en": "Take the assessment to learn more about the condition",
+            "es": "Realice la evaluación para obtener más información sobre la afección"
+        },
+        "check_risk": {
+            "en": "Click the button below to find out your risk!",
+            "es": "Haga clic en el botón de abajo para conocer su riesgo."
+        },
+        "incomplete": {
+            "en": "Incomplete",
+            "es": "Incompleta"
+        },
+        "not_complete": {
+            "en": "Looks like you haven't completed the {} assessment",
+            "es": "Parece que no ha completado la {} evaluación"
+        },
+        "finish_quiz": {
+            "en": "Finish your {} assessment to fully understand your risk",
+            "es": "Termine su {} evaluación para comprender completamente su riesgo"
+        },
+        "take_quiz": {
+            "en": "Take the {} Quiz",
+            "es": "Haz la {} prueba"
+        },
+        "reset_answers_msg": {
+            "en": "Would you like to discard your current changes and reset your answers?",
+            "es": "¿Le gustaría descartar sus cambios actuales y restablecer sus respuestas?"
+        },
+        "update_answers_msg": {
+            "en": "Apply your answer changes listed below? Your new choices will become the defaults after updating.",
+            "es": "¿Aplicar los cambios de respuesta que se enumeran a continuación? Sus nuevas opciones se convertirán en las predeterminadas después de la actualización."
+        },
+        "factor_boxes": {
+            "mod": {
+                "en": "Modifiable",
+                "es": "Modificable"
+            },
+            "non_mod": {
+                "en": "Non-Modifiable",
+                "es": "Inalterable"
+            },
+            "pos_title": {
+                "en": "Positive risk factors (reduce risk)",
+                "es": "Factores de riesgo positivos (reducir el riesgo)"
+            },
+            "neg_title": {
+                "en": "Negative risk factors (increase risk)",
+                "es": "Factores de riesgo negativos (aumentar el riesgo)"
+            },
+            "non_popup_title": {
+                "en": "What is a non-modifiable risk factor?",
+                "es": "¿Qué es un factor de riesgo no modificable?"
+            },
+            "non_popup_text": {
+                "en": "Non-modifiable risk factors are factors that you are not able to change through your daily lifestyle and behavioral habits",
+                "es": "Los factores de riesgo no modificables son factores que no puede cambiar a través de su estilo de vida diario y hábitos de comportamiento."
+            },
+            "mod_popup_title": {
+                "en": "What is a modifiable risk factor?",
+                "es": "¿Qué es un factor de riesgo modificable?"
+            },
+            "mod_popup_text": {
+                "en": "Modifiable risk factors are factors that you can change through your daily lifestyle and behavioral habits",
+                "es": "Los factores de riesgo modificables son factores que puede cambiar a través de su estilo de vida diario y hábitos de comportamiento."
+            },
+            "sym_title": {
+                "en": "Symptoms",
+                "es": "Síntomas"
+            },
+            "inc_title": {
+                "en": "{} Increasing Risk Factors",
+                "es": "{} Factores de riesgo crecientes"
+            },
+            "red_title": {
+                "en": "{} Reducing Risk Factors",
+                "es": "{} Reducir los factores de riesgo"
+            },
+            "id_title": {
+                "en": "Insignificantly Disruptive Risk Factors",
+                "es": "Factores de riesgo insignificantes"
+            },
+            "sd_title": {
+                "en": "Significantly Disruptive Risk Factors",
+                "es": "Factores de riesgo significativamente disruptivos"
+            },
+            "sup_title": {
+                "en": "Excellent Choices",
+                "es": "Excelentes Elecciones"
+            },
+            "mod_title": {
+                "en": "Moderate Choices",
+                "es": "Elecciones Moderadas"
+            },
+            "bad_title": {
+                "en": "Poor Choices",
+                "es": "Pobres Elecciones"
+            },
+            "super_factor": {
+                "en": "Super Factor",
+                "es": "Super Factor"
+            },
+            "int_factor": {
+                "en": "Intermediate Factor",
+                "es": "Factor intermedio"
+            },
+            "avoid_factor": {
+                "en": "Avoidance Factor",
+                "es": "Factor de evitación"
+            },
+            "sev_factor": {
+                "en": "Severe Factor",
+                "es": "Factor severo"
+            },
+            "mod_factor": {
+                "en": "Moderate Factor",
+                "es": "Factor moderado"
+            },
+            "omis_factor": {
+                "en": "Omission Factor",
+                "es": "Factor de omisión"
+            },
+            "super_factor_desc": {
+                "en": "Super factors are aspects of your life that are great for your health by significantly reducing your risk for a disease",
+                "es": "Los súper factores son aspectos de su vida que son excelentes para su salud al reducir significativamente el riesgo de una enfermedad"
+            },
+            "int_factor_desc": {
+                "en": "Intermediate factors also reduce your risk, but not as much as super factors",
+                "es": "Los factores intermedios también reducen su riesgo, pero no tanto como los súper factores"
+            },
+            "avoid_factor_desc": {
+                "en": "Avoidance factors are those that do not impact your score, but rather are positive behaviors because you are avoiding a negative factor that increases your risk",
+                "es": "Los factores de evitación son aquellos que no afectan su puntaje, sino que son comportamientos positivos porque está evitando un factor negativo que aumenta su riesgo"
+            },
+            "sev_factor_desc": {
+                "en": "Severe factors are those that have been shown to have the strongest link to the disease and increase your risk the most",
+                "es": "Los factores graves son aquellos que se ha demostrado que tienen el vínculo más fuerte con la enfermedad y aumentan más su riesgo"
+            },
+            "mod_factor_desc": {
+                "en": "Moderate factors are those that only mildly increase your risk. Engaging in a lot of the actions can really add up!",
+                "es": "Los factores moderados son aquellos que solo aumentan levemente su riesgo. ¡Participar en muchas de las acciones puede sumar mucho!"
+            },
+            "omis_factor_desc": {
+                "en": "Omission factors do not impact your risk score, but rather, are a negative behavior because you aren’t properly engaging in a behavior that can reduce your risk",
+                "es": "Los factores de omisión no afectan su puntaje de riesgo, sino que son un comportamiento negativo porque no está participando adecuadamente en un comportamiento que puede reducir su riesgo"
+            }
+        },
+        "schedule_messages": {
+            "low": {
+                "en": "Schedule your appointment with a provider for a routine physical. No urgent appointment is needed.",
+                "es": "Programe su cita con un proveedor para un examen físico de rutina. No se necesita cita urgente."
+            },
+            "med": {
+                "en": "Schedule your appointment with a provider. You will need to be evaluated further with tests.",
+                "es": "Programe su cita con un proveedor. Deberá ser evaluado más a fondo con pruebas."
+            },
+            "high": {
+                "en": "Schedule your appointment with a provider as soon as possible. You may require further testing.",
+                "es": "Programe su cita con un proveedor lo antes posible. Es posible que necesite más pruebas."
+            },
+            "min": {
+                "en": "Schedule your appointment with a provider for a routine physical. No urgent appointment is needed.",
+                "es": "Programe su cita con un proveedor para un examen físico de rutina. No se necesita cita urgente."
+            },
+            "mild": {
+                "en": "Schedule your appointment with a provider for a routine physical. No urgent appointment is needed.",
+                "es": "Programe su cita con un proveedor para un examen físico de rutina. No se necesita cita urgente."
+            },
+            "mod": {
+                "en": "Schedule your appointment with a provider. You will need to be evaluated further with tests.",
+                "es": "Programe su cita con un proveedor. Deberá ser evaluado más a fondo con pruebas."
+            },
+            "mose": {
+                "en": "Schedule your appointment with a provider as soon as possible. You may require further testing.",
+                "es": "Programe su cita con un proveedor lo antes posible. Es posible que necesite más pruebas."
+            },
+            "sev": {
+                "en": "Schedule your appointment with a provider as soon as possible. You may require further testing.",
+                "es": "Programe su cita con un proveedor lo antes posible. Es posible que necesite más pruebas."
+            }
+        },
+        "refer_messages": {
+            "low": {
+                "en": "Your results are unconcerning at the moment. Would you like to save your results by signing up so you can learn how to live a healthier life?",
+                "es": "Tus resultados son indiferentes en este momento. ¿Le gustaría guardar sus resultados registrándose para aprender a vivir una vida más saludable?"
+            },
+            "alarm": {
+                "en": "Your results are {} alarming, would you like to be referred to a nearby provider to help address your current circumstances?",
+                "es": "Sus resultados son {} alarmantes, ¿le gustaría que lo remitieran a un proveedor cercano para ayudarlo a abordar sus circunstancias actuales?"
+            },
+            "alarm_regular": {
+                "en": "Your results are alarming, would you like to be referred to a nearby provider to help address your current circumstances?",
+                "es": "Sus resultados son alarmantes, ¿le gustaría que lo remitieran a un proveedor cercano para ayudarlo a abordar sus circunstancias actuales?"
+            }
+        },
+        "risk_categories": {
+            "low": {
+                "en": "Low Risk",
+                "es": "Riesgo bajo"
+            },
+            "medium": {
+                "en": "Medium Risk",
+                "es": "Riesgo medio"
+            },
+            "high": {
+                "en": "High Risk",
+                "es": "Alto riesgo"
+            },
+            "diagnosed": {
+                "en": "Diagnosed",
+                "es": "Diagnosticado"
+            }
+        },
+        "risk_categories_ax": {
+            "low": {
+                "en": "Low Anxiety",
+                "es": "Baja ansiedad"
+            },
+            "medium": {
+                "en": "Moderate Anxiety",
+                "es": "Ansiedad moderada"
+            },
+            "high": {
+                "en": "Potentially Concerning Levels of Anxiety",
+                "es": "Potencialmente concerniente a los niveles de ansiedad"
+            },
+            "diagnosed": {
+                "en": "Diagnosed",
+                "es": "Diagnosticado"
+            }
+        },
+        "risk_categories_dp": {
+            "minimal": {
+                "en": "These Ups and Downs Are Considered Normal",
+                "es": "Estos altibajos se consideran normales"
+            },
+            "mild": {
+                "en": "Mild Mood Disturbance",
+                "es": "Alteración leve del estado de ánimo"
+            },
+            "moderate": {
+                "en": "Moderate Depression",
+                "es": "Depresión moderada"
+            },
+            "moderately-severe": {
+                "en": "Moderately Severe Depression",
+                "es": "Depresión moderadamente severa"
+            },
+            "severe": {
+                "en": "Severe Depression",
+                "es": "Depresión severa"
+            },
+            "diagnosed": {
+                "en": "Diagnosed",
+                "es": "Diagnosticado"
+            }
+        },
+        "risk_categories_sa": {
+            "low": {
+                "en": "Low Concern of Abuse",
+                "es": "Baja preocupación por el abuso"
+            },
+            "high": {
+                "en": "High Concern of Abuse",
+                "es": "Gran preocupación por el abuso"
+            }
+        },
+        "risk_categories_nut": {
+            "low": {
+                "en": "Excellent",
+                "es": "Excelente"
+            },
+            "medium": {
+                "en": "Moderate",
+                "es": "Moderado"
+            },
+            "high": {
+                "en": "Needs Improvement",
+                "es": "Necesita Mejorar"
+            },
+            "diagnosed": {
+                "en": "Diagnosed",
+                "es": "Diagnosticado"
+            }
+        },
+        "responses": {
+            "back_report": {
+                "en": "Back to Report",
+                "es": "Volver al informe"
+            },
+            "my_resp": {
+                "en": "My {} Responses",
+                "es": "Mis {} Respuestas"
+            },
+            "please_complete": {
+                "en": "Please complete the {} assessment to update your responses",
+                "es": "Complete la {} evaluación para actualizar sus respuestas."
+            },
+            "review_resp": {
+                "en": "Review your responses and update anything that has changed since you last assessed your health.",
+                "es": "Revise sus respuestas y actualice todo lo que haya cambiado desde la última vez que evaluó su salud."
+            }
+        }
+    },
+    "report_messages": {
+        "buttons": {
+            "learn": {
+                "en": "Learn more about {}",
+                "es": "Aprender más sobre {}"
+            },
+            "mammogram": {
+                "en": "Learn how mammograms save lives",
+                "es": "Descubra cómo las mamografías salvan vidas"
+            },
+            "learn_screen": {
+                "en": "Learn how screenings save lives",
+                "es": "Descubra cómo las pruebas de detección salvan vidas"
+            },
+            "schedule_screen": {
+                "en": "Schedule a screening",
+                "es": "Programe una proyección"
+            },
+            "therapist": {
+                "en": "Find an In-Network Therapist",
+                "es": "Encontrar un terapeuta dentro de la red"
+            },
+            "my_nut": {
+                "en": "Improve my nutrition",
+                "es": "Mejorar mi nutrición"
+            },
+            "nut_guide": {
+                "en": "The RiskAverse nutrition guide",
+                "es": "La guía de nutrición de RiskAverse"
+            },
+            "diet": {
+                "en": "Talk to my doctor about my diet",
+                "es": "Hablar con mi médico sobre mi dieta"
+            }
+        },
+        "bc": {
+            "under_40_low": {
+                "en": "Your responses indicate an overall low risk! You also do not meet the screening criteria for a mammogram, so there are no immediate actions that you need to take. If you have concerns, reach out to your local, in-network provider.",
+                "es": "¡Sus respuestas indican un riesgo bajo en general! Tampoco cumple con los criterios de detección para una mamografía, por lo que no hay acciones inmediatas que deba tomar. Si tiene inquietudes, comuníquese con su médico de atención primaria o con un proveedor de la red local."
+            },
+            "under_40_med": {
+                "en": "At this time, your lifestyle indicates medium risk, but you do not meet the screening criteria for a mammogram. If you have concerns about your results, reach out to your local, in-network provider.",
+                "es": "En este momento, su estilo de vida indica un riesgo medio, pero no cumple con los criterios de detección para una mamografía. Si tiene inquietudes sobre sus resultados, comuníquese con su médico de atención primaria o con un proveedor de la red local."
+            },
+            "under_40_high": {
+                "en": "Your results were somewhat alarming, but you currently do not meet the recommended screening criteria for a mammogram. So, we recommend that you reach out to your local, in-network provider to create a plan to address your current risk.",
+                "es": "Sus resultados fueron algo alarmantes, pero actualmente no cumple con los criterios de detección recomendados para una mamografía. Por lo tanto, le recomendamos que se comunique con su médico de atención primaria o con un proveedor de la red local para crear un plan que aborde su riesgo actual."
+            },
+            "40-44_no_mamm_low": {
+                "en": "Your results indicate an overall low risk for breast cancer. Low risk does not mean no risk. According to the American Cancer Society, those who are between 40-44 should talk to their provider about the appropriate time to begin screening using a mammogram.",
+                "es": "Sus resultados indican un riesgo general bajo de cáncer de mama. Bajo riesgo no significa ningún riesgo. Según la Sociedad Estadounidense del Cáncer, aquellos que tienen entre 40 y 44 años deben hablar con su médico acerca de cuándo es apropiado comenzar a realizar pruebas de detección mediante una mamografía."
+            },
+            "40-44_no_mamm_med": {
+                "en": "Your results show a somewhat, increased risk. According to American Cancer Society, those 40-44 should speak to their provider about the appropriate time to start screening via mammogram. We recommend you have this discussion soon if you have not already to create your gameplan.",
+                "es": "Sus resultados muestran un riesgo algo mayor. Según la Sociedad Estadounidense del Cáncer, las personas de 40 a 44 años deben hablar con su médico sobre el momento adecuado para comenzar a realizar la detección mediante mamografías. Le recomendamos que tenga esta discusión pronto si aún no ha creado su plan de juego."
+            },
+            "40-44_no_mamm_high": {
+                "en": "Your results show an elevated risk for breast cancer. Based on your results and screening history, we highly recommend reaching out to your provider or a local in-network provider to discuss further.",
+                "es": "Sus resultados muestran un riesgo elevado de cáncer de mama. Según sus resultados y su historial de detección, le recomendamos que se comunique con su médico o con un proveedor local de la red para analizar."
+            },
+            "40-44_mamm_low": {
+                "en": "Your results indicate a low risk for breast cancer! You are awesome and proactive by being up-to-date with your screening requirements. Nice Work! Know that from 45-54 you should have annual mammograms to limit your breast cancer risk!",
+                "es": "Sus resultados indican un bajo riesgo de cáncer de mama y usted es increíble y proactiva al estar al día con sus requisitos de detección. ¡Buen trabajo! ¡Sepa que entre los 45 y los 54 años debe realizarse mamografías anuales para limitar el riesgo de cáncer de mama!"
+            },
+            "40-44_mamm_med": {
+                "en": "Your results indicate an increased risk, but you are awesome and up-to-date with your screening requirements. Review your results to understand your risk and also be conscientious of any changes to your breast (lumps, firmness, etc.). If either of these two areas concern you, reach out to your local, in-network provider for guidance!",
+                "es": "Sus resultados indican un mayor riesgo, pero es increíble y está al día con sus requisitos de detección. Revise sus resultados para comprender su riesgo y también sea consciente de cualquier cambio en su seno (bultos, firmeza, etc.). Si alguna de estas dos áreas le preocupa, comuníquese con su médico de atención primaria para obtener orientación."
+            },
+            "40-44_mamm_high": {
+                "en": "Your results indicate high risk, but you have done a great job being proactive and getting a screening! Make sure you have a clear plan with your provider about screening moving forward. Review your results below. If you have concerns regarding your results or your plan for breast cancer, reach out to your provider and schedule an appointment!",
+                "es": "Sus resultados indican un alto riesgo, ¡pero ha hecho un gran trabajo siendo proactivo y haciéndose un examen! Asegúrese de tener un plan claro con su médico sobre la detección en el futuro. Revise sus resultados a continuación y si tiene inquietudes con respecto a sus resultados o su plan para el cáncer de mama, comuníquese con su médico y programe una cita."
+            },
+            "45-54_no_mamm_low": {
+                "en": "Your results indicate an overall low risk for breast cancer. Low risk does not mean no risk. According to the American Cancer Society you should be screened for breast cancer annually regardless of risk between the ages of 45 and 54. We highly recommend a screening soon or at least a discussion with your provider about your options.",
+                "es": "Sus resultados indican un riesgo general bajo de cáncer de mama. Bajo riesgo no significa ningún riesgo. Según la Sociedad Estadounidense del Cáncer, debe realizarse una prueba de detección de cáncer de mama anualmente, independientemente del riesgo, entre las edades de 45 y 54 años. Recomendamos encarecidamente una prueba de detección pronto o al menos una conversación con su médico sobre sus opciones."
+            },
+            "45-54_no_mamm_med": {
+                "en": "Your results indicate that you have a somewhat elevated risk for breast cancer and you fit the screening criteria for a mammogram. It is extremely important that you start being screened soon to ensure optimal health. Schedule a screening or at least an appointment with your provider to help take control of your health.",
+                "es": "Sus resultados indican que tiene un riesgo algo elevado de cáncer de mama y cumple con los criterios de detección para una mamografía. Es extremadamente importante que empiece a hacerse pruebas de detección pronto para garantizar una salud óptima. Programe una prueba de detección o al menos una cita con su médico para ayudarlo a tomar el control de su salud."
+            },
+            "45-54_no_mamm_high": {
+                "en": "Your results were somewhat concerning, as they indicate you are at an increased risk and fit the screening criteria for breast cancer. However, you have never been screened. We highly recommend scheduling your first screening soon or an appointment with your provider to determine your next steps!",
+                "es": "Sus resultados fueron algo preocupantes, ya que indican que tiene un mayor riesgo de cáncer de mama y cumple con los criterios de detección del cáncer de mama, pero nunca se ha realizado la prueba. Recomendamos encarecidamente programar su primer examen de detección pronto o, como mínimo, ¡una cita con su médico para determinar sus próximos pasos!"
+            },
+            "45-54_mamm_low": {
+                "en": "Your results indicate an overall low risk for breast cancer and that you are up-to-date with your mammogram screenings. Awesome job! Remember that you should have a mammogram every year. If you have any concerns, schedule an appointment with your local, in-network provider. Also, if you want to schedule your next mammogram, click below as well!",
+                "es": "Sus resultados indican un riesgo general bajo de cáncer de mama y que está al día con sus exámenes de mamografía. ¡Trabajo asombroso! Recuerde que debe hacerse una mamografía todos los años. Si tiene alguna inquietud, programe una cita con su médico de atención primaria, también, si desea programar su próxima mamografía, haga clic a continuación también."
+            },
+            "45-54_mamm_med": {
+                "en": "Your results show a slightly elevated risk, but you are up to date with your mammogram screening. Great job! Review your results below. If you have any concerns, reach out to your local, in-network provider or schedule your next mammogram below.",
+                "es": "Sus resultados muestran un riesgo levemente elevado, pero está al día con su mamografía. ¡Gran trabajo! Revise sus resultados a continuación; y si tiene alguna inquietud, comuníquese con su médico de atención primaria o programe su próxima mamografía a continuación."
+            },
+            "45-54_mamm_high": {
+                "en": "Your results indicate that you are at high risk, but you are on schedule with your mammogram screenings. Good for you! If you have concerns about your results, we highly recommend reaching out to your local, in-network provider to discuss a plan. Otherwise, keep it up and schedule your next mammogram if you haven’t already!",
+                "es": "Sus resultados indican que tiene un alto riesgo, pero está al día con sus exámenes de mamografía. ¡Bien por usted! Si tiene inquietudes sobre sus resultados, le recomendamos que se comunique con su médico de atención primaria para analizar un plan. De lo contrario, continúe y programe su próxima mamografía si aún no lo ha hecho."
+            },
+            "45-54_mamm_long_low": {
+                "en": "Your results indicate an overall low risk for breast cancer. Low risk does not mean no risk. According to the American Cancer Society, you should be screened for breast cancer annually regardless of risk between the ages of 45 and 54. We highly recommend a screening soon or at least discuss your options with your provider.",
+                "es": "Sus resultados indican un riesgo general bajo de cáncer de mama. Bajo riesgo no significa ningún riesgo. Según la Sociedad Estadounidense del Cáncer, debe realizarse una prueba de detección de cáncer de mama anualmente, independientemente del riesgo, entre las edades de 45 y 54 años. Recomendamos encarecidamente una prueba de detección pronto, o al menos analice sus opciones con su médico."
+            },
+            "45-54_mamm_long_med": {
+                "en": "Your results show a slightly elevated risk and it looks like you are past due on your annual mammogram. Mammograms are recommended annually from 45-54. We strongly recommend scheduling a mammogram or at least discussing your circumstances with your provider.",
+                "es": "Sus resultados muestran un riesgo levemente elevado y parece que está atrasada en su mamografía anual. Las mamografías se recomiendan anualmente entre los 45 y los 54 años. Recomendamos encarecidamente programar una mamografía o al menos discutir sus circunstancias con su médico."
+            },
+            "45-54_mamm_long_high": {
+                "en": "Your results show a high risk of breast cancer and you are past due on your mammogram. Based on your circumstances, it is strongly recommended that you schedule a screening or at least an appointment with your local, in-network provider at this time.",
+                "es": "Sus resultados muestran un alto riesgo de cáncer de mama y está atrasada en su mamografía. Según sus circunstancias, se recomienda encarecidamente que programe una evaluación o al menos una cita con su médico de atención primaria en este moment"
+            },
+            "55_no_mamm_low": {
+                "en": "Low risk, nice job! That being said, your results indicate that you have not had a mammogram, which is something that should be regularly screened for after 40. Individuals 55+ should be screened every other year. It is very important that you schedule a mammogram or discuss your options with your provider.",
+                "es": "¡Buen trabajo, bajo riesgo! Dicho esto, sus resultados indican que no se ha realizado una mamografía, algo que debe examinarse regularmente después de los 40. Las personas de 55 años o más deben someterse a exámenes cada dos años. Es muy importante que programe una mamografía o discuta sus opciones con su médico."
+            },
+            "55_no_mamm_med": {
+                "en": "Your results show a somewhat elevated risk, and that you have never had a mammogram. Mammograms are recommended regularly after 40.  We strongly encourage scheduling a mammogram, or at least discussing your options with your doctor.",
+                "es": "Sus resultados muestran un riesgo algo elevado y que nunca se ha realizado una mamografía. Las mamografías se recomiendan regularmente después de los 40. Recomendamos encarecidamente que programe una mamografía o, al menos, analice sus opciones con su médico."
+            },
+            "55_no_mamm_high": {
+                "en": "Your results show a significantly increased risk for breast cancer and that you have never been screened for the disease. It is extremely important for your health that you get screened as soon as possible. Schedule your screening or an appointment with your provider to discuss your options.",
+                "es": "Sus resultados muestran un riesgo significativamente mayor de cáncer de mama y que nunca se le ha hecho una prueba de detección de la enfermedad. Es extremadamente importante para su salud que se haga las pruebas de detección lo antes posible. Programe su examen, o como mínimo, y una cita con su médico para discutir sus opciones."
+            },
+            "55_mamm_low": {
+                "en": "Great job, low risk and up-to-date on your mammogram! If you have any concerns about your results, reach out to your provider. Also, you should get a mammogram at least every two years once you are over 55. So, feel free to schedule your next one if you have not already!",
+                "es": "¡Buen trabajo, bajo riesgo y actualizado con su mamografía! Si tiene alguna inquietud sobre los resultados, comuníquese con su médico. Además, debe hacerse una mamografía al menos cada dos años una vez que tenga más de 55 años, así que siéntase libre de programar la próxima si aún no lo ha hecho."
+            },
+            "55_mamm_med": {
+                "en": "Your results show a somewhat elevated risk, but you are up-to-date with your mammogram! Also, you should get a mammogram at least every two years once you are over 55. So, feel free to schedule your next one if you have not already! If you have any concerns, please contact your provider.",
+                "es": "Sus resultados muestran un riesgo algo elevado, ¡pero está al día con su mamografía! Además, debe hacerse una mamografía al menos cada dos años una vez que tenga más de 55 años, así que siéntase libre de programar la próxima si aún no lo ha hecho. Si tiene alguna inquietud, comuníquese con su médico."
+            },
+            "55_mamm_high": {
+                "en": "Your results show a significantly increased risk for breast cancer, but you are awesome and up-to-date with your mammogram. If you have any concerns with your results, schedule an appointment with your provider to discuss your options.",
+                "es": "Sus resultados muestran un riesgo significativamente mayor de cáncer de mama, pero usted es increíble y está al día con su mamografía. Si tiene alguna inquietud con sus resultados, programe una cita con su médico y programe su próxima mamografía si aún no lo ha hecho."
+            },
+            "55_mamm_long_low": {
+                "en": "Low risk, that's awesome! That being said, low risk is not no risk. You are past due on your mammogram. The American Cancer Society recommends mammograms every 2 years. We recommend scheduling a screening below.",
+                "es": "¡Bajo riesgo, increíble! Dicho esto, un riesgo bajo no es un riesgo. Está atrasado en su mamografía. La Sociedad Estadounidense del Cáncer recomienda mamografías cada 2 años. Recomendamos programar una proyección a continuación"
+            },
+            "55_mamm_long_med": {
+                "en": "Your results show a somewhat elevated risk, but you are up to date with your mammogram! Also, you should get a mammogram at least every two years once you are over 55. So, feel free to schedule your next one if you have not already! If you have any concerns, please contact your provider.",
+                "es": "Sus resultados muestran un riesgo algo elevado, ¡pero está al día con su mamografía! Además, debe hacerse una mamografía al menos cada dos años una vez que tenga más de 55 años, así que siéntase libre de programar la próxima si aún no lo ha hecho. Si tiene alguna inquietud, comuníquese con su médico."
+            },
+            "55_mamm_long_high": {
+                "en": "Your results show a significantly increased risk for breast cancer, but you are awesome and up-to-date with your mammogram. If you have any concerns with your results, schedule an appointment with your provider to discuss your options.",
+                "es": "Sus resultados muestran un riesgo significativamente mayor de cáncer de mama, pero usted es increíble y está al día con su mamografía. Si tiene alguna inquietud con sus resultados, programe una cita con su médico y programe su próxima mamografía si aún no lo ha hecho."
+            },
+            "under_50_mtf_low": {
+                "en": "Low risk and you don’t match the criteria for a mammogram, so you are all set for now! Screenings are recommended in transgender individuals above the age of 50 with at least 5 years of hormone therapy. If you have any concerns about your circumstances, please reach out to your provider!",
+                "es": "Bajo riesgo y no cumple con los criterios para una mamografía, ¡así que ya está lista! Se recomiendan exámenes de detección en personas transgénero mayores de 50 años con al menos 5 años de terapia hormonal. Si tiene alguna inquietud sobre sus circunstancias, comuníquese con su médico."
+            },
+            "under_50_mtf_med": {
+                "en": "Your results show a some-what elevated risk, but you currently do not meet the screening criteria. If you have any concerns, please reach out to your provider!",
+                "es": "Sus resultados muestran un riesgo algo elevado, pero actualmente no cumple con los criterios de detección, así que si tiene alguna inquietud, comuníquese con su médico."
+            },
+            "under_50_mtf_high": {
+                "en": "Although your results show an increased risk, you do not meet the screening criteria for a mammogram. We suggest that you reach out to your provider to discuss your results.",
+                "es": "Aunque sus resultados muestran un mayor riesgo, no cumple con los criterios de detección para una mamografía. Le sugerimos que se comunique con su médico para discutir sus resultados."
+            },
+            "50_mtf_no_mamm_low": {
+                "en": "Low risk, that's awesome! That being said, low risk is not no risk. Current guidelines recommend mammograms every two years for transgender individuals who used hormone therapy for 5 or more years. We recommend scheduling your mammogram or at least a visit with your provider to discuss your options!",
+                "es": "¡Bajo riesgo, increíble! Dicho esto, un riesgo bajo no es un riesgo. Las pautas actuales recomiendan mamografías cada dos años para las personas transgénero que usaron terapia hormonal durante 5 años o más. ¡Recomendamos programar su mamografía o al menos una visita con su médico para discutir sus opciones!"
+            },
+            "50_mtf_no_mamm_med": {
+                "en": "Your results showed a slightly elevated risk of breast cancer and that you have never been screened for breast cancer. Screenings are recommended every other year. Schedule your first one today, or an appointment with your provider to find a plan for you!",
+                "es": "Sus resultados mostraron un riesgo levemente elevado de cáncer de mama y que nunca se le ha hecho una prueba de detección de cáncer de mama. Se recomiendan exámenes cada dos años. ¡Programe su primero hoy o una cita con su médico para encontrar un plan para usted!"
+            },
+            "50_mtf_no_mamm_high": {
+                "en": "Your results showed an elevated risk of breast cancer and that you have never been screened for breast cancer. Screenings are recommended every other year. Schedule your first one today or an appointment with your provider to find a plan for you!",
+                "es": "Sus resultados mostraron un riesgo elevado de cáncer de mama y que nunca le han hecho pruebas de detección de cáncer de mama. Se recomiendan exámenes cada dos años. ¡Programe su primero hoy o una cita con su médico para encontrar un plan para usted!"
+            },
+            "50_mtf_short_hrt_low": {
+                "en": "Low risk, that's awesome! You also don’t meet the screening criteria, so a mammogram is not recommended. If you have any concerns about your circumstances, schedule an appointment with your provider.",
+                "es": "¡Bajo riesgo, increíble! Tampoco cumple con los criterios de detección, por lo que no se recomienda una mamografía. Si tiene alguna inquietud sobre sus circunstancias, programe una cita con su médico."
+            },
+            "50_mtf_short_hrt_med": {
+                "en": "Your results showed a slightly elevated risk of breast cancer, but you do not meet the screening criteria for a mammogram at this time. If you have any concerns about your results, schedule an appointment with your provider.",
+                "es": "Sus resultados mostraron un riesgo ligeramente elevado de cáncer de mama, pero en este momento no cumple con los criterios de detección para una mamografía. Si tiene alguna duda sobre sus resultados, programe una cita con su médico."
+            },
+            "50_mtf_short_hrt_high": {
+                "en": "Your results show an elevated risk for breast cancer, but you do not meet the screening criteria at this time. If you have any concerns about your results, please reach out to your provider!",
+                "es": "Sus resultados muestran un riesgo elevado de cáncer de mama, pero no cumple con los criterios de detección en este momento. Si tiene alguna inquietud sobre los resultados, comuníquese con su médico."
+            },
+            "50_mtf_mamm_low": {
+                "en": "Low risk and up-to-date on your mammograms, you’re a rockstar! If you have any concerns regarding your results, schedule an appointment with your provider.",
+                "es": "De bajo riesgo y al día con sus mamografías, ¡es una estrella de rock! Si tiene alguna inquietud con respecto a sus resultados, programe una cita con su médico."
+            },
+            "50_mtf_mamm_med": {
+                "en": "You show an elevated risk, but you are up-to-date on your screenings, so you’re doing great! If you have concerns about your results, schedule an appointment with your provider.",
+                "es": "¡Muestra un riesgo elevado, pero está al día en sus exámenes, por lo que lo está haciendo muy bien! Si le preocupan los resultados, programe una cita con su médico."
+            },
+            "50_mtf_mamm_high": {
+                "en": "You have been identified as high risk, but your responses show that you are up-to-date with your screenings. If you have any concerns about your results, schedule an appointment with your provider to see what you can address.",
+                "es": "Se le ha identificado como de alto riesgo, pero sus respuestas muestran que está al día con sus exámenes. Si tiene alguna inquietud sobre sus resultados, programe una cita con su médico para ver qué puede abordar."
+            },
+            "50_mtf_mamm_long_low": {
+                "en": "Your results show low risk! That is awesome, but low risk does not mean no risk. Based on your results, you meet screening criteria for breast cancer and should be screened every 2 years. Schedule your screening or a visit with your provider today to address your results.",
+                "es": "¡Sus resultados muestran un riesgo bajo! Eso es asombroso, pero un riesgo bajo no significa que no haya riesgo. Según sus resultados, cumple con los criterios de detección del cáncer de mama y debe realizarse una prueba de detección cada 2 años. Programe su prueba de detección o una visita con su médico hoy mismo. para abordar sus resultados."
+            },
+            "50_mtf_mamm_long_med": {
+                "en": "Your results do indicate an elevated risk, and you are past due on a mammogram. We encourage you to schedule a screening or at least an appointment with your provider to address your circumstances.",
+                "es": "Sus resultados indican un riesgo elevado y se le ha aprobado una mamografía. Le recomendamos que programe una prueba de detección o al menos una cita con su médico para abordar sus circunstancias."
+            },
+            "50_mtf_mamm_long_high": {
+                "en": "Your results show a significantly increased risk of breast cancer and that you are past due on a mammogram. We strongly encourage you to schedule a screening or at least a visit with your provider to discuss your options.",
+                "es": "Sus resultados muestran un riesgo significativamente mayor de cáncer de mama y que está atrasada en una mamografía. Le recomendamos encarecidamente que programe una prueba de detección o al menos una visita a su médico para analizar sus opciones."
+            },
+            "ftm_mastectomy_low": {
+                "en": "Low risk and outside the screening criteria, nice job! If you have any concerns, reach out to your provider to discuss your options.",
+                "es": "Bajo riesgo y fuera de los criterios de selección, ¡buen trabajo! Si tiene alguna inquietud, comuníquese con su médico para discutir sus opciones. "
+            },
+            "ftm_mastectomy_med": {
+                "en": "You have some factors that elevate your risk, but you are outside the screening criteria due to your mastectomy and do not require regular screening. If you have concerns about your results, schedule an appointment with your provider.",
+                "es": "Tiene algunos factores que elevan su riesgo, pero está fuera de los criterios de detección debido a su mastectomía y no requiere exámenes de detección regulares. Si le preocupan los resultados, programe una cita con su médico."
+            },
+            "ftm_mastectomy_high": {
+                "en": "Your results indicate high risk for breast cancer. However, due to your mastectomy, you do not meet specific screening criteria for a mammogram. Our recommendation is to discuss your results with your provider and learn what you can do to address your circumstances!",
+                "es": "Sus resultados indican un alto riesgo de cáncer de mama, pero debido a su mastectomía, no cumple con los criterios de detección específicos para una mamografía. ¡Nuestra recomendación es discutir sus resultados con su médico para saber qué puede hacer para abordar sus circunstancias!"
+            },
+            "under_50_ftm_low": {
+                "en": "Your results show no increased risk and that you do not require a screening at this time. If you have concerns, we recommend that you discuss your results with your provider.",
+                "es": "Sus resultados no muestran un mayor riesgo y que no necesita una prueba de detección en este momento. Si tiene alguna inquietud, le recomendamos que analice los resultados con su médico."
+            },
+            "under_50_ftm_med": {
+                "en": "Your results show a somewhat elevated risk, but screenings aren’t even considered for trangender individuals until 50. If you have any concerns, please reach out to your provider.",
+                "es": "Sus resultados muestran un riesgo algo elevado, pero las pruebas de detección ni siquiera se consideran para las personas transgénero hasta los 50. Si tiene alguna inquietud, comuníquese con su médico."
+            },
+            "under_50_ftm_high": {
+                "en": "Although your results do raise some concern, breast cancer screenings are not recommended until 50. Schedule an appointment with your provider to address any concerns that you may have.",
+                "es": "Aunque sus resultados generan cierta preocupación, no se recomiendan las pruebas de detección del cáncer de mama hasta los 50. Programe una cita con su médico para abordar cualquier inquietud que pueda tener."
+            },
+            "50_ftm_no_mamm_low": {
+                "en": "Your results indicate low risk, awesome! That being said, given your circumstances, it is recommended that you be screened soon. Those who underwent a female to male transition, but did not get a mastectomy should be screened every two years after the age of 50. We recommend scheduling a screening or at least discussing your options with your provider.",
+                "es": "Sus resultados indican bajo riesgo, ¡increíble! Dicho esto, dadas sus circunstancias, se recomienda que se realice la prueba de detección pronto. Aquellos que se sometieron a una transición de mujer a hombre, pero no se sometieron a una mastectomía, deben someterse a pruebas de detección cada dos años después de los 50 años. Recomendamos programar una prueba de detección o al menos discutir sus opciones con su médico."
+            },
+            "50_ftm_no_mamm_med": {
+                "en": "Your results show a slightly elevated risk and that you have never been screened via mammogram. Given your circumstances, we recommend a screening soon. Those who underwent a female to male transition, but did not get a mastectomy should be screened every two years after the age of 50. We recommend scheduling a screening or at least discussing your options with your provider.",
+                "es": "Sus resultados muestran un riesgo ligeramente elevado y que nunca se le ha realizado una mamografía. Dadas sus circunstancias, le recomendamos que lo haga pronto. Aquellos que se sometieron a una transición de mujer a hombre, pero no se sometieron a una mastectomía, deben someterse a pruebas de detección cada dos años después de los 50 años. Recomendamos programar una prueba de detección o al menos discutir sus opciones con su médico."
+            },
+            "50_ftm_no_mamm_high": {
+                "en": "Your results show a significantly elevated risk and that you have never been screened via a mammogram. Given your circumstances, we recommend a screening soon. Those who underwent a female to male transition, but did not get a mastectomy should be screened every two years after the age of 50. We recommend scheduling a screening or at least discussing your options with your provider.",
+                "es": "Sus resultados muestran un riesgo significativamente elevado y que nunca se le ha realizado una mamografía. Dadas sus circunstancias, le recomendamos que lo haga pronto. Aquellos que se sometieron a una transición de mujer a hombre, pero no se sometieron a una mastectomía, deben someterse a pruebas de detección cada dos años después de los 50 años. Recomendamos programar una prueba de detección o al menos discutir sus opciones con su médico."
+            },
+            "50_ftm_mamm_low": {
+                "en": "Low risk and up-to-date on your mammograms, you’re a rockstar! If you have any concerns regarding your results, please schedule an appointment with your provider.",
+                "es": "De bajo riesgo y al día con sus mamografías, ¡es una estrella de rock! Si tiene alguna inquietud con respecto a sus resultados, programe una cita con su médico."
+            },
+            "50_ftm_mamm_med": {
+                "en": "You have an elevated risk, but you are currently up-to-date on your screening. If you have any concerns, schedule an appointment with your provider.",
+                "es": "Tiene un riesgo elevado, pero actualmente está al día con sus exámenes de detección. Si tiene alguna inquietud, programe una cita con su médico."
+            },
+            "50_ftm_mamm_high": {
+                "en": "Your results indicate high risk, but you are currently up-to-date on your screening. So, great work! If you have any concerns, schedule an appointment with your provider.",
+                "es": "Sus resultados indican alto riesgo, pero actualmente está al día con su evaluación. ¡Buen trabajo! Si tiene alguna inquietud, programe una cita con su médico."
+            },
+            "50_ftm_mamm_long_low": {
+                "en": "Although your results indicate a low risk, you are within the recommended screening criteria for a mammogram and are past due on your screening. We encourage you to schedule your next screening or at least an appointment with your provider to discuss your circumstances.",
+                "es": "Aunque sus resultados indican un riesgo bajo, se encuentra dentro de los criterios de detección recomendados para una mamografía y está atrasada en su examen. Le recomendamos que programe su próximo examen de detección o al menos una cita con su médico para analizar sus circunstancias."
+            },
+            "50_ftm_mamm_long_med": {
+                "en": "We see that you have an elevated risk of breast cancer and are past due on your mammogram. We encourage you to schedule a screening or at least an appointment with your provider to discuss your circumstances.",
+                "es": "Vemos que tiene un riesgo elevado de cáncer de mama y está atrasada en su mamografía. Le recomendamos que programe una prueba de detección o al menos una cita con su médico para analizar sus circunstancias."
+            },
+            "50_ftm_mamm_long_high": {
+                "en": "Your results indicate a high risk for breast cancer and that you are past due on your mammogram. We strongly encourage you to schedule your screening as soon as possible or at least discuss your options with your provider.",
+                "es": "Sus resultados indican un alto riesgo de cáncer de mama y que está atrasada en su mamografía. Le recomendamos encarecidamente que programe su prueba de detección lo antes posible o al menos discuta sus opciones con su médico."
+            }
+        },
+        "cc": {
+            "under_45_low": {
+                "en": "Your results indicate an overall low risk and that you are below the typical screening age for colorectal cancer. Nice job! Review your results and do not hesitate to reach out to your provider with any concerns.",
+                "es": "Sus resultados indican un riesgo bajo general y que se encuentra por debajo de la edad de detección típica para el cáncer colorrectal. ¡Buen trabajo! Revise sus resultados y no dude en comunicarse con su médico si tiene alguna inquietud."
+            },
+            "under_45_med": {
+                "en": "Your results indicate some elevated risk, but screenings do not typically take place until 45. If you have any concerns, reach out to your provider to discuss your options. Otherwise review your results to see how you can improve your lifestyle!",
+                "es": "Sus resultados indican un riesgo elevado, pero las pruebas de detección generalmente no se realizan hasta los 45, por lo que si tiene alguna inquietud, comuníquese con su médico para discutir sus opciones. De lo contrario, revise sus resultados para ver cómo puede mejorar su estilo de vida."
+            },
+            "under_45_high": {
+                "en": "Your results indicate an elevated risk of colorectal cancer. However, screenings typically take place only after the age of 45. We recommend that you review your results to see what is driving your risk and reach out to your provider if you have any concerns.",
+                "es": "Sus resultados indican un riesgo elevado de cáncer colorrectal, pero está por debajo de los 45, cuando normalmente se realizan las pruebas de detección. Le recomendamos que revise sus resultados para ver qué está generando su riesgo y se comunique con su médico si tiene alguna inquietud."
+            },
+            "45-75_no_col_no_dna_low": {
+                "en": "Low risk, that is awesome! Being low risk does not mean no risk. Regular screenings (DNA stool test every 3 years or a colonoscopy every 10 years) are recommended for individuals between the ages of 45 and 75. We recommend reaching out to your provider to discuss a plan to begin screening for colorectal cancer.",
+                "es": "¡Bajo riesgo, eso es increíble! Tener un riesgo bajo no significa que no haya riesgo. Se recomiendan exámenes de detección regulares (prueba de ADN en heces cada 3 años o una colonoscopia cada 10 años) para las personas de entre 45 y 75 años. Recomendamos que se comunique con su médico para analizar un plan para comenzar a realizar exámenes de detección de cáncer colorrectal."
+            },
+            "45-75_no_col_no_dna_med": {
+                "en": "Your results show an increased risk and that you have never been screened for colorectal cancer. Regular screenings (DNA stool test every 3 years or a colonoscopy every 10 years) are recommended for individuals between the ages of 45 and 75. We encourage you to reach out to your provider to discuss a plan for colorectal cancer screenings.",
+                "es": "Sus resultados muestran un mayor riesgo y que nunca le han hecho pruebas de detección de cáncer colorrectal. Se recomiendan exámenes regulares (prueba de ADN en heces cada 3 años o una colonoscopia cada 10 años) para personas entre las edades de 45 y 75. Le recomendamos que se comunique con su médico para discutir un plan para exámenes de detección de cáncer colorrectal."
+            },
+            "45-75_no_col_no_dna_high": {
+                "en": "Your results show a significantly elevated risk and that you have not been sufficiently screened for colorectal cancer. Regular screenings (DNA stool test every 3 years or a colonoscopy every 10 years) are recommended for individuals between the ages of 45 and 75. We strongly encourage you to reach out to your provider to create a screening plan with you!",
+                "es": "Sus resultados muestran un riesgo significativamente elevado y que no ha sido suficientemente examinado para detectar cáncer colorrectal. Se recomiendan exámenes regulares (prueba de ADN en heces cada 3 años o una colonoscopia cada 10 años) para personas entre las edades de 45 y 75. ¡Le recomendamos encarecidamente que se comunique con su médico para crear un plan de detección con usted!"
+            },
+            "45-75_col_low": {
+                "en": "Low risk and up-to-date on your screening, you rock! If you have any concerns about your results, we recommend you discuss them with your provider.",
+                "es": "Bajo riesgo y actualizado en su proyección, ¡es genial! Si tiene alguna inquietud acerca de sus resultados, le recomendamos que los analice con su médico."
+            },
+            "45-75_col_med": {
+                "en": "Your results show an increased risk, but you are currently up-to-date with your screenings. If you have any questions about your results, schedule an appointment with your provider to go over them!",
+                "es": "Sus resultados muestran un mayor riesgo, pero actualmente está al día con sus exámenes. Si tiene alguna pregunta sobre sus resultados, programe una cita con su médico para revisarlos."
+            },
+            "45-75_col_high": {
+                "en": "Based on your responses, you have an elevated risk of colorectal cancer. That being said, you are currently up-to-date on your screenings. Review your results below. If you have any concerns, schedule an appointment with your provider!",
+                "es": "Según sus respuestas, tiene un riesgo elevado de cáncer colorrectal. Dicho esto, actualmente está actualizado en sus proyecciones. Revise sus resultados y, si tiene alguna inquietud, programe una cita con su médico."
+            },
+            "45-75_many_low": {
+                "en": "Your results show no significant increase in risk, but that you are past due on your colorectal screening. Regular screenings (DNA stool test every 3 years or a colonoscopy every 10 years) are recommended for individuals between the ages of 45 and 75. We encourage you to discuss your options with your provider as soon as possible!",
+                "es": "Sus resultados no muestran un aumento significativo en el riesgo, pero se aprobó su examen colorrectal. Se recomiendan exámenes regulares (prueba de ADN en heces cada 3 años o una colonoscopia cada 10 años) para personas entre las edades de 45 y 75. ¡Le recomendamos que analice sus opciones con su médico lo antes posible!"
+            },
+            "45-75_many_med": {
+                "en": "Your results show a somewhat increased risk and that you are past due on your colorectal screening. Regular screenings (DNA stool test every 3 years or a colonoscopy every 10 years) are recommended for individuals between the ages of 45 and 75. We encourage you to discuss your options with your provider as soon as possible!",
+                "es": "Sus resultados muestran un riesgo algo mayor y que se aprobó su examen colorrectal. Se recomiendan exámenes regulares (prueba de ADN en heces cada 3 años o una colonoscopia cada 10 años) para personas entre las edades de 45 y 75. ¡Le recomendamos que analice sus opciones con su médico lo antes posible!"
+            },
+            "45-75_many_high": {
+                "en": "Your results show an elevated risk and that you are past due on your colorectal screening. Regular screenings (DNA stool test every 3 years or a colonoscopy every 10 years) are recommended for individuals between the ages of 45 and 75. We strongly encourage you to discuss your options with your provider as soon as possible!",
+                "es": "Sus resultados muestran un riesgo elevado y que se le ha pasado la prueba de detección colorrectal. Se recomiendan exámenes de detección regulares (prueba de ADN en heces cada 3 años o una colonoscopia cada 10 años) para personas de entre 45 y 75 años. ¡Le recomendamos encarecidamente que discuta sus opciones con su médico lo antes posible!"
+            },
+            "45-75_dna_low": {
+                "en": "Low risk and up to date on your screening, great work! If you have any concerns about your results or about scheduling your next colorectal cancer screening, discuss more with your provider!",
+                "es": "Bajo riesgo y actualizado en su evaluación, ¡excelente trabajo! Si tiene alguna inquietud sobre sus resultados o sobre la programación de su próxima prueba de detección de cáncer colorrectal, programe una cita con su médico."
+            },
+            "45-75_dna_med": {
+                "en": "Your results did show a somewhat elevated risk, but you are up-to-date on your screening. If you have any questions or concerns about your results or booking your next exam, schedule an appointment with your provider to discuss your options.",
+                "es": "Sus resultados mostraron un riesgo algo elevado, pero está al día en su evaluación. Si tiene alguna pregunta o inquietud sobre sus resultados o sobre la reserva de su próximo examen, programe una cita con su médico para analizar sus opciones."
+            },
+            "45-75_dna_high": {
+                "en": "Your results show a significantly increased risk, but you are currently up-to-date on your screenings. If you have any concerns about your results or your future screening plans, we recommend discussing your options with your provider!",
+                "es": "Sus resultados muestran un riesgo significativamente mayor, pero actualmente está al día con sus exámenes. Si tiene alguna inquietud sobre sus resultados o sus futuros planes de detección, le recomendamos que analice sus opciones con su médico."
+            },
+            "76-85_low": {
+                "en": "Your results show a relatively low risk of colorectal cancer. Individuals between 76 and 85 should discuss with their provider whether continued screenings are necessary. If you have not discussed your options with your provider, schedule an appointment to learn the best plan for you!",
+                "es": "Sus resultados muestran un riesgo relativamente bajo de cáncer colorrectal. Las personas de 76 a 85 años deben discutir con su médico si es necesario continuar con las pruebas de detección. Si no ha analizado sus opciones con su médico, programe una cita para conocer el mejor plan para usted."
+            },
+            "76-85_med": {
+                "en": "Your results show a somewhat elevated risk of colorectal cancer. Individuals between 76 and 85 should discuss with their provider whether continued screenings are necessary. If you have not discussed your options with your provider, schedule an appointment to learn the best plan for you!",
+                "es": "Sus resultados muestran un riesgo algo elevado de cáncer colorrectal. Las personas de 76 a 85 años deben discutir con su médico si es necesario continuar con las pruebas de detección. Si no ha analizado sus opciones con su médico, programe una cita para conocer el mejor plan para usted."
+            },
+            "76-85_high": {
+                "en": "Your results show an elevated risk. That being said, according to the American Cancer Society, individuals between 76 and 85 should discuss with their provider whether screening for colorectal cancer is appropriate. If you have not had this conversation with your provider we recommend that you schedule an appointment with them to determine the best plan for you.",
+                "es": "Sus resultados muestran un riesgo elevado, pero según la Sociedad Estadounidense del Cáncer, las personas de 76 a 85 deben discutir con su médico si la detección del cáncer colorrectal es apropiada. Si no ha tenido esta conversación con su médico, le recomendamos que programe una cita con él para determinar el mejor plan para usted."
+            },
+            "86_low": {
+                "en": "Your results indicate low risk and screenings are no longer recommended for individuals above 85. Review your results to see if there are any areas you can improve.",
+                "es": "Sus resultados indican un riesgo bajo y ya no se recomiendan las pruebas de detección para personas mayores de 85. Revise su resultado para ver si hay áreas en las que pueda mejorar."
+            },
+            "86_med": {
+                "en": "Your results do show an increased risk but screenings are typically not recommended for individuals above 85. Review your results to see if there are any areas you can improve. If you have concerns, reach out to your provider!",
+                "es": "Sus resultados muestran un mayor riesgo, pero las pruebas de detección generalmente no se recomiendan para personas mayores de 85 años. Revise su resultado para ver si hay áreas en las que pueda mejorar y si tiene inquietudes, comuníquese con su médico."
+            },
+            "86_high": {
+                "en": "Your results do show an increased risk but screenings are typically not recommended for individuals above 85. Review your results to see if there are any areas you can improve. If you have concerns reach out to your provider!",
+                "es": "Sus resultados muestran un mayor riesgo, pero las pruebas de detección generalmente no se recomiendan para personas mayores de 85 años. Revise su resultado para ver si hay áreas en las que pueda mejorar y si tiene inquietudes, comuníquese con su médico."
+            }
+        },
+        "db": {
+            "no_work_low": {
+                "en": "You show low risk, but you have not had recent blood work. Often, diabetes and its related conditions do not have distinct symptoms. You should schedule an appointment with your provider to get a blood reading and ensure your health.",
+                "es": "Muestra un riesgo bajo, pero no se ha realizado análisis de sangre recientemente. A menudo, la diabetes y las afecciones relacionadas no presentan síntomas distintos. Debe programar una cita con su médico para obtener una lectura de sangre y garantizar su salud."
+            },
+            "no_work_med": {
+                "en": "Your results show an elevated risk and that you have not had recent bloodwork to check for any underlying concern. Diabetes often has no symptoms, so routine blood work is necessary to catch the disease. We strongly encourage you to schedule an appointment with your provider to get screened soon.",
+                "es": "Sus resultados muestran un riesgo elevado y que no se ha sometido a análisis de sangre recientemente para detectar cualquier preocupación subyacente. La diabetes a menudo no presenta síntomas, por lo que es necesario realizar análisis de sangre de rutina para detectar la enfermedad. Le recomendamos encarecidamente que programe una cita con su médico para hacerse la prueba pronto."
+            },
+            "no_work_high": {
+                "en": "Your results show a significantly elevated risk and that you have not had recent bloodwork to check for any underlying concern. Diabetes often has no symptoms, so routine blood work is necessary to catch the disease. We strongly encourage you to schedule an appointment with your provider to get screened soon.",
+                "es": "Sus resultados muestran un riesgo significativamente elevado y que no se ha sometido a análisis de sangre recientemente para detectar cualquier problema subyacente. La diabetes a menudo no presenta síntomas, por lo que es necesario realizar análisis de sangre de rutina para detectar la enfermedad. Le recomendamos encarecidamente que programe una cita con su médico para hacerse la prueba pronto."
+            },
+            "work_low": {
+                "en": "Low risk and up to date with your blood work, awesome job! If you have any concerns, reach out to your provider to address your options.",
+                "es": "Bajo riesgo y actualizado con sus análisis de sangre, ¡trabajo increíble! Si tiene alguna inquietud, comuníquese con su médico para abordar sus opciones."
+            },
+            "work_med": {
+                "en": "Your results show an elevated risk, but you have been diligent and are up to date with your blood work. Nice job! Review your results to see what is driving your risk. If you have any concerns, we recommend discussing them with your provider.",
+                "es": "Sus resultados muestran un riesgo elevado, pero ha sido diligente y está al día con sus análisis de sangre. ¡Buen trabajo! Revise sus resultados para ver qué está generando su riesgo. Si tiene alguna inquietud, le recomendamos que la analice con su médico."
+            },
+            "work_high": {
+                "en": "Your results indicate a significantly elevated risk, but you are being very proactive and are up-to-date with your blood work. Review your results to understand what is putting you at risk. If you have any concerns, we recommend that you reach out to your provider.",
+                "es": "Sus resultados indican un riesgo significativamente elevado, pero está siendo muy proactivo y está al día con sus análisis de sangre. Revise sus resultados para comprender qué lo pone en riesgo y, si tiene alguna inquietud, debe comunicarse con su médico."
+            }
+        },
+        "cad": {
+            "no_bw_no_bp_low": {
+                "en": "Low risk, awesome! That being said, typically, annual blood work and blood pressure readings are recommended to test cholesterol and blood pressure levels for indications of high blood pressure or plaque buildup. We strongly encourage you to contact your provider regarding whether blood work is appropriate for you.",
+                "es": "¡Bajo riesgo, increíble! Dicho esto, por lo general, se recomiendan lecturas anuales de análisis de sangre y presión arterial para evaluar los niveles de colesterol y presión arterial en busca de indicaciones de presión arterial alta o acumulación de placa. Le recomendamos encarecidamente que se ponga en contacto con su médico para saber si los análisis de sangre son adecuados para usted."
+            },
+            "no_bw_no_bp_med": {
+                "en": "Your results show a slightly elevated risk and that you have not had recent blood work or blood pressure readings. Heart disease does not have many symptoms; often, the first symptom is a heart attack, which is why regular blood work is recommended. We strongly encourage you to schedule an appointment with your provider to discuss your options.",
+                "es": "Sus resultados muestran un riesgo levemente elevado y que no ha tenido análisis de sangre o lecturas de presión arterial recientes. La enfermedad cardíaca no presenta muchos síntomas; A menudo, el primer síntoma es un ataque cardíaco, por lo que se recomiendan análisis de sangre periódicos. Le recomendamos encarecidamente que programe una cita con su médico para analizar sus opciones."
+            },
+            "no_bw_no_bp_high": {
+                "en": "Your results show a slightly elevated risk and that you have not had recent blood work or blood pressure readings. Heart disease does not have many symptoms; often, the first symptom is a heart attack, which is why regular blood work is recommended. We strongly encourage you to schedule an appointment with your provider to discuss your options.",
+                "es": "Sus resultados muestran un riesgo levemente elevado y que no ha tenido análisis de sangre o lecturas de presión arterial recientes. La enfermedad cardíaca no presenta muchos síntomas; A menudo, el primer síntoma es un ataque cardíaco, por lo que se recomiendan análisis de sangre periódicos. Le recomendamos encarecidamente que programe una cita con su médico para analizar sus opciones."
+            },
+            "bw_no_bp_low": {
+                "en": "Great, you show no major signs of increased risk. That being said, you have not had a recent blood pressure reading. High blood pressure shows no symptoms and is a major concern for heart disease. We strongly encourage you to schedule an appointment with your provider to ensure optimal health and healthy blood pressure levels.",
+                "es": "Genial, no muestra signos importantes de mayor riesgo. Dicho esto, no ha tenido una lectura reciente de la presión arterial. La presión arterial alta no muestra síntomas y es una de las principales preocupaciones de las enfermedades cardíacas. Le recomendamos encarecidamente que programe una cita con su médico para garantizar una salud óptima y una presión arterial saludable."
+            },
+            "bw_no_bp_med": {
+                "en": "Your results show a slightly elevated risk. Also, you have not had a recent blood pressure reading. High blood pressure shows no symptoms and is a major concern for heart disease. We strongly encourage you to schedule an appointment with your provider to ensure optimal health and healthy blood pressure levels.",
+                "es": "Sus resultados muestran un riesgo ligeramente elevado. Además, no ha tenido una lectura reciente de la presión arterial. La presión arterial alta no muestra síntomas y es una de las principales preocupaciones de las enfermedades cardíacas. Le recomendamos encarecidamente que programe una cita con su médico para garantizar una salud óptima y niveles saludables de presión arterial."
+            },
+            "bw_no_bp_high": {
+                "en": "Your results show a slightly elevated risk. Also, you have not had a recent blood pressure reading. High blood pressure shows no symptoms and is a major concern for heart disease. We strongly encourage you to schedule an appointment with your provider to ensure optimal health and healthy blood pressure levels.",
+                "es": "Sus resultados muestran un riesgo ligeramente elevado. Además, no ha tenido una lectura reciente de la presión arterial. La presión arterial alta no muestra síntomas y es una de las principales preocupaciones de las enfermedades cardíacas. Le recomendamos encarecidamente que programe una cita con su médico para garantizar una salud óptima y niveles saludables de presión arterial."
+            },
+            "no_bw_bp_low": {
+                "en": "Overall, you show no major risk for heart disease, but you have not had recent blood work done. Blood work helps assess your cholesterol to determine your risk for heart disease. High cholesterol does not have symptoms, so blood work is the only way to detect it. We strongly encourage getting tests done with your provider.",
+                "es": "En general, no muestra un riesgo importante de enfermedad cardíaca, pero no le han hecho análisis de sangre recientemente. Los análisis de sangre ayudan a evaluar su colesterol para determinar su riesgo de enfermedad cardíaca. El colesterol alto no presenta síntomas, por lo que los análisis de sangre son la única forma de detectarlo. Recomendamos encarecidamente que se realicen pruebas con su médico."
+            },
+            "no_bw_bp_med": {
+                "en": "Your results indicate an elevated risk and a lack of recent blood work done. Getting blood work can help more accurately assess your risk for heart disease and is typically recommended annually. Schedule an appointment with your provider to create a unique plan for yourself.",
+                "es": "Sus resultados indican un riesgo elevado y una falta de análisis de sangre recientes. Hacerse análisis de sangre puede ayudar a evaluar con mayor precisión su riesgo de enfermedad cardíaca y, por lo general, se recomienda anualmente. Programe una cita con su médico para crear un plan único para usted."
+            },
+            "no_bw_bp_high": {
+                "en": "Your results indicate a significantly elevated risk and a lack of recent blood work. Getting blood work can help more accurately assess your risk for heart disease and is typically recommended annually. Schedule an appointment with your provider to create a unique plan for yourself.",
+                "es": "Sus resultados indican un riesgo significativamente elevado y una falta de análisis de sangre recientes. Hacerse análisis de sangre puede ayudar a evaluar con mayor precisión su riesgo de enfermedad cardíaca y, por lo general, se recomienda anualmente. Programe una cita con su médico para crear un plan único para usted."
+            },
+            "bw_bp_low": {
+                "en": "Low risk and up to-date on your screenings. Great job! Review your results below. If you have any concerns, you should discuss them with your provider at your soonest convenience.",
+                "es": "Bajo riesgo y actualizado en sus exámenes. ¡Gran trabajo! Revise sus resultados a continuación. Si tiene alguna inquietud, debe comentarla con su médico lo antes posible."
+            },
+            "bw_bp_med": {
+                "en": "A slightly elevated risk but you are up-to-date on your screening requirements (blood work and blood pressure readings). Often, heart disease is preventable through lifestyle changes. Review your results to see what is driving your risk and learn what you can do to reduce your risk. If you have any concerns, please reach out to your provider!",
+                "es": "Un riesgo ligeramente elevado, pero está al día en sus requisitos de detección (análisis de sangre y lecturas de presión arterial). A menudo, las enfermedades cardíacas se pueden prevenir mediante cambios en el estilo de vida. Revise sus resultados para ver qué está generando su riesgo para saber qué puede hacer para reducir su riesgo. Si tiene alguna inquietud, comuníquese con su médico."
+            },
+            "bw_bp_high": {
+                "en": "Your results show a significantly increased risk but that you are up-to-date with your necessary screenings (blood pressure and blood work). Often, heart disease is preventable through lifestyle changes. Review your results to see what is driving your risk and learn what you can do to reduce your risk. If you have any concerns, please reach out to your provider!",
+                "es": "Sus resultados muestran un riesgo significativamente mayor, pero que está al día con los exámenes necesarios (presión arterial y análisis de sangre). A menudo, las enfermedades cardíacas se pueden prevenir mediante cambios en el estilo de vida. Revise sus resultados para ver qué está generando su riesgo para saber qué puede hacer para reducir su riesgo. Si tiene alguna inquietud, comuníquese con su médico."
+            }
+        },
+        "lc": {
+            "under_55_current_1_1_low": {
+                "en": "Your results do not indicate an elevated risk, but your current smoking habits are of concern. The addictive nature of cigarettes leads to increased and sustained usage - the two major causes of lung cancer. We recommend that you review your results and discuss your options with your provider!",
+                "es": "Sus resultados no indican un riesgo elevado, pero sus hábitos de fumar actuales son motivo de preocupación. La naturaleza adictiva de los cigarrillos conduce a un uso mayor y sostenido, las dos principales causas del cáncer de pulmón. Le recomendamos que revise sus resultados y discuta sus opciones con su médico."
+            },
+            "under_55_current_1_1_med": {
+                "en": "Your results indicate an elevated risk. A significant portion of that risk is your smoking habits. We highly recommend that you review your results to learn how else you can reduce your risk. Also, we advise you to consider quitting cigarettes as well. Need help? Reach out to your provider to discuss your options.",
+                "es": "Sus resultados indican un riesgo elevado. Una parte importante de ese riesgo son sus hábitos de fumar. Le recomendamos encarecidamente que revise sus resultados para saber de qué otra manera puede reducir su riesgo, pero que también considere dejar de fumar. ¿Necesitas ayuda? Comuníquese con su médico para analizar sus opciones."
+            },
+            "under_55_current_1_1_high": {
+                "en": "Your results indicate an elevated risk. Much of that risk is due to your smoking habits. We recommend that you review your results to consider what actions you can take to help reduce your risk. If you have concerns, discuss your options with your provider.",
+                "es": "Sus resultados indican un riesgo elevado. Gran parte de ese riesgo se debe a que fuma. Le recomendamos que revise sus resultados para considerar qué acciones puede tomar para ayudar a reducir su riesgo. Si tiene inquietudes, analice sus opciones con su médico."
+            },
+            "under_55_current_1_2_low": {
+                "en": "Your results do not indicate an elevated risk, but your current smoking habits are of concern. You do not currently fit the screening criteria for lung cancer, but your current rate has you on track to be eligible. Review your results and discuss your options with your provider if you have not already.",
+                "es": "Sus resultados no indican un riesgo elevado, pero sus hábitos de fumar actuales son motivo de preocupación. Actualmente no cumple con los criterios de detección del cáncer de pulmón, pero su tasa actual lo encamina a ser elegible. Revise sus resultados y analice sus opciones con su médico si aún no lo ha hecho."
+            },
+            "under_55_current_1_2_med": {
+                "en": "Your results indicate an elevated risk with our biggest concern being your high cigarette usage. The addictive nature of cigarettes leads to increased and sustained usage - the two major causes of lung cancer. We recommend you review your results and discuss your options with your provider!",
+                "es": "Sus resultados indican un riesgo elevado, y nuestra mayor preocupación es el uso elevado de cigarrillos. La naturaleza adictiva de los cigarrillos conduce a un uso mayor y sostenido, las dos principales causas del cáncer de pulmón. Le recomendamos que revise sus resultados y discuta sus opciones con su médico."
+            },
+            "under_55_current_1_2_high": {
+                "en": "Your results indicate an elevated risk with our biggest concern being your high cigarette usage. The addictive nature of cigarettes leads to increased and sustained usage - the two major causes of lung cancer. We recommend you review your results and discuss your options with your provider!",
+                "es": "Sus resultados indican un riesgo elevado, y nuestra mayor preocupación es el uso elevado de cigarrillos. La naturaleza adictiva de los cigarrillos conduce a un uso mayor y sostenido, las dos principales causas del cáncer de pulmón. Le recomendamos que revise sus resultados y discuta sus opciones con su médico."
+            },
+            "under_55_current_1_3_low": {
+                "en": "You do not show a significantly elevated risk, but your cigarette usage is highly concerning. You currently smoke enough to be screened for lung cancer, but screenings are not recommended until 55. We strongly recommend reviewing your results and discussing your options with your provider",
+                "es": "No muestra un riesgo significativamente elevado, pero su consumo de cigarrillos es muy preocupante. Actualmente fuma lo suficiente como para que le realicen pruebas de detección de cáncer de pulmón, pero no se recomiendan las pruebas hasta los 55. Recomendamos encarecidamente revisar sus resultados y discutir sus opciones con su médico."
+            },
+            "under_55_current_1_3_med": {
+                "en": "Your results show a somewhat elevated risk. The biggest cause of this is your high cigarette usage. At this time, you do not meet screening criteria for lung cancer. Review your results to understand your risk and schedule an appointment with your provider to discuss your options.",
+                "es": "Sus resultados muestran un riesgo algo elevado. La principal causa de esto es el alto consumo de cigarrillos. En este momento, no cumple con los criterios de detección del cáncer de pulmón. Revise sus resultados para comprender su riesgo y programe una cita con su médico para analizar sus opciones."
+            },
+            "under_55_current_1_3_high": {
+                "en": "Your results were highly concerning. High risk and high cigarette usage. You do not currently fit screening criteria, as screenings are recommended after 55. However, your current usage will have you eligible in the future. We strongly encourage reviewing your results to learn what you can do to help yourself.",
+                "es": "Sus resultados fueron muy preocupantes. Alto riesgo y uso elevado de cigarrillos. Actualmente no cumple con los criterios de evaluación, ya que se recomiendan las evaluaciones después de los 55, pero su uso lo hará elegible. Recomendamos encarecidamente que revise sus resultados para saber qué puede hacer para ayudarse a sí mismo."
+            },
+            "under_55_current_2_1_low": {
+                "en": "Your results do not indicate a need for screening at this time, but your results do have some cause for concern. Specifically, this is in regards to your smoking habits. The addictive nature of cigarettes leads to increased usage and sustained usage - the two major causes of lung cancer. We recommend that you review your results and discuss your options with your provider!",
+                "es": "Sus resultados no indican la necesidad de una prueba de detección en este momento, pero sus resultados tienen algún motivo de preocupación. Específicamente, esto se refiere a sus hábitos de fumar. La naturaleza adictiva de los cigarrillos conduce a un uso mayor y sostenido, las dos principales causas del cáncer de pulmón. Le recomendamos que revise sus resultados y discuta sus opciones con su médico."
+            },
+            "under_55_current_2_1_med": {
+                "en": "Your results were somewhat concerning as we see that you have smoked cigarettes for a significant period of time. You do not currently fit screening criteria, but the addictive nature of cigarettes leads to increased usage and sustained usage - the two major causes of lung cancer. You should discuss your options with your provider.",
+                "es": "Sus resultados fueron algo preocupantes, ya que vemos que ha fumado cigarrillos durante un período de tiempo significativo. Actualmente no cumple con los criterios de detección, pero la naturaleza adictiva de los cigarrillos conduce a un mayor uso y un uso sostenido, las dos principales causas del cáncer de pulmón. Debe discutir sus opciones con su médico."
+            },
+            "under_55_current_2_1_high": {
+                "en": "Your results had some concerns. Mainly, your sustained usage of cigarettes. You do not currently fit screening criteria; however, the addictive nature of cigarettes leads to increased usage and sustained usage - the two major causes of lung cancer. You should discuss your options with your provider.",
+                "es": "Sus resultados tuvieron algunas preocupaciones. Principalmente, su uso sostenido de cigarrillos. Actualmente no cumple con los criterios de selección; sin embargo, la naturaleza adictiva de los cigarrillos conduce a un uso mayor y sostenido, las dos principales causas del cáncer de pulmón. Debe discutir sus opciones con su médico."
+            },
+            "under_55_current_2_2_low": {
+                "en": "You do not show a significantly elevated risk, but your smoking habits are fairly concerning. Cigarettes cause as much as 90% of lung cancer cases. We strongly recommend discussing your usage with your provider to learn about your options.",
+                "es": "No muestra un riesgo significativamente elevado, pero sus hábitos de fumar son bastante preocupantes. Los cigarrillos causan hasta el 90% de los casos de cáncer de pulmón. Recomendamos encarecidamente discutir su uso con su médico para conocer sus opciones."
+            },
+            "under_55_current_2_2_med": {
+                "en": "Your results show an elevated risk for lung cancer. Our greatest concern is your high cigarette usage. At this time, you are not within the lung cancer screening criteria, but your usage indicates you may be in the future. We strongly recommend discussing your options with your provider and reviewing your results to see other ways to reduce your risk.",
+                "es": "Sus resultados muestran un riesgo elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. En este momento, no se encuentra dentro de los criterios de evaluación para una evaluación, pero su uso indica que puede estarlo en el futuro. Recomendamos enfáticamente discutir sus opciones con su médico y revisar sus resultados para ver otras formas de reducir su riesgo."
+            },
+            "under_55_current_2_2_high": {
+                "en": "Your results show a significantly elevated risk for lung cancer. Our greatest concern is your high cigarette usage. At this time, you are not within the screening criteria, but your usage indicates you may be in the future. We strongly recommend discussing your options with your provider and reviewing your results to see other ways to reduce your risk.",
+                "es": "Sus resultados muestran un riesgo significativamente elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. En este momento, no se encuentra dentro de los criterios de evaluación para una evaluación, pero su uso indica que puede estarlo en el futuro. Recomendamos enfáticamente discutir sus opciones con su médico y revisar sus resultados para ver otras formas de reducir su riesgo."
+            },
+            "under_55_current_2_3_low": {
+                "en": "Based on your results, you do not show a significantly elevated risk. That being said, your cigarette usage meets the criteria for a screening. Screenings are not recommended until 55, so we strongly recommend discussing your options with your provider to establish a plan moving forward.",
+                "es": "Según sus resultados, no muestra un riesgo significativamente elevado. Dicho esto, su consumo de cigarrillos cumple con los criterios para una evaluación. Las pruebas de detección no se recomiendan hasta los 55, por lo que recomendamos encarecidamente que analice sus opciones con su médico para establecer un plan para seguir adelante."
+            },
+            "under_55_current_2_3_med": {
+                "en": "Your results show a slightly elevated risk and that your cigarette usage is within the lung cancer screening criteria. Screenings are not recommended until 55. So, in the meantime, we strongly encourage discussing your options with your provider.",
+                "es": "Sus resultados muestran un riesgo elevado y que su consumo de cigarrillos se encuentra dentro de los criterios de detección del cáncer de pulmón. Las pruebas de detección no se recomiendan hasta los 55, por lo que, mientras tanto, le recomendamos que analice sus opciones con su médico."
+            },
+            "under_55_current_2_3_high": {
+                "en": "Your results show an elevated risk and that your cigarette usage is within the lung cancer screening criteria. Screenings are not recommended until 55. So, in the meantime, we strongly encourage discussing your options with your provider",
+                "es": "Sus resultados muestran un riesgo elevado y que su consumo de cigarrillos se encuentra dentro de los criterios de detección del cáncer de pulmón. No se recomiendan las pruebas de detección hasta los 55. Por lo tanto, mientras tanto, le recomendamos que analice sus opciones con su médico."
+            },
+            "under_55_current_3_1_low": {
+                "en": "Currently, you have no significant elevation in risk. That being said, your long-term smoking concerns us. Smoking causes as much as 90% of lung cancer cases. We encourage you to review your results and discuss your options with your provider",
+                "es": "Actualmente, no tiene un aumento significativo en el riesgo. Dicho esto, su tabaquismo prolongado nos preocupa. Fumar causa hasta el 90% de los casos de cáncer de pulmón. Le recomendamos que revise sus resultados y analice sus opciones con su médico."
+            },
+            "under_55_current_3_1_med": {
+                "en": "You have a somewhat elevated risk. Your long-term smoking concerns us. Smoking causes as much as 90% of lung cancer cases. Review your results to truly understand your risk and discuss any concerns that you have with your provider.",
+                "es": "Tiene un riesgo algo elevado. Su tabaquismo prolongado nos preocupa. Fumar causa hasta el 90% de los casos de cáncer de pulmón. Revise sus resultados para comprender realmente su riesgo y analice cualquier inquietud que tenga con su médico."
+            },
+            "under_55_current_3_1_high": {
+                "en": "A significantly elevated risk. Your long-term smoking concerns us. Smoking causes as much as 90% of lung cancer cases. Review your results to truly understand your risk and discuss any concerns that you have with your provider.",
+                "es": "Un riesgo significativamente elevado. Su tabaquismo prolongado nos preocupa. Fumar causa hasta el 90% de los casos de cáncer de pulmón. Revise sus resultados para comprender realmente su riesgo y analice cualquier inquietud que tenga con su médico."
+            },
+            "under_55_current_3_2_low": {
+                "en": "You do not indicate a significantly elevated risk, but your smoking habits are fairly concerning. Cigarettes cause as much as 90% of lung cancer cases. You may be eligible for a lung cancer screening. Screenings save lives, so take action today.",
+                "es": "No indica un riesgo significativamente elevado, pero sus hábitos de fumar son bastante preocupantes. Los cigarrillos causan hasta el 90% de los casos de cáncer de pulmón. Puede ser elegible para una prueba de detección de cáncer de pulmón. Las pruebas de detección salvan vidas, así que actúe hoy."
+            },
+            "under_55_current_3_2_med": {
+                "en": "Your results show an elevated risk for lung cancer. Our greatest concern is your high-cigarette usage. You may be eligible for a lung cancer screening. We strongly encourage discussing your options with your provider. ",
+                "es": "Sus resultados muestran un riesgo elevado de cáncer de pulmón. Nuestra mayor preocupación es el uso elevado de cigarrillos. Puede ser elegible para una prueba de detección de cáncer de pulmón. Recomendamos encarecidamente que analice sus opciones con su médico."
+            },
+            "under_55_current_3_2_high": {
+                "en": "Your results show a significantly elevated risk for lung cancer. Our greatest concern is your high cigarette usage. You may be eligible for a screening. You should schedule an appointment with your provider to discuss your results.",
+                "es": "Sus resultados muestran un riesgo significativamente elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. Puede ser elegible para un examen. Debe programar una cita con su médico para discutir sus resultados."
+            },
+            "under_55_current_3_3_low": {
+                "en": "Based on your results, you do not show a significantly elevated risk. That being said, your cigarette usage shows that you are within the screening criteria for lung cancer. We strongly encourage you to discuss your options with your provider.",
+                "es": "Según sus resultados, no muestra un riesgo significativamente elevado. Dicho esto, su consumo de cigarrillos muestra que se encuentra dentro de los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice sus opciones con su médico."
+            },
+            "under_55_current_3_3_med": {
+                "en": "Your results show an elevated risk and that you fit the lung cancer screening criteria. We strongly encourage you to discuss your options with your provider. Review your results below to learn other ways you can reduce your risk of lung cancer in your life.",
+                "es": "Sus resultados muestran un riesgo elevado y que cumple con los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice sus opciones con su médico. Revise sus resultados a continuación para conocer otras formas en que puede reducir el riesgo de cáncer de pulmón en su vida."
+            },
+            "under_55_current_3_3_high": {
+                "en": "Your results indicate a need for immediate action, if you are not doing so already. You are at a significantly elevated risk and you fit the screening criteria for lung cancer. We strongly encourage you to discuss these results with a local, in-network provider.",
+                "es": "Sus resultados indican la necesidad de una acción inmediata, si aún no lo está haciendo. Tiene un riesgo significativamente elevado y cumple con los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice estos resultados con su médico o un proveedor local de la red."
+            },
+            "under_55_former_1_1_low": {
+                "en": "You scored an overall low risk, but your smoking habits are of some concern. You do not currently fit the screening criteria, but maintaining your current habits will eventually lead to you needing to be screened. Learn about what you can do below, and if you have concerns, schedule an appointment with your provider.",
+                "es": "Obtuvo un puntaje general de bajo riesgo, pero sus hábitos de fumar son motivo de preocupación. Actualmente no cumple con los criterios de detección, pero si mantiene sus hábitos actuales, eventualmente tendrá que someterse a una prueba de detección. Obtenga más información sobre lo que puede hacer a continuación y, si tiene inquietudes, programe una cita con su médico."
+            },
+            "under_55_former_1_1_med": {
+                "en": "Your results indicate an elevated risk. A significant portion of that is driven by your smoking habits. Cigarettes cause 90% of lung cancer cases. We strongly recommend reviewing your results and discussing your options with your provider.",
+                "es": "Sus resultados indican un riesgo elevado. Una parte importante de eso se debe a sus hábitos de fumar. Los cigarrillos causan el 90% de los casos de cáncer de pulmón. Recomendamos encarecidamente revisar sus resultados y discutir sus opciones con su médico."
+            },
+            "under_55_former_1_1_high": {
+                "en": "Your results show a significantly elevated risk. You do not fit screening criteria for lung cancer as they begin after 55. However, at this rate, you will be eligible in the future. We strongly recommend reviewing your results and discussing your options with your provider.",
+                "es": "Sus resultados muestran un riesgo significativamente elevado. No cumple con los criterios de detección del cáncer de pulmón, ya que comienzan después de los 55. Sin embargo, a este ritmo, será elegible en el futuro. Recomendamos encarecidamente revisar sus resultados y discutir sus opciones con su médico."
+            },
+            "under_55_former_2_1_low": {
+                "en": "No elevated risk, that is great! Although we do not see any extreme concern, your former smoking history does raise some worry. Screenings for former smokers should be considered within 15 years of quitting. We recommend discussing your options with your provider.",
+                "es": "Sin riesgo elevado, ¡eso es genial! Aunque no vemos ninguna preocupación extrema, su historial anterior de tabaquismo genera cierta preocupación. Las pruebas de detección para exfumadores deben considerarse dentro de los 15 años posteriores a dejar de fumar. Recomendamos discutir sus opciones con su médico."
+            },
+            "under_55_former_2_1_med": {
+                "en": "Your results show an elevated risk for lung cancer. Our greatest concern is your previous smoking history. Screenings for former smokers should be considered within 15 years of quitting. If you have not discussed this with your provider previously, we encourage you to do so soon.",
+                "es": "Sus resultados muestran un riesgo elevado de cáncer de pulmón. Nuestra mayor preocupación es su historial de tabaquismo anterior. Las pruebas de detección para exfumadores deben considerarse dentro de los 15 años posteriores a dejar de fumar. Si no ha hablado de esto con su médico anteriormente, le recomendamos que lo haga pronto."
+            },
+            "under_55_former_2_1_high": {
+                "en": "Your results show a significantly elevated risk for lung cancer. Our greatest concern is your high cigarette usage. Screenings for former smokers should be considered within 15 years of quitting. If you have not discussed this with your provider previously, we encourage you to do so soon.",
+                "es": "Sus resultados muestran un riesgo significativamente elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. Las pruebas de detección para exfumadores deben considerarse dentro de los 15 años posteriores a dejar de fumar. Si no ha hablado de esto con su médico anteriormente, le recomendamos que lo haga pronto."
+            },
+            "under_55_former_2_2_low": {
+                "en": "Based on your results, you do not show a significantly elevated risk. Although there is no extreme concern, your former smoking history may make you eligible for a lung cancer screening. Screenings for former smokers should be considered within 15 years of quitting. We recommend discussing your options with your provider.",
+                "es": "Según sus resultados, no muestra un riesgo significativamente elevado. Aunque no existe una preocupación extrema, su historial anterior de tabaquismo puede hacer que sea elegible para una prueba de detección de cáncer de pulmón. Las pruebas de detección para exfumadores deben considerarse dentro de los 15 años posteriores a dejar de fumar. Recomendamos discutir sus opciones con su médico."
+            },
+            "under_55_former_2_2_med": {
+                "en": "Your results show an elevated risk and that you may fit the criteria for a screening. Screenings for former heavy smokers should be considered within 15 years of quitting. We recommend discussing your options with your provider.",
+                "es": "Sus resultados muestran un riesgo elevado y que puede cumplir con los criterios para una prueba de detección. Las pruebas de detección para exfumadores empedernidos deben considerarse dentro de los 15 años posteriores a dejar de fumar. Recomendamos discutir sus opciones con su médico."
+            },
+            "under_55_former_2_2_high": {
+                "en": "Your results indicate a need for immediate, precautionary action, if you are not doing so already. You are at a significantly elevated risk and you fit the screening criteria for lung cancer. We strongly encourage you to discuss these results with a local in-network provider.",
+                "es": "Sus resultados indican la necesidad de una acción preventiva inmediata, si aún no lo está haciendo. Tiene un riesgo significativamente elevado y cumple con los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice estos resultados con su médico o con un proveedor local de la red."
+            },
+            "under_55_former_3_1_low": {
+                "en": "You do not indicate a significantly elevated risk, but your smoking habits are fairly concerning. Cigarettes cause as much as 90% of lung cancer cases. You may be eligible for a lung cancer screening. Screenings save lives, so take action today by discussing your options with a local, in-network provider.",
+                "es": "No indica un riesgo significativamente elevado, pero sus hábitos de fumar son bastante preocupantes. Los cigarrillos causan hasta el 90% de los casos de cáncer de pulmón. Puede ser elegible para una prueba de detección de cáncer de pulmón. Los exámenes de detección salvan vidas, así que tome medidas hoy y analice sus opciones con su médico o con un proveedor local de la red."
+            },
+            "under_55_former_3_1_med": {
+                "en": "Your results show an elevated risk for lung cancer. Our greatest concern is your high cigarette usage. You may be eligible for a lung cancer screening. We strongly encourage discussing your options with your provider.",
+                "es": "Sus resultados muestran un riesgo elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. Puede ser elegible para una prueba de detección de cáncer de pulmón. Recomendamos encarecidamente que analice sus opciones con su médico."
+            },
+            "under_55_former_3_1_high": {
+                "en": "Your results show a significantly elevated risk for lung cancer. Our greatest concern is your high cigarette usage. You may be eligible for a screening. You should schedule an appointment with your provider to discuss your results.",
+                "es": "Sus resultados muestran un riesgo significativamente elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. Puede ser elegible para un examen. Debe programar una cita con su médico para discutir sus resultados."
+            },
+            "under_55_former_3_2_low": {
+                "en": "Based on your results, you do not show a significantly elevated risk. That being said, your previous cigarette usage is within the screening criteria for lung cancer. The screening may save your life, so we strongly encourage you to discuss your options with your provider.",
+                "es": "Según sus resultados, no muestra un riesgo significativamente elevado. Dicho esto, su uso anterior de cigarrillos se encuentra dentro de los criterios de detección del cáncer de pulmón. La prueba de detección puede salvarle la vida, por lo que le recomendamos encarecidamente que analice sus opciones con su médico."
+            },
+            "under_55_former_3_2_med": {
+                "en": "Your results show an elevated risk and your previous cigarette usage is within the screening criteria for lung cancer. We strongly encourage you to discuss your options with your provider. Review your results below to learn other ways you can reduce your risk in your life.",
+                "es": "Sus resultados muestran un riesgo elevado y su uso anterior de cigarrillos se encuentra dentro de los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice sus opciones con su médico. Revise sus resultados a continuación para conocer otras formas en que puede reducir el riesgo en su vida."
+            },
+            "under_55_former_3_2_high": {
+                "en": "Your results indicate a need for a medical consultation regarding your risk, if you are not doing so already. You are at a significantly elevated risk and you fit the screening criteria for lung cancer. We strongly encourage you to discuss these results with a local, in-network provider.",
+                "es": "Sus resultados indican la necesidad de una consulta médica con respecto a su riesgo, si aún no lo está haciendo. Tiene un riesgo significativamente elevado y cumple con los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice estos resultados con su médico o un proveedor local de la red."
+            },
+            "under_55_former_long_low": {
+                "en": "Your results do not indicate a significantly elevated risk. You also do not fit the screening criteria, as you are under 55 and quit smoking greater than 15 years ago. If you have any concerns, reach out to your doctor to address them.",
+                "es": "Sus resultados no indican un riesgo significativamente elevado. Tampoco cumple con los criterios de evaluación, ya que tiene menos de 55 años y dejó de fumar hace más de 15 años. Si tiene alguna inquietud, comuníquese con su médico para abordarlas."
+            },
+            "under_55_former_long_med": {
+                "en": "Your results show a somewhat elevated risk, but you do not fit the screening criteria, as you are under 55 and quit smoking more than 15 years ago. If you have any concerns, reach out to your doctor to address them.",
+                "es": "Sus resultados muestran un riesgo algo elevado, pero no cumple con los criterios de detección, ya que tiene menos de 55 años y dejó de fumar hace más de 15 años. Si tiene alguna inquietud, comuníquese con su médico para abordarlas."
+            },
+            "under_55_former_long_high": {
+                "en": "Your results do show an elevated risk, but you do not fit the screening criteria for lung cancer at this time. If you have any concerns about your results or lung health, reach out to your doctor.",
+                "es": "Sus resultados muestran un riesgo elevado, pero no cumple con los criterios de detección del cáncer de pulmón en este momento. Si tiene alguna inquietud sobre los resultados o la salud pulmonar, comuníquese con su médico."
+            },
+            "55-80_current_1_1_low": {
+                "en": "Your results do not indicate an elevated risk, but your current smoking habits are of concern. The addictive nature of cigarettes leads to increased usage and sustained usage - the two major causes of lung cancer. We recommend that you review your results and discuss your options with your provider!",
+                "es": "Sus resultados no indican un riesgo elevado, pero sus hábitos de fumar actuales son motivo de preocupación. La naturaleza adictiva de los cigarrillos conduce a un uso mayor y sostenido, las dos principales causas del cáncer de pulmón. Le recomendamos que revise sus resultados y analice sus opciones con su médico."
+            },
+            "55-80_current_1_1_med": {
+                "en": "Your results indicate an elevated risk. A significant portion of that risk is your smoking habits. We highly recommend you review your results to learn how else you can reduce your risk, and also to consider quitting cigarettes completely. Need help? Reach out to your provider to discuss your options.",
+                "es": "Sus resultados indican un riesgo elevado. Una parte importante de ese riesgo son sus hábitos de fumar. Le recomendamos encarecidamente que revise sus resultados para saber de qué otra manera puede reducir su riesgo y que también considere dejar de fumar. ¿Necesitas ayuda? Comuníquese con su médico para analizar sus opciones."
+            },
+            "55-80_current_1_1_high": {
+                "en": "Your results indicate an elevated risk. Much of that risk is due to your smoking. We recommend you review your results to consider what actions you can take to help reduce your risk. If you have concerns, discuss your options with your provider.",
+                "es": "Sus resultados indican un riesgo elevado. Gran parte de ese riesgo se debe a que fuma. Le recomendamos que revise sus resultados para considerar qué acciones puede tomar para ayudar a reducir su riesgo. Si tiene inquietudes, analice sus opciones con su médico."
+            },
+            "55-80_current_2_1_low": {
+                "en": "You do not show a significantly elevated risk, but your smoking habits are fairly concerning. Cigarettes cause as much as 90% of lung cancer cases. We strongly recommend discussing your usage with your provider to learn your options.",
+                "es": "No muestra un riesgo significativamente elevado, pero sus hábitos de fumar son bastante preocupantes. Los cigarrillos causan hasta el 90% de los casos de cáncer de pulmón. Recomendamos encarecidamente discutir su uso con su médico para conocer sus opciones."
+            },
+            "55-80_current_2_1_med": {
+                "en": "Your results show an elevated risk for lung cancer. Our greatest concern is your high cigarette usage. At this time, you are not within the lung cancer screening criteria, but your usage indicates you may fit this high risk criteria in the future. We strongly recommend discussing your options with your provider and reviewing your results to see other ways to reduce your risk.",
+                "es": "Sus resultados muestran un riesgo elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. En este momento, no se encuentra dentro de los criterios de detección del cáncer de pulmón, pero su uso indica que puede cumplir con estos criterios de alto riesgo en el futuro. Recomendamos encarecidamente que analice sus opciones con su médico y revise sus resultados para ver otras formas de reducir su riesgo."
+            },
+            "55-80_current_2_1_high": {
+                "en": "Your results show a significantly elevated risk for lung cancer. Our greatest concern is your high cigarette usage. At this time, you are not within the criteria for a screening, but your usage indicates you will, in-time, fit this high risk criteria. We strongly recommend discussing your options with your provider and reviewing your results to see other ways to reduce your risk.",
+                "es": "us resultados muestran un riesgo significativamente elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. En este momento, no se encuentra dentro de los criterios para una evaluación, pero su uso indica que, a tiempo, cumplirá con estos criterios de alto riesgo. Recomendamos enfáticamente discutir sus opciones con su médico y revisar sus resultados para ver otras formas de reducir su riesgo."
+            },
+            "55-80_current_2_2_low": {
+                "en": "Based on your results, you do not show a significantly elevated risk. That being said, your cigarette usage shows that you are within the screening criteria for lung cancer. The screening may save your life, so we strongly encourage you to discuss your options with your provider.",
+                "es": "Según sus resultados, no muestra un riesgo significativamente elevado. Dicho esto, su consumo de cigarrillos muestra que se encuentra dentro de los criterios de detección del cáncer de pulmón. La prueba de detección puede salvarle la vida, por lo que le recomendamos encarecidamente que analice sus opciones con su médico."
+            },
+            "55-80_current_2_2_med": {
+                "en": "Your results show an elevated risk and that you fit the lung cancer screening criteria. We strongly encourage you to discuss your options with your provider. Review your results below to learn other ways you can reduce your risk in your life.",
+                "es": "Sus resultados muestran un riesgo elevado y que cumple con los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice sus opciones con su médico. Revise sus resultados a continuación para conocer otras formas en que puede reducir el riesgo en su vida."
+            },
+            "55-80_current_2_2_high": {
+                "en": "Your results indicate a need for immediate action, if you are not doing so already. You are at a significantly elevated risk and you fit the screening criteria for lung cancer. We strongly encourage you to discuss these results with a local, in-network provider.",
+                "es": "Sus resultados indican la necesidad de una acción inmediata, si aún no lo está haciendo. Tiene un riesgo significativamente elevado y cumple con los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice estos resultados con su médico o un proveedor local de la red."
+            },
+            "55-80_current_3_1_low": {
+                "en": "You do not indicate significantly elevated risk, but your smoking habits are fairly concerning. Cigarettes cause as much as 90% of lung cancer cases. You may be eligible for a lung cancer screening. Screenings save lives, so take action today.",
+                "es": "No indica un riesgo significativamente elevado, pero sus hábitos de fumar son bastante preocupantes. Los cigarrillos causan hasta el 90% de los casos de cáncer de pulmón. Puede ser elegible para una prueba de detección de cáncer de pulmón. Los exámenes de detección salvan vidas. Actúe hoy."
+            },
+            "55-80_current_3_1_med": {
+                "en": "Your results show an elevated risk for lung cancer. Our greatest concern is your high cigarette usage. You may be eligible for a lung cancer screening. We strongly encourage discussing your options with your provider.",
+                "es": "Sus resultados muestran un riesgo elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. Puede ser elegible para una prueba de detección de cáncer de pulmón. Recomendamos encarecidamente que analice sus opciones con su médico."
+            },
+            "55-80_current_3_1_high": {
+                "en": "Your results show a significantly elevated risk for lung cancer. Our greatest concern is your high cigarette usage. You may be eligible for a screening. You should schedule an appointment with your provider to discuss your results.",
+                "es": "Sus resultados muestran un riesgo significativamente elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. Puede ser elegible para un examen. Debe programar una cita con su médico para discutir sus resultados."
+            },
+            "55-80_current_3_2_low": {
+                "en": "Based on your results, you do not show a significantly elevated risk. That being said, your cigarette usage shows that you are within the lung cancer screening criteria. The screening may save your life, so we strongly encourage you to discuss your options with your provider.",
+                "es": "Según sus resultados, no muestra un riesgo significativamente elevado. Dicho esto, su consumo de cigarrillos muestra que se encuentra dentro de los criterios de detección del cáncer de pulmón. La prueba de detección puede salvarle la vida, por lo que le recomendamos encarecidamente que analice sus opciones con su médico."
+            },
+            "55-80_current_3_2_med": {
+                "en": "Your results show an elevated risk and that you fit the lung cancer screening criteria. We strongly encourage you to discuss your options with your provider. Review your results below to learn other ways that you can reduce your risk in your life",
+                "es": "Sus resultados muestran un riesgo elevado y que cumple con los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice sus opciones con su médico. Revise sus resultados a continuación para conocer otras formas en que puede reducir el riesgo en su vida."
+            },
+            "55-80_current_3_2_high": {
+                "en": "Your results indicate a need for immediate action, if you are not doing so already. You are at a significantly elevated risk and you fit the lung cancer screening criteria. We strongly encourage you to discuss these results with a local, in-network provider.",
+                "es": "Sus resultados indican la necesidad de una acción inmediata, si aún no lo está haciendo. Tiene un riesgo significativamente elevado y cumple con los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice estos resultados con su médico o un proveedor local de la red."
+            },
+            "55-80_former_1_1_low": {
+                "en": "You scored an overall, low risk. That being said, your smoking habits are of some concern. You do not currently fit the screening criteria, but maintaining your current habits will eventually lead you to require a screening. Learn about what you can do below. If you have concerns, schedule an appointment with your provider.",
+                "es": "Obtuvo un puntaje general de bajo riesgo. Dicho esto, sus hábitos de fumar son motivo de preocupación. Actualmente no cumple con los criterios de detección, pero si mantiene sus hábitos actuales, eventualmente tendrá que someterse a una prueba de detección. Obtenga más información sobre lo que puede hacer a continuación. Si tiene inquietudes, programe una cita con su médico."
+            },
+            "55-80_former_1_1_med": {
+                "en": "Your results indicate an elevated risk. A significant portion of that is driven by your smoking habits. Cigarettes cause 90% of lung cancer cases. We strongly recommend reviewing your results and discussing your options with your provider.",
+                "es": "Sus resultados indican un riesgo elevado. Una parte significativa de eso se debe a sus hábitos de fumar. Los cigarrillos causan el 90% de los casos de cáncer de pulmón. Recomendamos encarecidamente revisar sus resultados y discutir sus opciones con su médico."
+            },
+            "55-80_former_1_1_high": {
+                "en": "Your results show a significantly elevated risk. You do not fit the lung cancer screening criteria due to your limited years of smoking, but at this rate, you will be eligible in the future. We strongly recommend reviewing your results and discussing your options with your provider.",
+                "es": "Sus resultados muestran un riesgo significativamente elevado. No cumple con los criterios de detección del cáncer de pulmón debido a sus años limitados de tabaquismo, pero a este ritmo será elegible en el futuro. Recomendamos encarecidamente revisar sus resultados y discutir sus opciones con su médico."
+            },
+            "55-80_former_2_1_low": {
+                "en": "No elevated risk, that is great! Although we do not see any extreme concern, your former smoking history does raise some concern. Screenings for former smokers should be considered within 15 years of quitting. We recommend discussing your options with your provider.",
+                "es": "Sin riesgo elevado, ¡eso es genial! Aunque no vemos ninguna preocupación extrema, su historial anterior de tabaquismo genera cierta preocupación. Las pruebas de detección para exfumadores deben considerarse dentro de los 15 años posteriores a haber dejado de fumar. Recomendamos discutir sus opciones con su médico."
+            },
+            "55-80_former_2_1_med": {
+                "en": "Your results show an elevated risk for lung cancer. Our greatest concern is with your previous smoking history. Screenings for former smokers should be considered within 15 years of quitting. If you have not discussed this with your provider previously, we encourage you to do so soon.",
+                "es": "Sus resultados muestran un riesgo elevado de cáncer de pulmón. Nuestra mayor preocupación es su historial de tabaquismo anterior. Las pruebas de detección para exfumadores deben considerarse dentro de los 15 años posteriores a haber dejado de fumar. Si no ha hablado de esto con su médico anteriormente, le recomendamos que lo haga pronto."
+            },
+            "55-80_former_2_1_high": {
+                "en": "Your results show a significantly elevated risk for lung cancer. Our biggest concern is your high cigarette usage. Screenings for former smokers should be considered within 15 years of quitting. If you have not discussed this with your provider previously, we encourage you to do so soon.",
+                "es": "Sus resultados muestran un riesgo significativamente elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. Las pruebas de detección para exfumadores deben considerarse dentro de los 15 años posteriores a haber dejado de fumar. Si no ha hablado de esto con su médico anteriormente, le recomendamos que lo haga pronto."
+            },
+            "55-80_former_2_2_low": {
+                "en": "Based on your results, you do not show a significantly elevated risk. Although there is no extreme concern, your former smoking history may make you eligible for a lung cancer screening. Screenings for former smokers should be considered within 15 years of quitting. We recommend discussing your options with your provider.",
+                "es": "Según sus resultados, no muestra un riesgo significativamente elevado. Aunque no existe una preocupación extrema, su historial anterior de tabaquismo puede hacer que sea elegible para una prueba de detección de cáncer de pulmón. Las pruebas de detección para exfumadores deben considerarse dentro de los 15 años posteriores a haber dejado de fumar. Recomendamos discutir sus opciones con su médico."
+            },
+            "55-80_former_2_2_med": {
+                "en": "Your results show an elevated risk and that you may fit the criteria for a screening. Screenings for former heavy smokers should be considered within 15 years of quitting. We recommend discussing your options with your provider.",
+                "es": "Sus resultados muestran un riesgo elevado y que puede cumplir con los criterios para una prueba de detección. Las pruebas de detección para exfumadores empedernidos deben considerarse dentro de los 15 años posteriores a dejar de fumar. Recomendamos discutir sus opciones con su médico."
+            },
+            "55-80_former_2_2_high": {
+                "en": "Your results indicate a need for immediate, precautionary action, if you are not doing so already. You are at a significantly elevated risk and you fit the lung cancer screening criteria. We strongly encourage you to discuss these results with a local, in-network provider.",
+                "es": "Sus resultados indican la necesidad de una acción preventiva inmediata, si aún no lo está haciendo. Tiene un riesgo significativamente elevado y cumple con los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice estos resultados con su médico o un proveedor local de la red."
+            },
+            "55-80_former_3_1_low": {
+                "en": "You do not indicate significantly elevated risk, but your smoking habits are fairly concerning. Cigarettes cause as much as 90% of lung cancer cases. You may be eligible for a lung cancer screening. Screenings save lives, so take action by discussing your options with a local, in-network provider.",
+                "es": "No indica un riesgo significativamente elevado, pero sus hábitos de fumar son bastante preocupantes. Los cigarrillos causan hasta el 90% de los casos de cáncer de pulmón. Puede ser elegible para una prueba de detección de cáncer de pulmón. Los exámenes de detección salvan vidas, así que tome medidas hoy y analice sus opciones con su médico o con un proveedor local de la red."
+            },
+            "55-80_former_3_1_med": {
+                "en": "Your results show an elevated risk for lung cancer. Our greatest concern is your high cigarette usage. You may be eligible for a lung cancer screening. We strongly encourage discussing your options with your provider.",
+                "es": "Sus resultados muestran un riesgo elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. Puede ser elegible para una prueba de detección de cáncer de pulmón. Recomendamos encarecidamente que analice sus opciones con su médico."
+            },
+            "55-80_former_3_1_high": {
+                "en": "Your results show a significantly elevated risk for lung cancer. Our greatest concern is your high cigarette usage. You may be eligible for a screening. You should schedule an appointment with your provider to discuss your results.",
+                "es": "Sus resultados muestran un riesgo significativamente elevado de cáncer de pulmón. Nuestra mayor preocupación es el alto consumo de cigarrillos. Puede ser elegible para un examen. Debe programar una cita con su médico para discutir sus resultados."
+            },
+            "55-80_former_3_2_low": {
+                "en": "Based on your results, you do not show a significantly elevated risk. That being said, your previous cigarette usage is within the screening criteria for lung cancer. The screening may save your life, so we strongly encourage you to discuss your options with your provider.",
+                "es": "Según sus resultados, no muestra un riesgo significativamente elevado. Dicho esto, su uso anterior de cigarrillos se encuentra dentro de los criterios de detección del cáncer de pulmón. La prueba de detección puede salvarle la vida, por lo que le recomendamos encarecidamente que analice sus opciones con su médico."
+            },
+            "55-80_former_3_2_med": {
+                "en": "Your results show an elevated risk and your previous cigarette usage is within the lung cancer screening criteria. We strongly encourage you to discuss your options with your provider. Review your results below to learn other ways that you can reduce your risk for lung cancer in your life.",
+                "es": "Sus resultados muestran un riesgo elevado y su uso anterior de cigarrillos se encuentra dentro de los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice sus opciones con su médico. Revise sus resultados a continuación para conocer otras formas en que puede reducir el riesgo de cáncer de pulmón en su vida."
+            },
+            "55-80_former_3_2_high": {
+                "en": "Your results indicate a need for a medical consultation regarding your risk, if you are not doing so already. You are at a significantly elevated risk and you fit the lung cancer screening criteria. We strongly encourage you to discuss these results with a local, in-network provider.",
+                "es": "Sus resultados indican la necesidad de una consulta médica con respecto a su riesgo. si aún no lo está haciendo. Tiene un riesgo significativamente elevado y cumple con los criterios de detección del cáncer de pulmón. Le recomendamos encarecidamente que analice estos resultados con su médico o un proveedor local de la red."
+            },
+            "55-80_former_long_low": {
+                "en": "Currently, you do not show a significantly elevated risk, and you are not within the screening criteria for lung cancer. Former smokers are not recommended for a screening after 15 years of quitting. We recommend addressing your concerns with your provider.",
+                "es": "Actualmente, no muestra un riesgo significativamente elevado y no se encuentra dentro de los criterios de detección del cáncer de pulmón. Los exfumadores no se hacen exámenes de detección después de 15 años de haber dejado de fumar. Recomendamos abordar sus inquietudes con su médico."
+            },
+            "55-80_former_long_med": {
+                "en": "You show a somewhat elevated risk for lung cancer, but you do not fit lung cancer screening criteria. Former smokers are not recommended for a screening after 15 years of quitting. We recommend addressing your concerns with your provider.",
+                "es": "Muestra un riesgo algo elevado de cáncer de pulmón, pero no cumple con los criterios de detección. No se recomienda a los exfumadores para una prueba de detección después de 15 años de haber dejado de fumar. Recomendamos abordar sus inquietudes con su médico."
+            },
+            "55-80_former_long_high": {
+                "en": "Your results do raise some concern. That being said, you do not fit the criteria for a lung cancer screening. Former smokers are not recommended for a screening after 15 years of quitting. We recommend addressing your concerns with your provider.",
+                "es": "Sus resultados generan cierta preocupación. Dicho esto, no cumple con los criterios para una prueba de detección de cáncer de pulmón. No se recomienda a los exfumadores para una prueba de detección después de 15 años de haber dejado de fumar. Cualquier inquietud que tenga sobre la salud de sus pulmones debe comentarla con su médico."
+            },
+            "else_smoker_low": {
+                "en": "You do not show a significantly elevated risk. Our biggest concern is your tobacco use. Smoking causes as much as 90% of lung cancer cases, and is best to be avoided. Review your results to understand your risk and schedule an appointment with your provider if you have any concerns.",
+                "es": "No muestra un riesgo significativamente elevado. Nuestra mayor preocupación es su consumo de tabaco. Fumar causa hasta el 90% de los casos de cáncer de pulmón y es mejor evitarlo. Revise sus resultados para comprender su riesgo y programe una cita con su médico si tiene alguna inquietud."
+            },
+            "else_smoker_med": {
+                "en": "A somewhat elevated risk. Review your results to understand what is driving your risk. Our biggest concern is your smoking. Smoking causes as much as 90% of lung cancer cases, and is best to be avoided. Reach out to your provider with any concerns that you may have.",
+                "es": "Un riesgo algo elevado. Revise sus resultados para comprender qué está generando su riesgo. Nuestra mayor preocupación es fumar. Fumar causa hasta el 90% de los casos de cáncer de pulmón y es mejor evitarlo. Comuníquese con su médico con cualquier inquietud que pueda tener."
+            },
+            "else_smoker_high": {
+                "en": "Your results indicate an elevated risk. Review your results to understand what is driving your risk. Our biggest concern is your smoking. Smoking causes as much as 90% of lung cancer cases, and is best to be avoided. Reach out to your provider with any concerns that you may have.",
+                "es": "Sus resultados indican un riesgo elevado. Revise sus resultados para comprender qué está generando su riesgo. Nuestra mayor preocupación es fumar. Fumar causa hasta el 90% de los casos de cáncer de pulmón y es mejor evitarlo. Comuníquese con su médico con cualquier inquietud que pueda tener."
+            },
+            "else_not_smoker_low": {
+                "en": "Your results do not show a significant risk at this time! Most important is your limited to no smoking. Smoking causes most cases of lung cancer, so keep up to good work there! Discuss any concerns you may have with your provider.",
+                "es": "¡Sus resultados no muestran un riesgo significativo en este momento! Lo más importante es su limitación a no fumar. Fumar causa la mayoría de los casos de cáncer de pulmón, ¡así que continúe trabajando allí! Discuta cualquier inquietud que pueda tener con su médico."
+            },
+            "else_not_smoker_med": {
+                "en": "Your results show a somewhat elevated risk. You may be confused as you indicated limited or no cigarette smoking. Cigarettes are not the only thing that affects your risk. Review your results below. If you have concerns, discuss them with your provider.",
+                "es": "Sus resultados muestran un riesgo algo elevado. Es posible que se sienta confundido porque indicó que no fuma cigarrillos o no lo hace. Los cigarrillos no son lo único que afecta su riesgo. Revise sus resultados y si tiene inquietudes, discútalas con su médico."
+            },
+            "else_not_smoker_high": {
+                "en": "Your results show a fairly elevated risk. You may be confused as you indicated limited or no cigarette smoking. Cigarettes are not the only thing that affects your risk. Review your results below. If you have concerns, discuss them with your provider.",
+                "es": "Sus resultados muestran un riesgo bastante elevado. Es posible que se sienta confundido porque indicó que no fuma cigarrillos o no lo hace. Los cigarrillos no son lo único que afecta su riesgo. Revise sus resultados y si tiene inquietudes, discútalas con su médico."
+            }
+        },
+        "ax": {
+            "general_low": {
+                "en": "Your results show that you are not significantly disrupted by anxiety. That is great! Below are some of the lifestyle choices that can affect your risk for anxiety. Review your results to see what actions you can take.",
+                "es": "Sus resultados muestran que la ansiedad no lo perturba significativamente. ¡Eso es genial! A continuación se presentan algunas de las opciones de estilo de vida que pueden afectar su riesgo de ansiedad. Revise sus resultados para ver qué acciones puede tomar."
+            },
+            "general_med": {
+                "en": "Your results showed that your life is somewhat disrupted by anxious tendencies. You are not alone. Talk to your provider or a licensed therapist if you are experiencing persistent stress or anxiety.",
+                "es": "Sus resultados mostraron que su vida se ve algo perturbada por tendencias ansiosas. No estas solo. Habla con tu médico o con un terapeuta autorizado si experimentas estrés o ansiedad persistentes."
+            },
+            "general_high": {
+                "en": "Your results are somewhat concerning, as it appears your life is significantly disrupted by anxious tendencies. You are not alone. We recommend that you talk to your provider or an in-network, licensed therapist as soon as possible.",
+                "es": "Sus resultados son algo preocupantes, ya que parece que su vida se ve perturbada significativamente por tendencias ansiosas. No estas solo. Le recomendamos que hable con su médico o con un terapeuta autorizado de la red lo antes posible."
+            }
+        },
+        "dp": {
+            "general_min": {
+                "en": "At this time, you show minimal, if any, signs of depression. If you have any concerns about your situation, we recommend scheduling an appointment with your provider.",
+                "es": "En este momento, muestra signos mínimos, si los hay, de depresión. Si tiene alguna inquietud sobre su situación, le recomendamos programar una cita con su médico."
+            },
+            "general_mild": {
+                "en": "At this time, you have some depression-like symptoms. This is a common occurrence and something that may be able to be addressed. We recommend discussing any concerns you may have with your provider. Things will get better.",
+                "es": "En este momento, tiene algunos síntomas parecidos a los de la depresión. Esta es una ocurrencia común y algo que se puede abordar. Recomendamos discutir cualquier inquietud que pueda tener con su médico. Las cosas se pondrán mejor"
+            },
+            "general_mod": {
+                "en": "Your results indicate you’re experiencing a moderate case of depression. Depression is often very treatable. We strongly recommend discussing your options with your provider or a licensed therapist.",
+                "es": "Sus resultados indican que está experimentando un caso moderado de depresión. La depresión suele ser muy tratable. Recomendamos encarecidamente discutir sus opciones con su médico o un terapeuta autorizado."
+            },
+            "general_mose": {
+                "en": "Your results did raise some concern, as you appear to be suffering from a number of symptoms of depression. You are not alone. Depression is often highly manageable when you seek professional help. We strongly encourage you to reach out to your provider or an in-network therapist soon.",
+                "es": "Sus resultados despertaron cierta preocupación, ya que parece que padece una serie de síntomas de depresión. No estas solo. La depresión suele ser muy manejable cuando busca ayuda profesional. Le recomendamos encarecidamente que se comunique pronto con su médico o un terapeuta de la red."
+            },
+            "general_sev": {
+                "en": "Your results indicate that you are struggling from severe symptoms of depression. You are not alone. Seeking professional help can help you manage and treat your situation. It is highly encouraged you reach out to your provider or a licensed therapist as soon as possible. It will get better.",
+                "es": "Sus resultados indican que está luchando contra síntomas graves de depresión. No estas solo. Buscar ayuda profesional puede ayudarlo a manejar y tratar su situación. Se recomienda encarecidamente que se comunique con su médico o terapeuta autorizado lo antes posible. Se pondrá mejor."
+            }
+        },
+        "erd": {
+            "general_low": {
+                "en": "You currently do not show an increased risk of kidney failure. That being said, if left unchecked, all kidney disease cases can progress to kidney failure. Your diet is one major area of your lifestyle that can help prevent the progression of kidney failure. Review your results and learn how your diet can be a key strategy in preventing kidney failure.",
+                "es": "Actualmente no muestra un mayor riesgo de insuficiencia renal. Dicho esto, si no se controla, todos los casos de enfermedad renal pueden progresar a insuficiencia renal. Su dieta es un área importante de su estilo de vida que puede ayudar a prevenir la progresión de la insuficiencia renal. Revise sus resultados y descubra cómo su dieta puede ser una estrategia clave para prevenir la insuficiencia renal."
+            },
+            "general_med": {
+                "en": "Your results indicate an elevated risk of kidney failure. If you were unaware of this, we strongly encourage you to reach out to your physician to discuss your concerns. Otherwise, one way that you can be proactive to help prevent kidney failure is through your diet. Learn below how your diet can be a key strategy in preventing kidney failure.",
+                "es": "Sus resultados indican un riesgo elevado de insuficiencia renal. Si no estaba al tanto de esto, le recomendamos encarecidamente que se comunique con su médico para discutir sus inquietudes. De lo contrario, una forma en la que puede ser proactivo para ayudar a prevenir la insuficiencia renal es a través de su dieta. Conozca a continuación cómo su dieta puede ser una estrategia clave para prevenir la insuficiencia renal."
+            },
+            "general_high": {
+                "en": "Your results indicate a significantly elevated risk of kidney failure. If you were unaware of this, we strongly encourage you to reach out to your physician to discuss your concerns. Otherwise, one way that you can be proactive to help prevent kidney failure is through your diet. Learn below how your diet can be a key strategy in preventing kidney failure.",
+                "es": "Sus resultados indican un riesgo significativamente elevado de insuficiencia renal. Si no estaba al tanto de esto, le recomendamos encarecidamente que se comunique con su médico para discutir sus inquietudes. De lo contrario, una forma en la que puede ser proactivo para ayudar a prevenir la insuficiencia renal es a través de su dieta. Conozca a continuación cómo su dieta puede ser una estrategia clave para prevenir la insuficiencia renal."
+            }
+        },
+        "nut": {
+            "general_low": {
+                "en": "Overall you are doing great! Eating healthy is no easy task, so congrats on having an overall healthier diet than many. Review your results to see if there are things to address. Also, click improve my nutrition if you want to receive a custom food list catered to your dietary needs!",
+                "es": "¡En general, lo estás haciendo muy bien! Comer sano no es una tarea fácil, así que felicidades por tener una dieta en general más sana que la de muchos. Revise sus resultados para ver si hay cosas que abordar. Además, haga clic en mejorar mi nutrición si desea recibir una lista de alimentos personalizada que se adapte a sus necesidades dietéticas."
+            },
+            "general_med": {
+                "en": "Not the worst but not the best. There are some things you do well, and other areas you can improve in! Review your results to understand what areas you can still address. When you are ready, we recommend selecting improving my nutrition to get a custom plan catered to your dietary needs!",
+                "es": "No es el peor pero no el mejor. ¡Hay algunas cosas que haces bien y otras en las que puedes mejorar! Revise sus resultados para comprender qué áreas aún puede abordar. Cuando esté listo, le recomendamos que seleccione Mejorar mi nutrición para obtener un plan personalizado que se adapte a sus necesidades dietéticas."
+            },
+            "general_high": {
+                "en": "Your results show that there are many areas you can improve, and there is no better time than today! Below you can find the parts we recommend you address. If you have any major concerns, reach out to your doctor. Otherwise click improve my nutrition to receive a custom food plan shaped to your needs!",
+                "es": "Sus resultados muestran que hay muchas áreas en las que puede mejorar, ¡y no hay mejor momento que hoy! A continuación puede encontrar las piezas que le recomendamos que aborde. Si tiene alguna inquietud importante, comuníquese con su médico. De lo contrario, haga clic en mejorar mi nutrición para recibir un plan de alimentación personalizado adaptado a sus necesidades."
+            }
+        }
+    }
+}

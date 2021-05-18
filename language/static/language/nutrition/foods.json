@@ -1,0 +1,766 @@
+{
+  "food": {
+    "almond_milk": {
+        "en": "Almond milk",
+        "es": "Leche de almendras"
+    },
+    "almonds": {
+        "en": "Almonds",
+        "es": "Almendras"
+    },
+    "american_cheese": {
+        "en": "American Cheese",
+        "es": "Queso americano"
+    },
+    "anchovies": {
+        "en": "Anchovies",
+        "es": "Anchoas"
+    },
+    "apple": {
+        "en": "Apple",
+        "es": "Manzana"
+    },
+    "apple_juice": {
+        "en": "100% Apple Juice",
+        "es": "Jugo de manzana 100%"
+    },
+    "apricot": {
+        "en": "Apricot",
+        "es": "Albaricoque"
+    },
+    "aramanth": {
+        "en": "Amaranth",
+        "es": "Amaranto"
+    },
+    "artichoke": {
+        "en": "Artichoke",
+        "es": "Alcachofa"
+    },
+    "arugula": {
+        "en": "Arugula",
+        "es": "Rúcula"
+    },
+    "asparagus": {
+        "en": "Asparagus",
+        "es": "Espárragos"
+    },
+    "avocado": {
+        "en": "Avocado",
+        "es": "Aguacate"
+    },
+    "avocado_oil": {
+        "en": "Avocado Oil",
+        "es": "Aceite de aguacate"
+    },
+    "banana": {
+        "en": "Banana",
+        "es": "Plátano"
+    },
+    "barley": {
+        "en": "Barley",
+        "es": "Cebada"
+    },
+    "basil": {
+        "en": "Basil",
+        "es": "Albahaca"
+    },
+    "beans": {
+        "en": "Beans",
+        "es": "Frijoles"
+    },
+    "beets": {
+        "en": "Beets",
+        "es": "Remolachas"
+    },
+    "bell_pepper": {
+        "en": "Bell Pepper",
+        "es": "Pimiento morrón"
+    },
+    "black_tea": {
+        "en": "Black Tea",
+        "es": "Té negro"
+    },
+    "blackberries": {
+        "en": "Blackberries",
+        "es": "Moras"
+    },
+    "blue_cheese": {
+        "en": "Blue Cheese",
+        "es": "Queso azul"
+    },
+    "blueberries": {
+        "en": "Blueberries",
+        "es": "Arándanos"
+    },
+    "bok_choy": {
+        "en": "Bok Choy",
+        "es": "Bok Choy"
+    },
+    "bottled_tea": {
+        "en": "Bottled Tea/Coffee",
+        "es": "Té / café embotellado"
+    },
+    "brazil_nuts": {
+        "en": "Brazil Nuts",
+        "es": "Nueces de Brasil"
+    },
+    "broccoli": {
+        "en": "Broccoli",
+        "es": "Brócoli"
+    },
+    "brown_rice": {
+        "en": "Brown Rice",
+        "es": "Arroz integral"
+    },
+    "brussels_sprouts": {
+        "en": "Brussels Sprouts",
+        "es": "Coles de Bruselas"
+    },
+    "butter": {
+        "en": "Butter",
+        "es": "Mantequilla"
+    },
+    "cabbage": {
+        "en": "Cabbage",
+        "es": "Repollo"
+    },
+    "canned_fruit": {
+        "en": "Canned Fruit",
+        "es": "Fruta en conserva"
+    },
+    "canned_vegetables": {
+        "en": "Canned Vegetables",
+        "es": "Verduras en conserva"
+    },
+    "canola_oil": {
+        "en": "Canola Oil",
+        "es": "Aceite de canola"
+    },
+    "cantaloupe": {
+        "en": "Cantaloupe",
+        "es": "Melón"
+    },
+    "carrot": {
+        "en": "Carrot",
+        "es": "Zanahoria"
+    },
+    "cashews": {
+        "en": "Cashews",
+        "es": "Anacardos"
+    },
+    "cauliflower": {
+        "en": "Cauliflower",
+        "es": "Coliflor"
+    },
+    "cayenne": {
+        "en": "Cayenne",
+        "es": "Cayena"
+    },
+    "celery": {
+        "en": "Celery",
+        "es": "Apio"
+    },
+    "cereal": {
+        "en": "Cereal",
+        "es": "Cereal"
+    },
+    "chamomile_tea": {
+        "en": "Chamomile Tea",
+        "es": "Té de manzanilla"
+    },
+    "cheddar_cheese": {
+        "en": "Cheddar Cheese",
+        "es": "Queso cheddar"
+    },
+    "cherries": {
+        "en": "Cherry",
+        "es": "Cereza"
+    },
+    "chia_seeds": {
+        "en": "Chia Seeds",
+        "es": "Semillas de chía"
+    },
+    "chicken": {
+        "en": "Chicken",
+        "es": "Pollo"
+    },
+    "chickpeas": {
+        "en": "Chickpeas",
+        "es": "Garbanzos"
+    },
+    "cilantro": {
+        "en": "Cilantro",
+        "es": "Cilantro"
+    },
+    "cinnamon": {
+        "en": "Cinnamon",
+        "es": "Canela"
+    },
+    "coconut": {
+        "en": "Coconut",
+        "es": "Coco"
+    },
+    "coconut_milk": {
+        "en": "Coconut Milk",
+        "es": "Leche de coco"
+    },
+    "coconut_oil": {
+        "en": "Coconut Oil",
+        "es": "Aceite de coco"
+    },
+    "cod": {
+        "en": "Cod",
+        "es": "Bacalao"
+    },
+    "coriander": {
+        "en": "Coriander",
+        "es": "Cilantro"
+    },
+    "corn": {
+        "en": "Corn",
+        "es": "Maíz"
+    },
+    "cottage_cheese": {
+        "en": "Cottage Cheese",
+        "es": "Requesón"
+    },
+    "cranberries": {
+        "en": "Cranberry",
+        "es": "Arándano"
+    },
+    "cream_cheese": {
+        "en": "Cream Cheese",
+        "es": "Queso Crema"
+    },
+    "creamer": {
+        "en": "Creamer",
+        "es": "Crema"
+    },
+    "cucumber": {
+        "en": "Cucumber",
+        "es": "Pepino"
+    },
+    "cumin": {
+        "en": "Cumin",
+        "es": "Comino"
+    },
+    "dandelion_tea": {
+        "en": "Dandelion Tea",
+        "es": "Té de diente de león"
+    },
+    "dates": {
+        "en": "Dates",
+        "es": "Fechas"
+    },
+    "dried_fruit": {
+        "en": "Dried Fruit",
+        "es": "Frutos secos"
+    },
+    "echinacea_tea": {
+        "en": "Echinacea Tea",
+        "es": "Té de equinácea"
+    },
+    "edamame": {
+        "en": "Edamame",
+        "es": "Edamame"
+    },
+    "eggplant": {
+        "en": "Eggplant",
+        "es": "Berenjena"
+    },
+    "eggs": {
+        "en": "Egg",
+        "es": "Huevo"
+    },
+    "elderberries": {
+        "en": "Elderberry",
+        "es": "Saúco"
+    },
+    "farro": {
+        "en": "Farro",
+        "es": "Farro"
+    },
+    "fat_free_cream_cheese": {
+        "en": "Fat-Free Cream Cheese/Sour Cream",
+        "es": "Queso crema sin grasa / crema agria"
+    },
+    "feta_cheese": {
+        "en": "Feta Cheese",
+        "es": "Queso feta"
+    },
+    "fig": {
+        "en": "Fig",
+        "es": "Higo"
+    },
+    "flax_seeds": {
+        "en": "Flax Seeds",
+        "es": "Semillas de lino"
+    },
+    "fried_fish": {
+        "en": "Fried Fish",
+        "es": "Pescado frito"
+    },
+    "fried_meat": {
+        "en": "Breaded/Fried Meat",
+        "es": "Carne Empanizada / Frita"
+    },
+    "fried_vegetables": {
+        "en": "Fried Vegetables",
+        "es": "Verduras fritas"
+    },
+    "fruit_juice": {
+        "en": "Fruit Juices",
+        "es": "Jugo de frutas"
+    },
+    "garlic": {
+        "en": "Garlic",
+        "es": "Ajo"
+    },
+    "ginger": {
+        "en": "Ginger",
+        "es": "Jengibre"
+    },
+    "ginger_tea": {
+        "en": "Ginger Tea",
+        "es": "Té de jengibre"
+    },
+    "granola": {
+        "en": "Granola",
+        "es": "Granola"
+    },
+    "grape": {
+        "en": "Grapes",
+        "es": "Uvas"
+    },
+    "grapefruit": {
+        "en": "Grapefruit",
+        "es": "Pomelo"
+    },
+    "green_onion": {
+        "en": "Green Onion",
+        "es": "Cebolla Verde"
+    },
+    "green_tea": {
+        "en": "Green Tea",
+        "es": "Té verde"
+    },
+    "ground_beef": {
+        "en": "Ground Beef",
+        "es": "Carne molida"
+    },
+    "guava": {
+        "en": "Guava",
+        "es": "Guayaba"
+    },
+    "haddock": {
+        "en": "Haddock",
+        "es": "Abadejo"
+    },
+    "hazelnuts": {
+        "en": "Hazelnuts",
+        "es": "Avellanas"
+    },
+    "hemp_seeds": {
+        "en": "Hemp Seed",
+        "es": "Semilla de cáñamo"
+    },
+    "herring": {
+        "en": "Herring",
+        "es": "Arenque"
+    },
+    "honeydew": {
+        "en": "Honeydew",
+        "es": "Melaza"
+    },
+    "jasmine_rice": {
+        "en": "Jasmine Rice",
+        "es": "Arroz jazmín"
+    },
+    "kale": {
+        "en": "Kale",
+        "es": "Kale"
+    },
+    "kiwi": {
+        "en": "Kiwi",
+        "es": "Kiwi"
+    },
+    "lavender_tea": {
+        "en": "Lavendar Tea",
+        "es": "Té de lavanda"
+    },
+    "lemon": {
+        "en": "Lemon",
+        "es": "Limón"
+    },
+    "lentils": {
+        "en": "Lentils",
+        "es": "Lentejas"
+    },
+    "lettuce": {
+        "en": "Lettuce",
+        "es": "Lechuga"
+    },
+    "lime": {
+        "en": "Lime",
+        "es": "Lima"
+    },
+    "macadamia_nuts": {
+        "en": "Macadamias",
+        "es": "Macadamias"
+    },
+    "mango": {
+        "en": "Mango",
+        "es": "Mango"
+    },
+    "milk": {
+        "en": "Milk (low/nonfat)",
+        "es": "Leche (baja / sin graso)"
+    },
+    "milk_cheese_soup": {
+        "en": "Milk/Cheese-Based Soup",
+        "es": "Sopa a base de leche / queso"
+    },
+    "mint_tea": {
+        "en": "Mint Tea",
+        "es": "Té de menta"
+    },
+    "mozarella_cheese": {
+        "en": "Mozarella Cheese",
+        "es": "Queso Mozarella"
+    },
+    "mushroom": {
+        "en": "Mushroom",
+        "es": "Hongo"
+    },
+    "nut_butters": {
+        "en": "Nut Butters",
+        "es": "Mantequillas de nueces"
+    },
+    "oat_milk": {
+        "en": "Oat Milk",
+        "es": "Leche de avena"
+    },
+    "oats": {
+        "en": "Oats",
+        "es": "Avena"
+    },
+    "okra": {
+        "en": "Okra",
+        "es": "Okra"
+    },
+    "olive_oil": {
+        "en": "Olive Oil",
+        "es": "Aceite de oliva"
+    },
+    "onion": {
+        "en": "Onion",
+        "es": "Cebolla"
+    },
+    "orange": {
+        "en": "Orange",
+        "es": "Naranja"
+    },
+    "orange_juice": {
+        "en": "100% Orange Juice",
+        "es": "Jugo de naranja 100%"
+    },
+    "oregano": {
+        "en": "Oregano",
+        "es": "Orégano"
+    },
+    "organ_meat": {
+        "en": "Organ Meats",
+        "es": "Carnes de órganos"
+    },
+    "oyster": {
+        "en": "Oyster",
+        "es": "Ostra"
+    },
+    "papaya": {
+        "en": "Papaya",
+        "es": "Papaya"
+    },
+    "paprika": {
+        "en": "Paprika",
+        "es": "Pimentón"
+    },
+    "parsley": {
+        "en": "Parsley",
+        "es": "Perejil"
+    },
+    "passion_fruit": {
+        "en": "Passion Fruit",
+        "es": "Fruta de la pasión"
+    },
+    "peach": {
+        "en": "Peach",
+        "es": "Melocotón"
+    },
+    "peanuts": {
+        "en": "Peanuts",
+        "es": "Cacahuetes"
+    },
+    "pear": {
+        "en": "Pear",
+        "es": "Pera"
+    },
+    "peas": {
+        "en": "Peas",
+        "es": "Guisantes"
+    },
+    "pecans": {
+        "en": "Pecans",
+        "es": "Nueces pecanas"
+    },
+    "pili_nuts": {
+        "en": "Pili Nuts",
+        "es": "Nueces de Pili"
+    },
+    "pine_nuts": {
+        "en": "Pine Nuts",
+        "es": "Piñones"
+    },
+    "pineapple": {
+        "en": "Pineapple",
+        "es": "Piña"
+    },
+    "pistachios": {
+        "en": "Pistachios",
+        "es": "Pistachos"
+    },
+    "plum": {
+        "en": "Plum",
+        "es": "Ciruela"
+    },
+    "pomegranate": {
+        "en": "Pomegranate",
+        "es": "Granada"
+    },
+    "popcorn": {
+        "en": "Popcorn",
+        "es": "Palomitas de maíz"
+    },
+    "premade_baked_goods": {
+        "en": "Pre-Made Baked Goods",
+        "es": "Productos horneados prefabricados"
+    },
+    "premade_vegetable_sauce": {
+        "en": "Vegetables with Pre-Made Sauces",
+        "es": "Verduras con salsas preparadas"
+    },
+    "processed_meat": {
+        "en": "Processed Meat",
+        "es": "Carne procesada"
+    },
+    "pumpkin": {
+        "en": "Pumpkin",
+        "es": "Calabaza"
+    },
+    "pumpkin_seeds": {
+        "en": "Pumpkin Seeds",
+        "es": "Semillas de calabaza"
+    },
+    "quinoa": {
+        "en": "Quinoa",
+        "es": "Quinua"
+    },
+    "raddish": {
+        "en": "Raddish",
+        "es": "Raddish"
+    },
+    "raspberries": {
+        "en": "Raspberry",
+        "es": "Frambuesa"
+    },
+    "red_meat": {
+        "en": "Red Meat",
+        "es": "Carne roja"
+    },
+    "refridgerated_baked_goods": {
+        "en": "Refridgerated Baked Goods",
+        "es": "Productos horneados refrigerados"
+    },
+    "rhubarb": {
+        "en": "Rhubarb",
+        "es": "Ruibarbo"
+    },
+    "rosemary": {
+        "en": "Rosemary",
+        "es": "Romero"
+    },
+    "salmon": {
+        "en": "Salmon",
+        "es": "Salmón"
+    },
+    "sesame_oil": {
+        "en": "Sesame Oil",
+        "es": "Aceite de sésamo"
+    },
+    "sesame_seeds": {
+        "en": "Sesame Seeds",
+        "es": "Semillas de sésamo"
+    },
+    "shellfish": {
+        "en": "Shellfish",
+        "es": "Mariscos"
+    },
+    "shrimp": {
+        "en": "Shrimp",
+        "es": "Camarones"
+    },
+    "sorghum": {
+        "en": "Sorghum",
+        "es": "Sorgo"
+    },
+    "soy_milk": {
+        "en": "Soy Milk",
+        "es": "Leche de soja"
+    },
+    "soy_nuts": {
+        "en": "Soy Nuts",
+        "es": "Nueces de soja"
+    },
+    "spinach": {
+        "en": "Spinach",
+        "es": "Espinaca"
+    },
+    "squash": {
+        "en": "Squash",
+        "es": "Squash"
+    },
+    "strawberries": {
+        "en": "Strawberry",
+        "es": "Fresa"
+    },
+    "sunflower_oil": {
+        "en": "Sunflower Oil",
+        "es": "Aceite de girasol"
+    },
+    "sunflower_seeds": {
+        "en": "Sunflower Seeds",
+        "es": "Semillas de girasol"
+    },
+    "sweet_potato": {
+        "en": "Sweet Potato",
+        "es": "Batata"
+    },
+    "swiss_cheese": {
+        "en": "Swiss Cheese",
+        "es": "Queso suizo"
+    },
+    "thyme": {
+        "en": "Thyme",
+        "es": "Tomillo"
+    },
+    "tofu": {
+        "en": "Tofu",
+        "es": "Tofu"
+    },
+    "tomato": {
+        "en": "Tomato",
+        "es": "Tomate"
+    },
+    "tuna": {
+        "en": "Tuna",
+        "es": "Atún"
+    },
+    "turkey": {
+        "en": "Turkey",
+        "es": "Turquía"
+    },
+    "turmeric": {
+        "en": "Turmeric",
+        "es": "Cúrcuma"
+    },
+    "turnip": {
+        "en": "Turnip",
+        "es": "Nabo"
+    },
+    "valerian_root_tea": {
+        "en": "Valerian root",
+        "es": "Raíz de valeriana"
+    },
+    "vegetable_juice": {
+        "en": "Vegetable Juices",
+        "es": "Jugos de verduras"
+    },
+    "walnuts": {
+        "en": "Walnuts",
+        "es": "Nueces"
+    },
+    "watermelon": {
+        "en": "Watermelon",
+        "es": "Sandía"
+    },
+    "white_fish": {
+        "en": "White Fish",
+        "es": "Pescado blanco"
+    },
+    "whole_grain_bread": {
+        "en": "Whole Grain bread",
+        "es": "Pan integral"
+    },
+    "whole_wheat_pasta": {
+        "en": "Whole Wheat Pasta",
+        "es": "Pasta de trigo integral"
+    },
+    "wild_rice": {
+        "en": "Wild Rice",
+        "es": "Arroz salvaje"
+    },
+    "yogurt": {
+        "en": "Yogurt (low/nonfat)",
+        "es": "Yogur (bajo / sin grasa)"
+    },
+    "zuccini": {
+        "en": "Zucchini",
+        "es": "Calabacín"
+    }
+  },
+  "food_groups": {
+    "fruits": {
+        "en": "Fruits",
+        "es": "Frutas"
+    },
+    "vegetables": {
+        "en": "Vegetables",
+        "es": "Verduras"
+    },
+    "dairy": {
+        "en": "Dairy",
+        "es": "Lácteos"
+    },
+    "dairy_alt": {
+        "en": "Dairy Alternatives",
+        "es": "Alternativas Lácteas"
+    },
+    "nuts": {
+        "en": "Nuts",
+        "es": "Nueces"
+    },
+    "spices": {
+        "en": "Spices",
+        "es": "Especias"
+    },
+    "grains": {
+        "en": "Grains",
+        "es": "Granos"
+    },
+    "oils": {
+        "en": "Oils",
+        "es": "Aceites"
+    },
+    "teas": {
+        "en": "Teas",
+        "es": "Tés"
+    },
+    "seafood": {
+        "en": "Seafood",
+        "es": "Mariscos"
+    },
+    "meats": {
+        "en": "Proteins",
+        "es": "Proteinas"
+    }
+  }
+}

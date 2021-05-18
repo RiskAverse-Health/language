@@ -1,0 +1,126 @@
+{
+    "warnings": {
+        "potassium": {
+            "en": "High in Potassium",
+            "es": "Alto contenido de potasio"
+        },
+        "phosphorus": {
+            "en": "High in Phosphorus",
+            "es": "Alto contenido de fósforo"
+        },
+        "avoidphos": {
+            "en": "Avoid if \"phos\" in the ingredients",
+            "es": "Evite si hay \"fós\" en los ingredientes"
+        },
+        "rinsesalt": {
+            "en": "High salt, rinse before eating",
+            "es": "Alto contenido de sal, enjuague antes de comer"
+        },
+        "oneserved": {
+            "en": "No more than 1 serving/day",
+            "es": "No más de 1 ración al día"
+        },
+        "oneservew": {
+            "en": "No more than 1 serving/week",
+            "es": "No más de 1 ración a la semana"
+        },
+        "lightsalt": {
+            "en": "Lightly Salted",
+            "es": "Ligeramente salado"
+        },
+        "whiwhe": {
+            "en": "Avoid White and Wheat Bread",
+            "es": "Evite el pan blanco y de trigo"
+        },
+        "onetbsp": {
+            "en": "Limit 1 tbsp per serving",
+            "es": "Límite de 1 cucharada por porción"
+        },
+        "chsform": {
+            "en": "Shredded, Block, or Cheese Sticks all okay",
+            "es": "Palitos de queso rallados, en bloque o todo bien"
+        },
+        "flavor": {
+            "en": "Plain and Vanilla only",
+            "es": "Solo puro y vainilla"
+        },
+        "fouroz": {
+            "en": "Limit Serving to 4oz (1/2 glass)",
+            "es": "Limite la porción a 4 oz (1/2 vaso)"
+        },
+        "nomottbsp": {
+            "en": "Dont consume more then 2 tbsp",
+            "es": "No consuma más de 2 cucharadas"
+        },
+        "nomoqcup": {
+            "en": "Dont consume more than 1/4 cup",
+            "es": "No consuma más de 1/4 taza"
+        },
+        "hightemp": {
+            "en": "High temps okay (520°F smoking point)",
+            "es": "Las temperaturas altas están bien (punto de ahumado de 520°F)"
+        },
+        "medlow": {
+            "en": "Cook at med-low temps (380°F smoking point)",
+            "es": "Cocine a temperatura media-baja (punto de ahumado de 380°F)"
+        },
+        "medhigh450": {
+            "en": "Cook at med-high temps (450°F smoking point)",
+            "es": "Cocine a temperatura media-alta (punto de ahumado de 450°F)"
+        },
+        "medhigh410": {
+            "en": "Cook at med-high temps (410°F smoking point)",
+            "es": "Cocine a temperatura media-alta (punto de ahumado de 410°F)"
+        },
+        "medtemp": {
+            "en": "Cook at med temps (380°F smoking point)",
+            "es": "Cocine a temperatura media (punto de ahumado de 380°F)"
+        },
+        "lowtemp": {
+            "en": "If you must use, cook at low temps (350°F smoking point)",
+            "es": "Si debe usar, cocine a temperaturas bajas (punto de ahumado de 350°F)"
+        },
+        "medlow": {
+            "en": "Cook at med-low temps (380°F smoking point)",
+            "es": "Cocine a temperatura media-baja (punto de ahumado de 380°F)"
+        },
+        "caffeine": {
+            "en": "Contains caffeine",
+            "es": "Contiene cafeína"
+        },
+        "lemju": {
+            "en": "Add lemon juice for optimal benefit",
+            "es": "Agregue jugo de limón para obtener un beneficio óptimo"
+        },
+        "nitime": {
+            "en": "Good for nighttime",
+            "es": "Bueno para la noche"
+        },
+        "grfed": {
+            "en": "Ideally grass fed",
+            "es": "Idealmente alimentados con pasto"
+        },
+        "lean": {
+            "en": "Ideally 93% lean",
+            "es": "Idealmente 93% magro"
+        },
+        "canok": {
+            "en": "Canned okay, rinse before eating",
+            "es": "En lata bien, enjuague antes de comer"
+        },
+        "gltnfree": {
+            "en": "Make sure they are gluten free",
+            "es": "Asegúrate de que no contengan gluten."
+        },
+        "antidairy": {
+            "en": "If possible, try to avoid dairy products while on antibiotics",
+            "es": "Si es posible, trate de evitar los productos lácteos mientras toma antibióticos"
+        },
+        "messages": {
+            "potassium": {
+                "en": "Based on your dietary restrictions, you should try to limit your potassium intake to no more than one high potassium item per food group",
+                "es": "Según sus restricciones dietéticas, debe intentar limitar su ingesta de potasio y seleccionar no más de un elemento con alto contenido de potasio por grupo de alimentos."
+            }
+        }
+    }
+}

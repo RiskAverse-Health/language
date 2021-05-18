@@ -1,0 +1,6 @@
+build==0.3.1.post1
+packaging==20.9
+pep517==0.10.0
+pyparsing==2.4.7
+riskaverse-language @ file:///Users/aaronparry/Documents/RiskAverse/language
+toml==0.10.2

@@ -13,7 +13,6 @@ LANGUAGE_FOLDER = os.path.join(BASE_FOLDER, 'static', 'language')
 context = {}
 
 def set_lang(lang: str):
-    print(lang)
     context['lang'] = lang
 
 def get_lang():
@@ -89,7 +88,6 @@ def get_localized_text(category: str, name: str, /, format_args: list=None, sub_
     For regular categories returns a single string, if a wildcard is supplied then a
     dict is returned
     """
-    print(category, name, format_args, sub_category, lang)
     data = sentences[category]
 
     result = None

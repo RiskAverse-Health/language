@@ -1,1 +1,1 @@
-include language/static/**/*.json
+include language/static/**/**/*.json

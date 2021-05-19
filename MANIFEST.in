@@ -1,1 +1,1 @@
-include language/static/**/**/*.json
+recursive-include language/static *.json

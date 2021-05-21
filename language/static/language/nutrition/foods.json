@@ -762,5 +762,43 @@
         "en": "Proteins",
         "es": "Proteinas"
     }
+  },
+  "group_servings": {
+    "fruits": {
+        "en": "One serving is 1/2 cup or 1 small fruit- about the size of a baseball.",
+        "es": "Una porción es 1/2 taza o 1 fruta pequeña, aproximadamente del tamaño de una pelota de béisbol."
+    },
+    "vegetables": {
+        "en": "One serving is 1/2 cup of raw vegetables, 1 cup of leafy greens, or a 1/4 cup of beans.",
+        "es": "Una porción es 1/2 taza de verduras crudas, 1 taza de verduras de hoja verde o 1/4 taza de frijoles."
+    },
+    "dairy": {
+        "en": "One serving is 8 ounces of milk, 1/2 cup of yogurt, 1/4 cup of cheese.",
+        "es": "Una porción son 8 onzas de leche, 1/2 taza de yogur, 1/4 taza de queso."
+    },
+    "nuts":{
+        "en": "One serving is 1/4 cup of nuts or 1 tablespoon of seeds.",
+        "es": "Una porción es 1/4 taza de nueces o 1 cucharada de semillas."
+    },
+    "spices": {
+        "en": "Add spices to your desired taste.",
+        "es": "Agregue especias al gusto que desee."
+    },
+    "grains": {
+        "en": "One serving is one slice of bread or 1/2 cup of cooked grains.",
+        "es": "Una porción es una rebanada de pan o 1/2 taza de granos cocidos."
+    },
+    "oils": {
+        "en": "One serving is 1 tablespoon, or the size of a quarter poured out.",
+        "es": "Una porción es 1 cucharada, o el tamaño de una cuarta parte vertida."
+    },
+    "seafood": {
+        "en": "One serving is 3 ounces or about the size of a checkbook.",
+        "es": "Una porción es de 3 onzas o aproximadamente el tamaño de una chequera."
+    },
+    "meats": {
+        "en": "One serving is 3 ounces of meat (palm-sized), 1 large egg, or 1/2 cup of vegetarian sources of protein.",
+        "es": "Una porción son 3 onzas de carne (del tamaño de la palma de la mano), 1 huevo grande o 1/2 taza de fuentes vegetarianas de proteína."
+    }
   }
 }

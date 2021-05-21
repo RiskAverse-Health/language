@@ -508,9 +508,13 @@
             "en": "My Foods",
             "es": "Mis Alimentos"
         },
+        "foods_below": {
+            "en": "Below are your recommended foods.",
+            "es": "A continuación se muestran los alimentos recomendados."
+        },
         "select_food_group": {
-            "en": "Select a food group to view/edit your selected foods.",
-            "es": "Seleccione un grupo de alimentos para ver / editar sus alimentos seleccionados."
+            "en": "Pick your desired foods from each group below. Click save when you are done selecting all your foods.",
+            "es": "Elija los alimentos que desee de cada grupo a continuación. Haga clic en guardar cuando haya terminado de seleccionar todos sus alimentos."
         },
         "food_list_for": {
             "en": "Food list for {}",

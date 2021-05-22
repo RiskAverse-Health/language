@@ -800,5 +800,10 @@
         "en": "One serving is 3 ounces of meat (palm-sized), 1 large egg, or 1/2 cup of vegetarian sources of protein.",
         "es": "Una porción son 3 onzas de carne (del tamaño de la palma de la mano), 1 huevo grande o 1/2 taza de fuentes vegetarianas de proteína."
     }
+  },
+  "choose": {
+    "nuts": {
+        "en": "Select 1 nut and as many seed as you would like."
+    }
   }
 }

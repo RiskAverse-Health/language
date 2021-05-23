@@ -1,0 +1,13 @@
+{
+  "test": {
+    "group": {
+      "en": "Group"
+    },
+    "food": {
+      "en": "Food"
+    },
+    "info": {
+      "en": "info"
+    }
+  }
+}

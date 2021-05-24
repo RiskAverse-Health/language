@@ -68,7 +68,7 @@ def get_text_from_key(key: str, lang: str=None, format_args=None) -> object:
 
     text = '<<<N/A>>>'
 
-    text = LanguageText.get_text(collection, key)
+    text = LanguageText.get_value(collection, key)
     if text is None:
         raise KeyError(f'Key: {key} not found in {collection} collection')
     return get_translated_field(text, lang)
@@ -80,32 +80,23 @@ def get_localized_text(category: str, name: str, /, format_args: list=None, sub_
     For regular categories returns a single string, if a wildcard is supplied then a
     dict is returned
     """
-    data = sentences[category]
+    collection = category
 
-    result = None
-    container = None
-    if sub_category is None:
-        container = data
-    else:
-        container = data[sub_category]
+    _primary_key = '' if sub_category is None else f'{sub_category}.'
 
     wild_card = False
     if name == '*':
         result = {}
         wild_card = True
-        #result = {key: val[lang] for key, val in container.items()}
-        for key, val in container.items():
-            if 'en' in val:
-                # Leaf node, just add text
-                result[key] = val[lang or get_lang()]
-            else:
-                # There are sub categories, so loop through them all
-                result[key] = {sub_key: sub_val[lang] for sub_key, sub_val in val.items()}
+        _primary_key = _primary_key or None
+        print(_primary_key)
+        for text in LanguageText.get_values(collection, _primary_key):
+            primary_key = f"{_primary_key or ''}{text['id']}"
+            result[primary_key] = get_translated_field(text, lang or get_lang())
     else:
-        result = container.get(name)
-        if result is None and sub_category is not None:
-            container = data
-        result = container[name][lang or get_lang()]
+        primary_key = f"{_primary_key or ''}{name}"
+        text = LanguageText.get_value(collection, primary_key)
+        result = get_translated_field(text, lang or get_lang())
 
     if format_args is not None and not wild_card:
         result = result.format(*format_args)

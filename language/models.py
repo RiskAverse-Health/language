@@ -1,3 +1,6 @@
+"""
+Models for Language library
+"""
 from mongoengine import Document
 from mongoengine.fields import StringField
 from mongoengine.queryset import QuerySet
@@ -10,12 +13,18 @@ class LanguageText(Document):
     es = StringField()
 
     def to_dict(self):
+        """
+        Returns dict representation of object
+        """
         _language_text = self.to_mongo()
         _language_text.update({'id': _language_text.pop('_id')})
         return _language_text
 
     @classmethod
     def get_value(cls, collection, key):
+        """
+        Gets first value matching id from collection
+        """
         collection = get_db()[collection]
         queryset = QuerySet(cls, collection)
         language_text =  queryset(id=key).first()
@@ -25,8 +34,10 @@ class LanguageText(Document):
 
     @classmethod
     def get_values(cls, collection, key):
+        """
+        Gets list of object matching key
+        """
         query = {}
-        print(collection)
         if key is not None:
             query.update({'id__icontains': key})
         collection = get_db()[collection]

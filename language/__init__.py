@@ -7,8 +7,11 @@ import codecs
 
 from typing import List, Dict
 
-BASE_FOLDER = os.path.dirname(os.path.realpath(__file__))
-LANGUAGE_FOLDER = os.path.join(BASE_FOLDER, 'static', 'language')
+from .connection import init_db, get_db
+from .models import LanguageText
+
+DEFAULT_LANGUAGE_HOST =  'mongodb://localhost:27017/language'
+init_db(os.environ.get('LANGUAGE_URI', DEFAULT_LANGUAGE_HOST))
 
 context = {}
 
@@ -17,19 +20,6 @@ def set_lang(lang: str):
 
 def get_lang():
     return context.get('lang', 'en')
-
-def load_sentences():
-    """
-    Gets all language config
-    """
-    _sentences = {}
-    for subdir, dirs, files in os.walk(LANGUAGE_FOLDER):
-        for _file in files:
-            with codecs.open(os.path.join(subdir, _file), 'r', 'utf-8') as lang_file:
-                _sentences.update(json.load(lang_file))
-    return _sentences
-
-sentences = load_sentences()
 
 
 def get_translated_field(field, lang=None):
@@ -73,13 +63,15 @@ def get_text_from_key(key: str, lang: str=None, format_args=None) -> object:
     Gets text based on a . delimited key string such as x.y.z
     """
     toks = key.split('.')
-    text = '<<<N/A>>>'
-    if len(toks) == 2:
-        text = get_localized_text(toks[0], toks[1], lang=lang or get_lang(), format_args=format_args)
-    elif len(toks) == 3:
-        text = get_localized_text(toks[0], toks[2], sub_category=toks[1], lang=lang or get_lang(), format_args=format_args)
+    collection = toks[0]
+    key = '.'.join(toks[1:])
 
-    return text
+    text = '<<<N/A>>>'
+
+    text = LanguageText.get_text(collection, key)
+    if text is None:
+        raise KeyError(f'Key: {key} not found in {collection} collection')
+    return get_translated_field(text, lang)
 
 def get_localized_text(category: str, name: str, /, format_args: list=None, sub_category: str=None, lang: str=None) -> str:
     """

@@ -5,10 +5,26 @@ from  mongoengine import connection
 from mongoengine.queryset import QuerySet
 import click
 
-from language import load_sentences
+from language import DEFAULT_LANGUAGE_HOST
+
 from models import LanguageText
 from connection import init_db, get_db
 
+BASE_FOLDER = os.path.dirname(os.path.realpath(__file__))
+LANGUAGE_FOLDER = os.path.join(BASE_FOLDER, 'static', 'language')
+
+def load_sentences():
+    """
+    Gets all language config
+    """
+    _sentences = {}
+    for subdir, dirs, files in os.walk(LANGUAGE_FOLDER):
+        for _file in files:
+            with codecs.open(os.path.join(subdir, _file), 'r', 'utf-8') as lang_file:
+                _sentences.update(json.load(lang_file))
+    return _sentences
+
+sentences = load_sentences()
 
 
 def get_value(key, value, collection):
@@ -29,7 +45,7 @@ def cli(ctx):
     pass
 
 @cli.command()
-@click.option('-d', '--database', default=os.environ.get('LANGUAGE_URI', 'mongodb://localhost:27017/language'))
+@click.option('-d', '--database', default=os.environ.get('LANGUAGE_URI', DEFAULT_LANGUAGE_HOST))
 @click.pass_context
 def populate(ctx, database):
     init_db(database)

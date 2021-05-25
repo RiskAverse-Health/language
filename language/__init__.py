@@ -40,26 +40,12 @@ def get_texts_from_key_list(keys: List[str], lang: str=None) -> Dict[str, object
     """
     texts = {}
     for key in keys:
-        # text = get_text_from_key(key, lang=lang or get_lang())
+        text = get_text_from_key(key, lang=lang or get_lang())
         toks = key.split('.')
-        current = texts
-        prev = current
-
-        for i, tok in enumerate(toks):
-            is_last = (i == len(toks) - 1)
-            if tok == '*':
-                prev[toks[i - 1]] = text
-            elif tok not in current:
-                current[tok] = text if is_last else {}
-
-            if is_last:
-                # We're at a leaf node so break since we have the text
-                break
-
-            # If we're not done then keep going deeper
-            prev = current
-            current = current[tok]
-
+        if isinstance(text, dict):
+            texts.update({toks[0]: text})
+        else:
+            update_dict(texts, text, lang, key=key)
     return texts
 
 def get_text_from_key(key: str, lang: str=None, format_args=None) -> object:
@@ -87,8 +73,8 @@ def get_text_from_key(key: str, lang: str=None, format_args=None) -> object:
         raise KeyError(f"Key: '{key}' not found in '{collection}' collection")
     return get_translated_field(text, lang)
 
-def update_dict(result, text, lang):
-    primary_key = f"{text['id']}"
+def update_dict(result, text, lang, key: str=None):
+    primary_key = key or f"{text['id']}"
     toks = primary_key.split('.')
     while len(toks) > 1:
         _key = toks.pop(0)

@@ -5,7 +5,7 @@ from mongoengine import Document
 from mongoengine.fields import StringField
 from mongoengine.queryset import QuerySet
 
-from .connection import get_db
+from language.connection import get_db
 
 class LanguageText(Document):
     id = StringField(primary_key=True)

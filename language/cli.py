@@ -1,6 +1,6 @@
 import json
 import os
-
+import codecs
 from  mongoengine import connection
 from mongoengine.queryset import QuerySet
 import click
@@ -26,7 +26,6 @@ def load_sentences():
 
 sentences = load_sentences()
 
-
 def get_value(key, value, collection):
     print(key)
     if isinstance(value, dict) and 'en' in value:
@@ -48,7 +47,7 @@ def cli(ctx):
 @click.option('-d', '--database', default=os.environ.get('LANGUAGE_URI', language.DEFAULT_LANGUAGE_HOST))
 @click.pass_context
 def populate(ctx, database):
-    init_db(database, is_default=True)
+    language.initialize(database)
     db = get_db()
     sentences = load_sentences()
     for key, value in sentences.items():

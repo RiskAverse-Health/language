@@ -49,12 +49,16 @@
             "es": "Limite la porción a 4 oz (1/2 vaso)"
         },
         "nomottbsp": {
-            "en": "Dont consume more then 2 tbsp",
+            "en": "Don't consume more then 2 tbsp",
             "es": "No consuma más de 2 cucharadas"
         },
         "nomoqcup": {
-            "en": "Dont consume more than 1/4 cup",
+            "en": "Don't consume more than 1/4 cup",
             "es": "No consuma más de 1/4 taza"
+        },
+        "nomotqcupday": {
+            "en": "Don't exceed more than 3/4 cup per day",
+            "es": "No exceda más de 3/4 taza por día"
         },
         "hightemp": {
             "en": "High temps okay (520°F smoking point)",

@@ -12,6 +12,8 @@ class LanguageText(Document):
     en = StringField()
     es = StringField()
 
+    meta = {'db_alias': 'language'}
+
     def to_dict(self):
         """
         Returns dict representation of object

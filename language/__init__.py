@@ -7,13 +7,17 @@ import codecs
 
 from typing import List, Dict
 
-from .connection import init_db, get_db
+from .connection import get_db, ensure_db
 from .models import LanguageText
 
 DEFAULT_LANGUAGE_HOST =  'mongodb://localhost:27017/language'
-init_db(os.environ.get('LANGUAGE_URI', DEFAULT_LANGUAGE_HOST))
 
 context = {}
+
+
+def initialize(db_uri):
+    ensure_db(db_uri)
+
 
 def set_lang(lang: str):
     context['lang'] = lang
@@ -36,7 +40,7 @@ def get_texts_from_key_list(keys: List[str], lang: str=None) -> Dict[str, object
     """
     texts = {}
     for key in keys:
-        text = get_text_from_key(key, lang=lang or get_lang())
+        # text = get_text_from_key(key, lang=lang or get_lang())
         toks = key.split('.')
         current = texts
         prev = current
@@ -64,14 +68,34 @@ def get_text_from_key(key: str, lang: str=None, format_args=None) -> object:
     """
     toks = key.split('.')
     collection = toks[0]
-    key = '.'.join(toks[1:])
+    key_toks = toks[1:]
+    wild_card = False
+    if '*' in key_toks:
+        key_toks = key_toks[:-1]
+        wild_card = True
+    key = '.'.join(key_toks) or None
+    text = None
+    if wild_card:
+        result = {}
+        for _text in LanguageText.get_values(collection, key):
+            update_dict(result, _text, lang)
+        return result
+    else:
+        text = LanguageText.get_value(collection, key)
 
-    text = '<<<N/A>>>'
-
-    text = LanguageText.get_value(collection, key)
     if text is None:
-        raise KeyError(f'Key: {key} not found in {collection} collection')
+        raise KeyError(f"Key: '{key}' not found in '{collection}' collection")
     return get_translated_field(text, lang)
+
+def update_dict(result, text, lang):
+    primary_key = f"{text['id']}"
+    toks = primary_key.split('.')
+    while len(toks) > 1:
+        _key = toks.pop(0)
+        result[_key] = result.get(_key, {})
+        result = result[_key]
+    result[toks.pop(0)] = get_translated_field(text, lang or get_lang())
+
 
 def get_localized_text(category: str, name: str, /, format_args: list=None, sub_category: str=None, lang: str=None) -> str:
     """
@@ -89,10 +113,9 @@ def get_localized_text(category: str, name: str, /, format_args: list=None, sub_
         result = {}
         wild_card = True
         _primary_key = _primary_key or None
-        print(_primary_key)
         for text in LanguageText.get_values(collection, _primary_key):
-            primary_key = f"{_primary_key or ''}{text['id']}"
-            result[primary_key] = get_translated_field(text, lang or get_lang())
+            update_dict(result, text, lang)
+
     else:
         primary_key = f"{_primary_key or ''}{name}"
         text = LanguageText.get_value(collection, primary_key)

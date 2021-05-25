@@ -5,7 +5,7 @@ from  mongoengine import connection
 from mongoengine.queryset import QuerySet
 import click
 
-from language import DEFAULT_LANGUAGE_HOST
+import language
 
 from models import LanguageText
 from connection import init_db, get_db
@@ -45,10 +45,10 @@ def cli(ctx):
     pass
 
 @cli.command()
-@click.option('-d', '--database', default=os.environ.get('LANGUAGE_URI', DEFAULT_LANGUAGE_HOST))
+@click.option('-d', '--database', default=os.environ.get('LANGUAGE_URI', language.DEFAULT_LANGUAGE_HOST))
 @click.pass_context
 def populate(ctx, database):
-    init_db(database)
+    init_db(database, is_default=True)
     db = get_db()
     sentences = load_sentences()
     for key, value in sentences.items():

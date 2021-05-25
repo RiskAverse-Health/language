@@ -41,11 +41,7 @@ def get_texts_from_key_list(keys: List[str], lang: str=None) -> Dict[str, object
     texts = {}
     for key in keys:
         text = get_text_from_key(key, lang=lang or get_lang())
-        toks = key.split('.')
-        if isinstance(text, dict):
-            texts.update({toks[0]: text})
-        else:
-            update_dict(texts, text, lang, key=key)
+        update_dict(texts, text, lang, key)
     return texts
 
 def get_text_from_key(key: str, lang: str=None, format_args=None) -> object:
@@ -53,21 +49,27 @@ def get_text_from_key(key: str, lang: str=None, format_args=None) -> object:
     Gets text based on a . delimited key string such as x.y.z
     """
     toks = key.split('.')
+
     collection = toks[0]
     key_toks = toks[1:]
+
     wild_card = False
     if '*' in key_toks:
         key_toks = key_toks[:-1]
         wild_card = True
-    key = '.'.join(key_toks) or None
+
+    _key = '.'.join(key_toks) or None
     text = None
+
     if wild_card:
         result = {}
-        for _text in LanguageText.get_values(collection, key):
-            update_dict(result, _text, lang)
+        for _text in LanguageText.get_values(collection, _key):
+            key = _text['id'].split('.')[-1]
+            update_dict(result, _text, lang, key)
         return result
+
     else:
-        text = LanguageText.get_value(collection, key)
+        text = LanguageText.get_value(collection, _key)
 
     if text is None:
         raise KeyError(f"Key: '{key}' not found in '{collection}' collection")
@@ -80,7 +82,13 @@ def update_dict(result, text, lang, key: str=None):
         _key = toks.pop(0)
         result[_key] = result.get(_key, {})
         result = result[_key]
-    result[toks.pop(0)] = get_translated_field(text, lang or get_lang())
+    if isinstance(text, dict):
+        if 'en' in text:
+            result[toks.pop(0)] = get_translated_field(text, lang or get_lang())
+        else:
+            result.update(text)
+    else:
+        result[toks.pop(0)] = text
 
 
 def get_localized_text(category: str, name: str, /, format_args: list=None, sub_category: str=None, lang: str=None) -> str:
@@ -96,16 +104,17 @@ def get_localized_text(category: str, name: str, /, format_args: list=None, sub_
 
     wild_card = False
     if name == '*':
-        result = {}
+        # result = {}
         wild_card = True
-        _primary_key = _primary_key or None
-        for text in LanguageText.get_values(collection, _primary_key):
-            update_dict(result, text, lang)
-
-    else:
-        primary_key = f"{_primary_key or ''}{name}"
-        text = LanguageText.get_value(collection, primary_key)
-        result = get_translated_field(text, lang or get_lang())
+    #     _primary_key = _primary_key or None
+    #     for text in LanguageText.get_values(collection, _primary_key):
+    #         update_dict(result, text, lang)
+    #
+    # else:
+    result = get_text_from_key(f"{collection}.{_primary_key or ''}{name}", lang)
+        # primary_key = f"{_primary_key or ''}{name}"
+        # text = LanguageText.get_value(collection, primary_key)
+        # result = get_translated_field(text, lang or get_lang())
 
     if format_args is not None and not wild_card:
         result = result.format(*format_args)

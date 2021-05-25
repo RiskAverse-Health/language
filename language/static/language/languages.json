@@ -464,6 +464,10 @@
             "en": "Are you sure that you'd like to make the following changes to your \"My Food\" list?",
             "es": "¿Está seguro de que desea realizar los siguientes cambios en su lista MyFood?"
         },
+        "save_submit": {
+            "en": "Click \"Save\" to save your current selections and move on to the next food group, or click \"Submit\" if you are satisfied with your food list",
+            "es": "Haga clic en \"Guardar\" para guardar sus selecciones actuales y pasar al siguiente grupo de alimentos, o haga clic en \"Enviar\" si está satisfecho con su lista de alimentos"
+        },
         "group_subtitle": {
             "en": "Below are your recommended",
             "es": "A continuación se encuentran sus recomendados"
@@ -525,8 +529,8 @@
             "es": "Elija el plan de nutrición"
         },
         "plan_msg": {
-            "en": "Pick the right nutrition plan for you",
-            "es": "Elija el plan de nutrición adecuado para usted"
+            "en": "Which plan would you like?",
+            "es": "¿Qué plan te gustaría?"
         },
         "custom_plan": {
             "en": "Custom Plan",

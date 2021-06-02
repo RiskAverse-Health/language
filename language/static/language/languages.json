@@ -405,8 +405,8 @@
             "es": "Restablecer los valores predeterminados"
         },
         "servings_day": {
-          "en": "Servings / Day",
-          "es": "Porciones / Día"
+          "en": "Servings/Day",
+          "es": "Porciones/Día"
         },
         "servings_week": {
           "en": "Servings/Week",
@@ -656,6 +656,24 @@
     		"en": "The RiskAverse Team",
     		"es": "El equipo de RiskAverse"
     	},
+        "refer_user": {
+            "subject": {
+                "en": "RiskAverse Referral",
+                "es": "Referencia de RiskAverse"
+            },
+            "btn_text": {
+                "en": "Improve your health",
+                "es": "Mejora tu salud"
+            },
+            "msg1": {
+                "en": "You've been referred by {} to live healthy with them. Take the next steps by clicking the button below to take each of our 5-minute risk assessments",
+                "es": "Has sido recomendado por {} para vivir saludablemente con ellos. Siga los siguientes pasos haciendo clic en el botón a continuación para realizar cada una de nuestras evaluaciones de riesgo de 5 minutos."
+            },
+            "msg2": {
+                "en": "We hope you enjoy and be sure to pass a referral along to your other healthy friends!",
+                "es": "¡Esperamos que disfrutes y asegúrate de pasar una referencia a tus otros amigos saludables!"
+            }
+        },
         "code_verify": {
             "subject": {
                 "en": "Email Change",
@@ -690,7 +708,7 @@
                 "es": "Recuperación de Cuenta"
             },
             "message": {
-                "en": "We receieved an account recovery request for this email address. In order to reset your password,",
+                "en": "We received an account recovery request for this email address. In order to reset your password,",
                 "es": "Recibimos una solicitud de recuperación de cuenta para esta dirección de correo electrónico. Para restablecer su contraseña,"
             },
             "link": {
@@ -1103,8 +1121,8 @@
     },
     "errors": {
         "general": {
-            "en": "Sorry, something went wrong. Please try again later.",
-            "es": "Perdón, algo salió mal. Por favor, inténtelo de nuevo más tarde."
+            "en": "Sorry, something went wrong. Please make sure the entered email was correct or try again later.",
+            "es": "Perdón, algo salió mal. Asegúrese de que el correo electrónico ingresado sea correcto o inténtelo de nuevo más tarde."
         },
         "valid_email": {
             "en": "Please enter a valid email address",

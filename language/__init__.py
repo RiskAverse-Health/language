@@ -30,7 +30,7 @@ def translate(text: str, from_lang: str='en', to_langs='es'):
 			else:
 				translations["text"][lang] = result.text
 		except ValueError as e:
-			translations["errors"][lang] = e
+			translations["errors"][lang] = e.message
 
 	return translations
 

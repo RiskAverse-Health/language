@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 mongoengine = "*"
 click = "*"
+language = "*"
+googletrans = "==3.1.0a0"
 
 [dev-packages]
 

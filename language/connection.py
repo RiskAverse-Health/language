@@ -12,7 +12,6 @@ def ensure_db(db_string):
 
 def init_db(db_string, is_default=False):
     alias = 'default' if is_default else 'language'
-    print(alias)
     connect(host=db_string, alias=alias)
     context['db'] = True
 

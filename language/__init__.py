@@ -82,7 +82,7 @@ def get_text_from_key(key: str, lang: str=None, format_args=None) -> object:
 	text = None
 
 	if wild_card:
-		result = {}	
+		result = {}
 		for _text in LanguageText.get_values(collection, _key):
 			key = _text['id'].split('.')[-1] if _key is not None else _text['id']
 			update_dict(result, _text, lang, key)
@@ -92,7 +92,7 @@ def get_text_from_key(key: str, lang: str=None, format_args=None) -> object:
 		text = LanguageText.get_value(collection, _key)
 
 	if text is None:
-		raise KeyError(f"Key: '{key}' not found in '{collection}' collection")
+		raise KeyError(f"Key: '{_key}' not found in '{collection}' collection")
 	return get_translated_field(text, lang)
 
 def update_dict(result, text, lang, key: str=None):

@@ -93,7 +93,11 @@ def get_text_from_key(key: str, lang: str=None, format_args=None) -> object:
 
 	if text is None:
 		raise KeyError(f"Key: '{_key}' not found in '{collection}' collection")
-	return get_translated_field(text, lang)
+	result =  get_translated_field(text, lang)
+	if format_args is not None:
+		result = result.format(*format_args)
+
+	return result
 
 def update_dict(result, text, lang, key: str=None):
 	primary_key = key or f"{text['id']}"

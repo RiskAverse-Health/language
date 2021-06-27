@@ -184,6 +184,10 @@
             "en": "Logout",
             "es": "Cerrar sesión"
         },
+        "test": {
+            "en": "Test",
+            "es": "Prueba"
+        },
         "delete_data": {
             "en": "Delete Data",
             "es": "Borrar datos"
@@ -1072,6 +1076,28 @@
             "en": "Are you sure you would like to save your progress and finish the assessment later?",
             "es": "¿Está seguro de que desea guardar su progreso y finalizar la evaluación más tarde?"
         },
+        "short_quiz": {
+            "title": {
+                "en": "Select which version of the assessment you would like to take.",
+                "es": "Seleccione qué versión de la evaluación le gustaría realizar."
+            },
+            "quick": {
+                "en": "Quick Quiz",
+                "es": "Test Rápido"
+            },
+            "comprehensive": {
+                "en": "Comprehensive Quiz",
+                "es": "Prueba Completa"
+            },
+            "quick_msg": {
+                "en": "Assess your risk based only on the major factors for {}.",
+                "es": "Evalúe su riesgo basándose únicamente en los factores principales para {}."
+            },
+            "comprehensive_msg": {
+                "en": "Get a complete understanding of your risk based on all factors.",
+                "es": "Obtenga una comprensión completa de su riesgo en función de todos los factores."
+            }
+        },
         "risk_levels": {
             "incomplete": {
                 "en": "Incomplete",
@@ -1278,6 +1304,10 @@
             "en": "Incomplete",
             "es": "Incompleta"
         },
+        "incomplete_results": {
+            "en": "Incomplete Results ({}% complete)",
+            "es": "Resultados incompletos ({}% completos)"
+        },
         "not_complete": {
             "en": "Looks like you haven't completed the {} assessment",
             "es": "Parece que no ha completado la {} evaluación"
@@ -1289,6 +1319,10 @@
         "take_quiz": {
             "en": "Take the {} Quiz",
             "es": "Haz la {} prueba"
+        },
+        "take_comprehensive": {
+            "en": "Take Comprehensive Quiz",
+            "es": "Realice un cuestionario completo"
         },
         "reset_answers_msg": {
             "en": "Would you like to discard your current changes and reset your answers?",
@@ -1498,6 +1532,10 @@
             "diagnosed": {
                 "en": "Diagnosed",
                 "es": "Diagnosticado"
+            },
+            "incomplete": {
+                "en": "Incomplete",
+                "es": "Incompleta"
             }
         },
         "risk_categories_dp": {
@@ -1524,6 +1562,10 @@
             "diagnosed": {
                 "en": "Diagnosed",
                 "es": "Diagnosticado"
+            },
+            "incomplete": {
+                "en": "Incomplete",
+                "es": "Incompleta"
             }
         },
         "risk_categories_sa": {
@@ -1534,6 +1576,10 @@
             "high": {
                 "en": "High Concern of Abuse",
                 "es": "Gran preocupación por el abuso"
+            },
+            "incomplete": {
+                "en": "Incomplete",
+                "es": "Incompleta"
             }
         },
         "risk_categories_nut": {
@@ -1552,6 +1598,10 @@
             "diagnosed": {
                 "en": "Diagnosed",
                 "es": "Diagnosticado"
+            },
+            "incomplete": {
+                "en": "Incomplete",
+                "es": "Incompleta"
             }
         },
         "responses": {
@@ -2401,6 +2451,16 @@
                 "en": "Your results show that there are many areas you can improve, and there is no better time than today! Below you can find the parts we recommend you address. If you have any major concerns, reach out to your doctor. Otherwise click improve my nutrition to receive a custom food plan shaped to your needs!",
                 "es": "Sus resultados muestran que hay muchas áreas en las que puede mejorar, ¡y no hay mejor momento que hoy! A continuación puede encontrar las piezas que le recomendamos que aborde. Si tiene alguna inquietud importante, comuníquese con su médico. De lo contrario, haga clic en mejorar mi nutrición para recibir un plan de alimentación personalizado adaptado a sus necesidades."
             }
+        }
+    },
+    "images": {
+        "short_quiz": {
+            "en": "short_quiz.png",
+            "es": "short_quiz_es.png"
+        },
+        "comprehensive_quiz": {
+            "en": "comprehensive_quiz.png",
+            "es": "comprehensive_quiz_es.png"
         }
     }
 }

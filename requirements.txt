@@ -1,7 +1,7 @@
 build==0.3.1.post1
 certifi==2021.5.30
 chardet==3.0.4
-click==7.1.2
+click>=7.1.2
 googletrans==3.1.0a0
 h11==0.9.0
 h2==3.2.0
@@ -10,7 +10,7 @@ hstspreload==2020.12.22
 httpcore==0.9.1
 httpx==0.13.3
 hyperframe==5.2.0
-idna==2.8
+idna>=2.8
 mongoengine==0.23.1
 packaging==20.9
 pep517==0.10.0

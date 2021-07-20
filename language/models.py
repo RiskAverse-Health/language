@@ -33,7 +33,7 @@ class LanguageText(Document):
         # if language_text is None:
         #     return None
         language_text = cls.get_values(collection, key)
-        if language_text is None or len(langauge_text) == 0:
+        if language_text is None or len(language_text) == 0:
             return None
         if len(language_text) == 1:
             return language_text[0]

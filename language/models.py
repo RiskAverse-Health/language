@@ -27,12 +27,26 @@ class LanguageText(Document):
         """
         Gets first value matching id from collection
         """
-        collection = get_db()[collection]
-        queryset = QuerySet(cls, collection)
-        language_text =  queryset(id=key).first()
+        # collection = get_db()[collection]
+        # queryset = QuerySet(cls, collection)
+        # language_text =  queryset('id_contains'=key)
+        # if language_text is None:
+        #     return None
+        language_text = cls.get_values(collection, key)
         if language_text is None:
             return None
-        return language_text.to_mongo()
+        if len(language_text) == 1:
+            return language_text[0]
+        all_text = {
+            lt['id'].replace(key, '').replace('.', ''): lt
+            for lt in language_text
+        }
+        if 'short' in all_text:
+            return {
+                'short': all_text['short'],
+                'long': all_text.get('long') or all_text.get('') or None or all_text['short']
+            }
+        return language_text[0]
 
     @classmethod
     def get_values(cls, collection, key):
@@ -45,4 +59,6 @@ class LanguageText(Document):
         collection = get_db()[collection]
         queryset = QuerySet(cls, collection)
         language_text =  queryset(**query)
+        if language_text is None:
+            return None
         return list([lt.to_dict() for lt in language_text])

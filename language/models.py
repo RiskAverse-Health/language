@@ -1,6 +1,7 @@
 """
 Models for Language library
 """
+import re
 from mongoengine import Document
 from mongoengine.fields import StringField
 from mongoengine.queryset import QuerySet
@@ -55,7 +56,8 @@ class LanguageText(Document):
         """
         query = {}
         if key is not None:
-            query.update({'id__icontains': key})
+            pattern = re.compile(f'^{key}\.*')
+            query.update({'id': pattern})
         collection = get_db()[collection]
         queryset = QuerySet(cls, collection)
         language_text =  queryset(**query)

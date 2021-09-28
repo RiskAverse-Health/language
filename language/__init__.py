@@ -111,6 +111,9 @@ def update_dict(result, text, lang, key: str=None, short: bool=False):
     if isinstance(text, dict):
         if 'en' in text:
             _key = toks.pop(0)
+            print(result)
+            print(text)
+            print(_key)
             current_result = result.get(_key)
             value = get_translated_field(text, lang or get_lang())
             if current_result is not None and 'short' in current_result:

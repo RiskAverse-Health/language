@@ -69,9 +69,9 @@ def get_text_from_key(key: str, lang: str=None, format_args: list=None, short: b
     Gets text based on a . delimited key string such as x.y.z
     """
     bigger_toks = key.split('|')
-	key = bigger_toks[0]
-	if len(bigger_toks) > 1:
-		format_args = bigger_toks[1].split(',')
+    key = bigger_toks[0]
+    if len(bigger_toks) > 1:
+        format_args = bigger_toks[1].split(',')
     toks = key.split('.')
 
     collection = toks[0]
@@ -132,8 +132,6 @@ def update_dict(result, text, lang, key: str=None, short: bool=False):
             result[_key] = current_result
         else:
             result[_key] = text
->>>>>>> c9256a1c62ef527e1f7d0a4280cacc58fc703ee3
-
 
 def get_localized_text(category: str, name: str, /, format_args: list=None, sub_category: str=None, lang: str=None) -> str:
     """
@@ -150,9 +148,9 @@ def get_localized_text(category: str, name: str, /, format_args: list=None, sub_
     if name == '*':
         # result = {}
         wild_card = True
-    #	 _primary_key = _primary_key or None
-    #	 for text in LanguageText.get_values(collection, _primary_key):
-    #		 update_dict(result, text, lang)
+    #    _primary_key = _primary_key or None
+    #    for text in LanguageText.get_values(collection, _primary_key):
+    #        update_dict(result, text, lang)
     #
     # else:
     result = get_text_from_key(f"{collection}.{_primary_key or ''}{name}", lang)

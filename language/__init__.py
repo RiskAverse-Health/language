@@ -61,13 +61,17 @@ def get_texts_from_key_list(keys: List[str], lang: str=None) -> Dict[str, object
 	texts = {}
 	for key in keys:
 		text = get_text_from_key(key, lang=lang or get_lang())
-		update_dict(texts, text, lang, key)
+		update_dict(texts, text, lang, key.split('|')[0])
 	return texts
 
 def get_text_from_key(key: str, lang: str=None, format_args=None) -> object:
 	"""
 	Gets text based on a . delimited key string such as x.y.z
 	"""
+	bigger_toks = key.split('|')
+	key = bigger_toks[0]
+	if len(bigger_toks) > 1:
+		format_args = bigger_toks[1].split(',')
 	toks = key.split('.')
 
 	collection = toks[0]

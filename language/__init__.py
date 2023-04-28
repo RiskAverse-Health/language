@@ -6,7 +6,6 @@ import json
 import codecs
 
 from typing import List, Dict
-from googletrans import Translator
 
 from .connection import get_db, ensure_db
 from .models import LanguageText
@@ -14,26 +13,6 @@ from .models import LanguageText
 DEFAULT_LANGUAGE_HOST =  'mongodb://localhost:27017/language'
 
 context = {}
-
-def translate(text: str, from_lang: str='en', to_langs='es'):
-    t = Translator()
-    if not isinstance(to_langs, list):
-        to_langs = [to_langs]
-    translations = { "text": {}, "errors": {}}
-    for lang in to_langs:
-        print(f'Translating {text} to {lang}.')
-        try:
-            result = t.translate(text, src='en', dest=lang)
-            if result._response.status_code != 200:
-                print(f'Translation failed with code: {result._response.status_code}')
-                translations["errors"][lang] = f'Translation failed with code: {result._response.status_code}'
-            else:
-                translations["text"][lang] = result.text
-        except ValueError as e:
-            translations["errors"][lang] = e.message
-
-    return translations
-
 
 def initialize(db_uri):
     ensure_db(db_uri)

@@ -7,9 +7,9 @@ name = "pypi"
 mongoengine = "*"
 click = "*"
 language = "*"
-googletrans = "==3.1.0a0"
+riskaverse-language = {editable = true, path = "."}
 
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.10"

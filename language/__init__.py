@@ -1,13 +1,11 @@
 """
 Methods for getting localized text
 """
-import os
-import json
-import codecs
 
+import json
 from typing import List, Dict
 
-from .connection import get_db, ensure_db
+from .connection import ensure_db
 from .models import LanguageText
 
 DEFAULT_LANGUAGE_HOST =  'mongodb://localhost:27017/language'
@@ -43,7 +41,17 @@ def get_texts_from_key_list(keys: List[str], lang: str=None, short: bool=False) 
         update_dict(texts, text, lang, key.split('|')[0])
     return texts
 
-def get_text_from_key(key: str, lang: str=None, format_args: list=None, short: bool=False) -> object:
+def get_all_languages_for_key(key: str) -> Dict[str, str]:
+    toks = key.split('.')
+    collection = toks[0]
+    key_toks = toks[1:]
+
+    _key = '.'.join(key_toks) or None
+    text = LanguageText.get_value(collection, _key)
+    text.pop('_id')
+    return dict(text)
+
+def get_text_from_key(key: str, lang: str=None, format_args: list=None, short: bool=False, raise_error: bool=False) -> object:
     """
     Gets text based on a . delimited key string such as x.y.z
     """
@@ -75,10 +83,16 @@ def get_text_from_key(key: str, lang: str=None, format_args: list=None, short: b
         text = LanguageText.get_value(collection, _key)
 
     if text is None:
-        raise KeyError(f"Key: '{_key}' not found in '{collection}' collection")
+        msg = f"Key: '{_key}' not found in '{collection}' collection"
+        if raise_error:
+            raise KeyError(msg)
+        else:
+            print(msg)
+            return ''
+
     if 'short' in text:
         text = text['short'] if short else text['long']
-    result =  get_translated_field(text, lang)
+    result = get_translated_field(text, lang)
     if format_args is not None:
         result = result.format(*format_args)
 

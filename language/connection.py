@@ -12,7 +12,7 @@ def ensure_db(db_string):
 
 def init_db(db_string, is_default=False):
     alias = 'default' if is_default else 'language'
-    connect(host=db_string, alias=alias)
+    connect(host=db_string, alias=alias, maxPoolSize=25)
     context['db'] = True
 
 def get_db():

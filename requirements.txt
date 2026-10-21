@@ -13,7 +13,7 @@ idna>=3.7
 mongoengine==0.28.2
 packaging==23.1
 pep517==0.10.0
-pymongo==4.6.3
+pymongo==4.18.2
 pyparsing==2.4.7
 rfc3986==1.5.0
 sniffio==1.2.0

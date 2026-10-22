@@ -10,7 +10,7 @@ httpcore==1.0.9
 httpx==0.28.1
 hyperframe==6.1.0
 idna>=3.7
-mongoengine==0.28.2
+mongoengine==0.29.3
 packaging==23.1
 pep517==0.10.0
 pymongo==4.18.2
